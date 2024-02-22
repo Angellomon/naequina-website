@@ -6,31 +6,20 @@
 </script>
 
 <h1
-	class:white
-	class:right
-	class:all-mayus={allMayus}
+	class:text-white={white}
+	class:text-right={right}
+	class:uppercase={allMayus}
 	class:extra-large={extraLarge}
-	class="text-amaranth font-['Montserrat Bold'] text-4xl font-bold"
+	class:text-7xl={extraLarge}
+	class:max-sm:text-4xl={extraLarge}
+	class:font-extrabold={extraLarge}
+	class="text-amaranth font-['Montserrat Bold'] text-4xl max-sm:text-xl font-bold"
 >
 	<slot />
 </h1>
 
 <style lang="postcss">
-	.white {
-		@apply text-white;
-	}
-
-	.right {
-		@apply text-right;
-	}
-
-	.all-mayus {
-		@apply uppercase;
-	}
-
 	.extra-large {
-		@apply text-7xl font-extrabold;
-
 		font-family: 'Montserrat Bold';
 	}
 </style>
