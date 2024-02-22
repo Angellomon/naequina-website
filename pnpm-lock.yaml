@@ -32,6 +32,9 @@ devDependencies:
   eslint-plugin-svelte:
     specifier: ^2.35.1
     version: 2.35.1(eslint@8.56.0)(svelte@4.2.11)
+  fractils:
+    specifier: ^3.1.2
+    version: 3.1.2
   postcss:
     specifier: ^8.4.35
     version: 8.4.35
@@ -1191,6 +1194,13 @@ packages:
       signal-exit: 4.1.0
     dev: true
 
+  /fractils@3.1.2:
+    resolution: {integrity: sha512-+ak3Vb0Q1ZxJiUuQ6xJPuE80eCuPKOuEbRfv7zZBZPmR8i8tyM/Gc1hrKeg7S9OkhGbXE5z599cCcO0qxxDvXA==}
+    dependencies:
+      esm-env: 1.0.0
+      svelte: 3.59.2
+    dev: true
+
   /fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: true
@@ -2118,6 +2128,11 @@ packages:
       strip-indent: 3.0.0
       svelte: 4.2.11
       typescript: 5.3.3
+    dev: true
+
+  /svelte@3.59.2:
+    resolution: {integrity: sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==}
+    engines: {node: '>= 8'}
     dev: true
 
   /svelte@4.2.11:
