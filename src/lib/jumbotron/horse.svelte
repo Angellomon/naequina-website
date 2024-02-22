@@ -1,13 +1,21 @@
 <script>
+	import { fade, fly, blur } from 'svelte/transition';
+	import { OnMount } from 'fractils';
 </script>
 
-<div
-	class="z-5 absolute bottom-0 md:bottom-48 xl:bottom-32 right-0 min-w-[120px] md:min-w-[350px] xl:min-w-[450px] w-1/6"
->
-	<div class="horse relative">
-		<img class="filter brightness-75" src="/img/CABALLO-NAEQUINA-1.png" alt="caballo" />
+<OnMount>
+	<div
+		transition:fade={{
+			duration: 1000,
+			delay: 500
+		}}
+		class="z-5 absolute bottom-0 md:bottom-48 xl:bottom-32 right-0 min-w-[120px] md:min-w-[350px] xl:min-w-[450px] w-1/6"
+	>
+		<div class="horse relative">
+			<img class="filter brightness-75" src="/img/CABALLO-NAEQUINA-1.png" alt="caballo" />
+		</div>
 	</div>
-</div>
+</OnMount>
 
 <style>
 	/*img::after {
