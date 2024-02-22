@@ -19,7 +19,7 @@
 
 <slot />
 
-<footer class="flex flex-row flex-wrap justify-center items-center bg-[#0a0a0a]">
+<footer class="flex flex-row flex-wrap justify-evenly items-center bg-[#121212]">
 	{#each logos as logo}
 		<img class="max-h-[100px]" src={`/img/${logo}.png`} alt={logo} />
 	{/each}
