@@ -27,7 +27,7 @@
 
 		{month.toLocaleUpperCase()}
 	</div>
-	<div class="flex flex-row justify-center items-end">
+	<div class="flex flex-row justify-center items-end text-sm sm:text-md">
 		DE <span class="text-4xl mx-1">{startHour}</span>
 		HRS A
 		<span class="text-4xl mx-1">{endHour}</span>
