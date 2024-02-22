@@ -10,7 +10,7 @@
 <div class="relative w-full">
 	<div class="py-28 xl:py-40 bg-black flex flex-row">
 		<div class="px-36 max-md:px-10 m w-3/4 xl:w-1/2">
-			<div class="flex flex-col justify-start align-top w-full">
+			<div class="flex flex-col justify-start align-top w-full mb-5">
 				<Title>SIETE AÑOS DE</Title>
 				<Title white extraLarge>NAEQUINA</Title>
 			</div>
