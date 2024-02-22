@@ -29,7 +29,7 @@
 	</div>
 
 	<div
-		class="w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 px-10 py-8 bg-black"
+		class="w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 md:gap-10 px-10 py-8 bg-black"
 	>
 		<Events_2Days day1={25} day2={26} month="abr" startHour="08:50" endHour="18:00" />
 		<AnnouncementRegistration day={18} month="MARZO" startHour="00:00" />
