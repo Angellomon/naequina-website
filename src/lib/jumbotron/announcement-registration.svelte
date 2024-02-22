@@ -10,7 +10,7 @@
 </script>
 
 <div class="flex flex-col justify-center items-center">
-	<p class="text-amaranth text-lg font-bold uppercase pb-1">INICIO DE INSCRIPCIONES</p>
+	<p class="text-amaranth text-md sm:text-lg font-bold uppercase pb-1">INICIO DE INSCRIPCIONES</p>
 
 	<p class="text-white text-3xl leading-5">{day} <span>DE</span> {month}</p>
 
