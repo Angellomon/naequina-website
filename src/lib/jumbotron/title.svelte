@@ -11,7 +11,7 @@
 	class:uppercase={allMayus}
 	class:extra-large={extraLarge}
 	class:text-7xl={extraLarge}
-	class:max-sm:text-4xl={extraLarge}
+	class:max-sm:text-5xl={extraLarge}
 	class:font-extrabold={extraLarge}
 	class="text-amaranth font-['Montserrat Bold'] text-4xl max-sm:text-xl font-bold"
 >
