@@ -27,4 +27,10 @@
 			font-size: 5rem;
 		}
 	}
+
+	@media screen and (min-width: 1536px) {
+		.extra-large {
+			font-size: 7rem;
+		}
+	}
 </style>
