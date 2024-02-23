@@ -12,7 +12,7 @@
 <OnMount>
 	<div class="relative w-full">
 		<div class="py-28 bg-black flex flex-row">
-			<div class="pl-20 sm:pl-36 md:pl-64 xl:pl-80 2xl:pl-[30rem] w-3/4 xl:w-3/5">
+			<div class="extra-large pl-20 sm:pl-36 md:pl-64 xl:pl-80 2xl:pl-[30rem] w-3/4 xl:w-3/5">
 				<div
 					transition:fly={{
 						duration: 1000,
@@ -39,14 +39,14 @@
 			</div>
 		</div>
 		<div
-			class="2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-amaranth bg-gradient-to-r from-amaranth-500 to-black to-80%"
+			class="extra-large 2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-amaranth bg-gradient-to-r from-amaranth-500 to-black to-80%"
 		>
 			<TitleConferencias numConf={7} year={2024} />
 			<Message />
 		</div>
 
 		<div
-			class="pl-10 sm:pl-[9rem] 2xl:pl-[28rem] w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center sm:justify-start items-start gap-20 md:gap-10 py-8 bg-black"
+			class="extra-large pl-10 sm:pl-[9rem] 2xl:pl-[28rem] w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center sm:justify-start items-start gap-20 md:gap-10 py-8 bg-black"
 		>
 			<Events_2Days day1={25} day2={26} month="abr" startHour="08:50" endHour="18:00" />
 			<AnnouncementRegistration day={18} month="MARZO" startHour="00:00" />
@@ -55,3 +55,11 @@
 		<Horse />
 	</div>
 </OnMount>
+
+<style>
+	@media screen and (min-width: 2200px) {
+		.extra-large {
+			padding-left: 30vw;
+		}
+	}
+</style>
