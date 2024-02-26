@@ -1,4 +1,7 @@
 <script>
+	import { OnMount } from 'fractils';
+	import { fade } from 'svelte/transition';
+
 	const logos = [
 		'logo-galope',
 		'logo-equitonik',
@@ -10,11 +13,26 @@
 </script>
 
 <header
-	class="w-full px-20 flex flex-row h-20 bg-amaranth bg-gradient-to-r from-amaranth-500 from-15% to-black"
+	class="relative w-full px-5 sm:px-20 py-7 flex flex-row min-h-20 bg-amaranth bg-gradient-to-r from-amaranth-500 from-15% to-black"
 >
 	<a href="/">
-		<img class="h-full" src="/logo.png" alt="logo NAEQUINA" />
+		<img class="h-24" src="/logo.png" alt="logo NAEQUINA" />
 	</a>
+
+	<OnMount>
+		<div
+			transition:fade
+			class="hidden sm:block absolute right-0 top-2 text-white uppercase text-sm"
+		>
+			<p>UNIVERSIDAD DEL VALLE DE MEXICO</p>
+			<p>CAMPUS SUR, SEDE COYOACÁN,</p>
+			<p>ASOCIACIÓN MEXICANA DE MÉDICOS</p>
+			<p>VETERINARIOS ESPECIALISTAS EN</p>
+			<p>EQUINOS, A.C. (AMMVEE),</p>
+			<p>DEPARTAMENTO DE NUTRICIÓN</p>
+			<p>ANIMAL Y BIOQUÍMICA, FMVZ-UNAM</p>
+		</div>
+	</OnMount>
 </header>
 
 <slot />
