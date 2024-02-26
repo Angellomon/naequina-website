@@ -39,7 +39,7 @@
 			</div>
 		</div>
 		<div
-			class="extra-large 2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-amaranth bg-gradient-to-r from-amaranth-500 to-black to-80%"
+			class="extra-large 2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-amaranth bg-gradient-to-r from-amaranth to-black to-80%"
 		>
 			<TitleConferencias numConf={7} year={2024} />
 			<Message />
@@ -54,12 +54,102 @@
 
 		<Horse />
 	</div>
+	<div
+		class="px-14 flex flex-col sm:flex-row justify-center items-center gap-10 py-7 w-full bg-amaranth bg-gradient-to-r from-amaranth to-black to-80%"
+	>
+		<div class="flex flex-col items-start">
+			<h2 class="upper bg-black text-white text-2xl px-3 py-3 mb-4">CONTENIDO TEMÁTICO</h2>
+			<ul class="list-disc text-white ml-5">
+				<li>
+					<strong>APARATO DIGESTIVO:</strong>
+					<p>EVOLUCIÓN, MICROBIOMA Y DESÓRDENES DIGESTIVOS</p>
+				</li>
+
+				<li>
+					<p><strong>ALIMENTOS</strong> Y NECESIDADES DE <strong>NUTRIENTES</strong></p>
+				</li>
+
+				<li>
+					<p><strong>ALIMENTACIÓN</strong> PARA LA VIDA</p>
+				</li>
+
+				<li>
+					<p><strong>ALIMENTACIÓN</strong> PARA EL POTRO</p>
+				</li>
+
+				<li>
+					<p><strong>BIENESTAR ANIMAL</strong>, LA BUENA ALIMENTACIÓN</p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="flex flex-col justify-center items-center sm:w-1/3">
+			<h2 class="text-center text-3xl text-white w-auto">
+				MESA REDONDA CON EXPERTOS EN ALIMENTACIÓN Y SALUD EQUINA
+			</h2>
+		</div>
+	</div>
+
+	<div class="w-full h-10 bg-black"></div>
+
+	<div
+		class="extra-large-right pr-10 sm:pr-[9rem] 2xl:pr-[28rem] px-14 flex flex-row justify-end items-center gap-10 py-7 w-full bg-amaranth bg-gradient-to-l from-amaranth to-black to-80%"
+	>
+		<div class="flex flex-col items-end">
+			<h2 class="text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
+				INFORMES Y COORDINADORES
+			</h2>
+
+			<ul class="text-white list-none text-right sm:pr-5">
+				<li>
+					<strong>DRA.SILVIA ELENA BUNTINX DIOS</strong>
+				</li>
+
+				<li>
+					<strong>DR. SANTIAGO GARCÍA PASQUEL</strong>
+					<p><a href="mailto:santiago.garcia@uvmnet.edu">santiago.garcia@uvmnet.edu</a></p>
+				</li>
+
+				<li>
+					<strong>DR. MARIANO HERNÁNDEZ GIL</strong>
+				</li>
+
+				<li>
+					<strong>DR. EDUARDO MORONES</strong>
+					<p><a href="lalovaquero@yahoo.com.mx">lalovaquero@yahoo.com.mx</a></p>
+				</li>
+
+				<li>
+					<strong>DRA. AURORA HILDA RAMÍREZ PÉREZ</strong>
+					<p><a href="rpereza@unam.mx">rpereza@unam.mx</a></p>
+				</li>
+
+				<li>
+					<strong>DR. ELÍAS VELÁZQUEZ CANTÓN</strong>
+					<p><a href="evelazquez@gponutec.com">evelazquez@gponutec.com</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
 </OnMount>
 
 <style>
+	h2,
+	ul li strong {
+		font-family: 'Montserrat Bold';
+	}
+
+	ul li p {
+		font-family: 'Montserrat Light';
+	}
+
 	@media screen and (min-width: 2200px) {
 		.extra-large {
 			padding-left: 30vw;
+		}
+
+		.extra-large-right {
+			padding-right: 30vw;
 		}
 	}
 </style>
