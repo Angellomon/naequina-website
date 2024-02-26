@@ -93,7 +93,7 @@
 	<div class="w-full h-10 bg-black"></div>
 
 	<div
-		class="extra-large-right pr-10 sm:pr-[9rem] 2xl:pr-[28rem] px-14 flex flex-row justify-end items-center gap-10 py-7 w-full bg-amaranth bg-gradient-to-l from-amaranth to-black to-80%"
+		class="extra-large-right pr-10 sm:pr-[14rem] 2xl:pr-[28rem] px-14 flex flex-row justify-end items-center gap-10 py-7 w-full bg-amaranth bg-gradient-to-l from-amaranth to-black to-80%"
 	>
 		<div class="flex flex-col items-end">
 			<h2 class="text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
