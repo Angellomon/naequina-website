@@ -26,12 +26,12 @@
 		}}
 		class="my-1 flex flex-col justify-center items-center text-white min-w-[300px]"
 	>
-		<div class="flex flex-row justify-center items-end border-b border-amaranth w-full text-3xl">
-			<div class="text-amaranth items-end text-5xl mx-2">
+		<div class="flex flex-row justify-center items-end border-b border-torch-red w-full text-3xl">
+			<div class="text-torch-red items-end text-5xl mx-2">
 				{day1}
 			</div>
 			Y
-			<div class="text-amaranth text-5xl mx-2">
+			<div class="text-torch-red text-5xl mx-2">
 				{day2}
 			</div>
 

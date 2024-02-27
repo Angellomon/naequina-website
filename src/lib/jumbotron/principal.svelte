@@ -39,7 +39,7 @@
 			</div>
 		</div>
 		<div
-			class="extra-large 2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-amaranth bg-gradient-to-r from-amaranth to-black to-80%"
+			class="extra-large 2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 		>
 			<TitleConferencias numConf={7} year={2024} />
 			<Message />
@@ -55,7 +55,7 @@
 		<Horse />
 	</div>
 	<div
-		class="px-14 flex flex-col sm:flex-row justify-center items-center gap-10 py-7 w-full bg-amaranth bg-gradient-to-r from-amaranth to-black to-80%"
+		class="px-14 flex flex-col sm:flex-row justify-center items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 	>
 		<div class="flex flex-col items-start">
 			<h2 class="upper bg-black text-white text-2xl px-3 py-3 mb-4">CONTENIDO TEMÁTICO</h2>
@@ -93,7 +93,7 @@
 	<div class="w-full h-10 bg-black"></div>
 
 	<div
-		class="extra-large-right pr-10 sm:pr-[14rem] 2xl:pr-[28rem] px-14 flex flex-row justify-end items-center gap-10 py-7 w-full bg-amaranth bg-gradient-to-l from-amaranth to-black to-80%"
+		class="extra-large-right pr-10 sm:pr-[14rem] 2xl:pr-[28rem] px-14 flex flex-row justify-end items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-l from-torch-red to-black to-80%"
 	>
 		<div class="flex flex-col items-end">
 			<h2 class="text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">

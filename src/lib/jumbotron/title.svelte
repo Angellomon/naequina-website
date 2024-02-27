@@ -6,7 +6,7 @@
 </script>
 
 <h1
-	class="text-amaranth font-['Montserrat Bold'] text-4xl max-sm:text-xl font-bold"
+	class="text-torch-red font-['Montserrat Bold'] text-4xl max-sm:text-xl font-bold"
 	class:text-white={white}
 	class:text-right={right}
 	class:uppercase={allMayus}

@@ -13,7 +13,7 @@
 </script>
 
 <header
-	class="relative w-full px-5 sm:px-20 py-7 flex flex-row min-h-20 bg-amaranth bg-gradient-to-r from-amaranth-500 from-15% to-black"
+	class="relative w-full px-5 sm:px-20 py-7 flex flex-row min-h-20 bg-torch-red bg-gradient-to-r from-torch-red-500 from-15% to-black"
 >
 	<a href="/">
 		<img class="h-24" src="/logo.png" alt="logo NAEQUINA" />
