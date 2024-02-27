@@ -20,7 +20,7 @@
 		}}
 		class="flex flex-col justify-center items-center"
 	>
-		<p class="text-torch-red text-md sm:text-lg font-bold uppercase pb-1">
+		<p class="bg-torch-red text-white sm:text-2xl font-bold uppercase px-5 py-1 mb-3">
 			INICIO DE INSCRIPCIONES
 		</p>
 

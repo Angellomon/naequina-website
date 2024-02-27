@@ -60,7 +60,7 @@
 		class="px-14 flex flex-col sm:flex-row justify-center items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 	>
 		<div class="flex flex-col items-start">
-			<h2 class="upper bg-black text-white text-2xl px-3 py-3 mb-4">CONTENIDO TEMÁTICO</h2>
+			<h2 class="upper bg-white text-torch-red-600 text-2xl px-3 py-3 mb-4">CONTENIDO TEMÁTICO</h2>
 			<ul class="list-disc text-white ml-5">
 				<li>
 					<strong>APARATO DIGESTIVO:</strong>
@@ -76,7 +76,7 @@
 				</li>
 
 				<li>
-					<p><strong>ALIMENTACIÓN</strong> PARA EL POTRO</p>
+					<p><strong>ALIMENTACIÓN</strong> DEL POTRO</p>
 				</li>
 
 				<li>
@@ -98,7 +98,7 @@
 		class="extra-large-right pr-10 sm:pr-[14rem] 2xl:pr-[28rem] px-14 flex flex-row justify-end items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-l from-torch-red to-black to-80%"
 	>
 		<div class="flex flex-col items-end">
-			<h2 class="text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
+			<h2 class="text-right upper bg-white text-torch-red-600 text-2xl px-3 py-3 mb-4">
 				INFORMES Y COORDINADORES
 			</h2>
 
