@@ -13,7 +13,7 @@
 	>
 		<p class="bold font-bold text-xl leading-3 tracking-wide">EVENTO VIRTUAL</p>
 		<p class="text-4xl leading-6">GRATUITO</p>
-		<p class="bold font-bold text-sm tracking-wide">CON VALOR CURICULAR</p>
+		<p class="bold font-bold text-sm tracking-wide">CON VALOR CURRICULAR</p>
 	</div>
 </OnMount>
 
