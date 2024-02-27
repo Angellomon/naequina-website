@@ -39,7 +39,7 @@
 		</div>
 		<div class="flex flex-row justify-center items-end text-sm sm:text-md">
 			DE <span class="text-3xl sm:text-4xl mx-1">{startHour}</span> A
-			<span class="text-3xl mx-1">{endHour}</span>
+			<span class="text-3xl sm:text-4xl mx-1">{endHour}</span>
 		</div>
 		<!-- <button
 			class="transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 ..."
