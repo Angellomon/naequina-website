@@ -24,7 +24,7 @@
 					class="flex flex-col justify-start align-top w-full mb-5"
 				>
 					<Title>SIETE AÑOS DE</Title>
-					<Title white extraLarge>NAEQUINA</Title>
+					<Title white extraLarge>NAEQUINA,</Title>
 				</div>
 
 				<div
