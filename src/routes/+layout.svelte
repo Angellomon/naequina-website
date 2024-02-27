@@ -1,6 +1,6 @@
 <script>
-	import { OnMount } from 'fractils';
-	import { fade } from 'svelte/transition';
+	// import { OnMount } from 'fractils';
+	// import { fade } from 'svelte/transition';
 
 	const logos = [
 		'logo-galope',
@@ -10,16 +10,17 @@
 		'logo-asociacion-mexicana-vet',
 		'logo-uvm'
 	];
+	// padding for list py-7
 </script>
 
 <header
-	class="relative w-full px-5 sm:px-20 py-7 flex flex-row min-h-20 bg-torch-red bg-gradient-to-r from-torch-red-500 from-15% to-black"
+	class="relative w-full px-5 sm:px-20 py-4 flex flex-row min-h-20 bg-torch-red bg-gradient-to-r from-torch-red-500 from-15% to-black"
 >
 	<a href="/">
 		<img class="h-24" src="/logo.png" alt="logo NAEQUINA" />
 	</a>
 
-	<OnMount>
+	<!-- <OnMount>
 		<div
 			transition:fade
 			class="hidden sm:block absolute right-0 top-2 text-white uppercase text-sm"
@@ -32,7 +33,7 @@
 			<p>DEPARTAMENTO DE NUTRICIÓN</p>
 			<p>ANIMAL Y BIOQUÍMICA, FMVZ-UNAM</p>
 		</div>
-	</OnMount>
+	</OnMount> -->
 </header>
 
 <slot />
