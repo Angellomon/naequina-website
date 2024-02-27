@@ -13,6 +13,10 @@
 	// padding for list py-7
 </script>
 
+<svelte:head>
+	<title>NAEQUINA | NUTRICIÓN Y ALIMANTACIÓN EQUINA</title>
+</svelte:head>
+
 <header
 	class="relative w-full px-5 sm:px-20 py-4 flex flex-row min-h-20 bg-torch-red bg-gradient-to-r from-torch-red-500 from-15% to-black"
 >
