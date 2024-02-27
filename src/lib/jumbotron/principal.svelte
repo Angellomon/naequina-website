@@ -12,7 +12,9 @@
 <OnMount>
 	<div class="relative w-full">
 		<div class="py-28 bg-black flex flex-row">
-			<div class="extra-large pl-20 sm:pl-36 md:pl-64 xl:pl-80 2xl:pl-[30rem] w-3/4 xl:w-3/5">
+			<div
+				class="principal extra-large pl-20 sm:pl-36 md:pl-64 xl:pl-80 2xl:pl-[23rem] w-3/4 xl:w-3/5"
+			>
 				<div
 					transition:fly={{
 						duration: 1000,
@@ -143,13 +145,35 @@
 		font-family: 'Montserrat Light';
 	}
 
+	@media screen and (max-width: 640px) {
+		.principal {
+			width: 90%;
+		}
+	}
+
 	@media screen and (min-width: 2200px) {
 		.extra-large {
-			padding-left: 30vw;
+			padding-left: 30vw !important;
 		}
 
 		.extra-large-right {
 			padding-right: 30vw;
+		}
+
+		.principal {
+			padding-left: 30rem;
+		}
+	}
+
+	@media (max-width: 2200px) {
+		.principal {
+			padding-left: 24rem;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.extra-large {
+			padding-left: 3rem;
 		}
 	}
 </style>
