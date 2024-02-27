@@ -1,6 +1,5 @@
 <script>
-	// import { OnMount } from 'fractils';
-	// import { fade } from 'svelte/transition';
+	import { scrollTo } from 'svelte-scrolling';
 
 	const logos = [
 		'logo-galope',
@@ -24,20 +23,11 @@
 		<img class="h-24" src="/logo.png" alt="logo NAEQUINA" />
 	</a>
 
-	<!-- <OnMount>
-		<div
-			transition:fade
-			class="hidden sm:block absolute right-0 top-2 text-white uppercase text-sm"
-		>
-			<p>UNIVERSIDAD DEL VALLE DE MEXICO</p>
-			<p>CAMPUS SUR, SEDE COYOACÁN,</p>
-			<p>ASOCIACIÓN MEXICANA DE MÉDICOS</p>
-			<p>VETERINARIOS ESPECIALISTAS EN</p>
-			<p>EQUINOS, A.C. (AMMVEE),</p>
-			<p>DEPARTAMENTO DE NUTRICIÓN</p>
-			<p>ANIMAL Y BIOQUÍMICA, FMVZ-UNAM</p>
-		</div>
-	</OnMount> -->
+	<!-- svelte-ignore a11y-missing-attribute -->
+	<a
+		use:scrollTo={'contacto'}
+		class="absolute z-50 right-10 top-1/3 text-white px-5 py-2 contact hover:underline">CONTACTO</a
+	>
 </header>
 
 <slot />

@@ -1,5 +1,7 @@
 <script>
+	import { fade } from 'svelte/transition';
 	import { OnMount } from 'fractils';
+	import { scrollRef } from 'svelte-scrolling';
 	import { fly } from 'svelte/transition';
 	import Title from './title.svelte';
 	import TitleConferencias from './title-conferencias.svelte';
@@ -95,8 +97,24 @@
 	<div class="w-full h-10 bg-black"></div>
 
 	<div
-		class="extra-large-right pr-10 sm:pr-[14rem] 2xl:pr-[28rem] px-14 flex flex-row justify-end items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-l from-torch-red to-black to-80%"
+		id="contacto"
+		use:scrollRef={'contacto'}
+		class="extra-large-right sm:pl-[7rem] md:pl-[11rem] pr-10 sm:pr-[7rem] md:pr-[8rem] lg:pr-[14rem] 2xl:pr-[28rem] px-14 flex flex-col-reverse md:flex-row justify-between items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-l from-torch-red to-black to-80%"
 	>
+		<OnMount>
+			<div class="flex flex-col">
+				<div transition:fade class="text-white uppercase text-sm">
+					<p>UNIVERSIDAD DEL VALLE DE MEXICO</p>
+					<p>CAMPUS SUR, SEDE COYOACÁN,</p>
+					<p>ASOCIACIÓN MEXICANA DE MÉDICOS</p>
+					<p>VETERINARIOS ESPECIALISTAS EN</p>
+					<p>EQUINOS, A.C. (AMMVEE),</p>
+					<p>DEPARTAMENTO DE NUTRICIÓN</p>
+					<p>ANIMAL Y BIOQUÍMICA, FMVZ-UNAM</p>
+				</div>
+			</div>
+		</OnMount>
+
 		<div class="flex flex-col items-end">
 			<h2 class="text-right upper bg-white text-torch-red-600 text-2xl px-3 py-3 mb-4">
 				INFORMES Y COORDINADORES
@@ -151,12 +169,25 @@
 		}
 	}
 
+	@media screen and (min-width: 1024px) {
+		.extra-large-right {
+			padding-left: 15vw !important;
+		}
+	}
+
+	@media screen and (min-width: 1440px) {
+		.extra-large-right {
+			padding-left: 20vw !important;
+		}
+	}
+
 	@media screen and (min-width: 2200px) {
 		.extra-large {
 			padding-left: 30vw !important;
 		}
 
 		.extra-large-right {
+			padding-left: 30vw !important;
 			padding-right: 30vw;
 		}
 
