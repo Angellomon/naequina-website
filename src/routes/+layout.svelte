@@ -26,7 +26,8 @@
 	<!-- svelte-ignore a11y-missing-attribute -->
 	<a
 		use:scrollTo={'contacto'}
-		class="absolute z-50 right-10 top-1/3 text-white px-5 py-2 contact hover:underline">CONTACTO</a
+		class="absolute z-50 right-4 sm:right-10 top-1/3 text-white px-5 py-2 contact hover:underline"
+		>CONTACTO</a
 	>
 </header>
 
