@@ -104,7 +104,7 @@
 		<OnMount>
 			<div class="flex flex-col">
 				<div transition:fade class="text-white uppercase text-sm">
-					<p>UNIVERSIDAD DEL VALLE DE MEXICO</p>
+					<p>UNIVERSIDAD DEL VALLE DE MÉXICO</p>
 					<p>CAMPUS SUR, SEDE COYOACÁN,</p>
 					<p>ASOCIACIÓN MEXICANA DE MÉDICOS</p>
 					<p>VETERINARIOS ESPECIALISTAS EN</p>
