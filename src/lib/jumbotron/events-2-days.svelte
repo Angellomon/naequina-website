@@ -38,8 +38,8 @@
 			{month.toLocaleUpperCase()}
 		</div>
 		<div class="flex flex-row justify-center items-end text-sm sm:text-md">
-			DE <span class="text-3xl sm:text-4xl mx-1">{startHour}</span> A
-			<span class="text-3xl sm:text-4xl mx-1">{endHour}</span>
+			DE <span class="text-3xl sm:text-4xl mx-1">{startHour}</span> A.M. A
+			<span class="text-3xl sm:text-4xl mx-1">{endHour}</span> P.M.
 		</div>
 	</div>
 </OnMount>

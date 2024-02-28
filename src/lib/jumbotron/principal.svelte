@@ -52,7 +52,7 @@
 		<div
 			class="extra-large pl-10 sm:pl-[9rem] 2xl:pl-[28rem] w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center sm:justify-start items-start gap-20 md:gap-10 py-8 bg-black"
 		>
-			<Events_2Days day1={25} day2={26} month="abr" startHour="08:50 A.M." endHour="06:00 P.M." />
+			<Events_2Days day1={25} day2={26} month="abr" startHour="08:50" endHour="06:00" />
 			<AnnouncementRegistration day={18} month="MARZO" startHour="00:00" />
 		</div>
 
@@ -62,7 +62,7 @@
 		class="px-14 flex flex-col sm:flex-row justify-center items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 	>
 		<div class="flex flex-col items-start">
-			<h2 class="upper bg-white text-torch-red-600 text-2xl px-3 py-3 mb-4">CONTENIDO TEMÁTICO</h2>
+			<h2 class="upper bg-black text-white text-2xl px-3 py-3 mb-4">CONTENIDO TEMÁTICO</h2>
 			<ul class="list-disc text-white ml-5">
 				<li>
 					<strong>APARATO DIGESTIVO:</strong>
@@ -88,7 +88,7 @@
 		</div>
 
 		<div class="flex flex-col justify-center items-center sm:w-1/3">
-			<h2 class="text-center text-3xl text-white w-auto">
+			<h2 class="text-right text-3xl text-white w-auto">
 				MESA REDONDA CON EXPERTOS EN ALIMENTACIÓN Y SALUD EQUINA
 			</h2>
 		</div>
@@ -116,7 +116,7 @@
 		</OnMount>
 
 		<div class="flex flex-col items-end">
-			<h2 class="text-right upper bg-white text-torch-red-600 text-2xl px-3 py-3 mb-4">
+			<h2 class="text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
 				INFORMES Y COORDINADORES
 			</h2>
 

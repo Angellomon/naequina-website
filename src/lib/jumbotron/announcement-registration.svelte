@@ -20,11 +20,11 @@
 		}}
 		class="flex flex-col justify-center items-center"
 	>
-		<p class="bg-torch-red text-white sm:text-2xl font-bold uppercase px-5 py-1 mb-3">
+		<p class="bg-transparent text-torch-red sm:text-2xl font-bold uppercase px-5 mb-3">
 			INICIO DE INSCRIPCIONES
 		</p>
 
-		<p class="text-white text-3xl leading-5">{day} <span>DE</span> {month}</p>
+		<p class="text-white text-3xl leading-5">{day} DE {month}</p>
 
 		<p class="text-white text-md leading-5"><span>DESDE LAS</span> {startHour}</p>
 	</div>
