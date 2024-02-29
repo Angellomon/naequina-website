@@ -26,7 +26,7 @@
 
 		<p class="text-white text-3xl leading-5">{day} DE {month}</p>
 
-		<p class="text-white text-md leading-5"><span>DESDE LAS</span> {startHour}</p>
+		<p class="text-white text-md leading-5"><span>DESDE LAS</span> {startHour} H<span></span></p>
 	</div>
 </OnMount>
 
