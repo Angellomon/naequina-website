@@ -88,7 +88,7 @@
 		</div>
 
 		<div class="flex flex-col justify-center items-center sm:w-1/3">
-			<h2 class="text-right text-3xl text-white w-3/4">
+			<h2 class="text-right text-3xl text-white w-80">
 				MESA REDONDA CON EXPERTOS EN ALIMENTACIÓN Y SALUD EQUINA
 			</h2>
 		</div>
