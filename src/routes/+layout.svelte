@@ -15,6 +15,16 @@
 <svelte:head>
 	<title>NAEQUINA | NUTRICIÓN Y ALIMANTACIÓN EQUINA</title>
 
+	<meta property="og:title" content="NAEQUINA 2024" />
+	<meta
+		property="og:description"
+		content="El evento de Nutrición Animal Equina más importante en Latinoamérica"
+	/>
+	<meta property="og:locale" content="es_MX" />
+	<meta property="og:site_name" content="NAEQUINA" />
+	<meta property="og:image" content="https://naequina.com/logo-caballo-xl.png" />
+	<meta property="og:url" content="https://naequina.com/" />
+
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MFR4TLDGTS"></script>
 	<script>
