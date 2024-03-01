@@ -48,7 +48,7 @@
 			"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
 			"eventStatus": "https://schema.org/EventScheduled",
 			"image": ["logo-caballo-xl.png"],
-			"startDate": "2024-04-25T08:50",
+			"startDate": "2024-04-25T08:50-06:00",
 			"endDate": "2024-04-26T18:00-06:00",
 			"location": {
 				"@type": "Place",
