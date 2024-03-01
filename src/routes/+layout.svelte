@@ -35,7 +35,7 @@
 				{
 					"@type": "Event",
 					"name": "Inicio de Inscripciones",
-					"startDate": "2024-03-18T00:00",
+					"startDate": "2024-03-18T00:00-06:00",
 					"location": {
 						"@type": "Place",
 						"address": {
@@ -49,7 +49,7 @@
 			"eventStatus": "https://schema.org/EventScheduled",
 			"image": ["logo-caballo-xl.png"],
 			"startDate": "2024-04-25T08:50",
-			"endDate": "2024-04-26T18:00",
+			"endDate": "2024-04-26T18:00-06:00",
 			"location": {
 				"@type": "Place",
 				"address": {
