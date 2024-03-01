@@ -25,6 +25,25 @@
 	<meta property="og:image" content="https://naequina.com/logo-caballo-xl.png" />
 	<meta property="og:url" content="https://naequina.com/" />
 
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org/",
+			"@type": "Event",
+			"name": "NAEQUINA 2024",
+			"description": "El evento de nutrición animal equina más importante en Latinoamérica.",
+			"event": [
+				{
+					"@type": "Event",
+					"name": "Inicio de Inscripciones",
+					"startDate": "2024-03-18T00:00"
+				}
+			],
+			"image": ["logo-caballo-xl.png"],
+			"startDate": "2024-04-25T08:50",
+			"endDate": "2024-04-26T18:00"
+		}
+	</script>
+
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MFR4TLDGTS"></script>
 	<script>
