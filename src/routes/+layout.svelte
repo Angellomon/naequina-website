@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-	<title>NAEQUINA | NUTRICIÓN Y ALIMANTACIÓN EQUINA</title>
+	<title>NAEQUINA | NUTRICIÓN Y ALIMENTACIÓN EQUINA</title>
 
 	<meta property="og:title" content="NAEQUINA 2024" />
 	<meta
