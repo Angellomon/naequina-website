@@ -22,7 +22,7 @@
 	/>
 	<meta property="og:locale" content="es_MX" />
 	<meta property="og:site_name" content="NAEQUINA" />
-	<meta property="og:image" content="https://naequina.com/logo-caballo-xl.png" />
+	<meta property="og:image" content="https://naequina.com/logo-caballo.png" />
 	<meta property="og:url" content="https://naequina.com/" />
 
 	<script type="application/ld+json">
@@ -47,7 +47,7 @@
 			],
 			"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
 			"eventStatus": "https://schema.org/EventScheduled",
-			"image": ["logo-caballo-xl.png"],
+			"image": ["logo-caballo.png"],
 			"startDate": "2024-04-25T08:50-06:00",
 			"endDate": "2024-04-26T18:00-06:00",
 			"location": {
