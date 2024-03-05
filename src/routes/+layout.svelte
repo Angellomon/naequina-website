@@ -14,6 +14,10 @@
 
 <svelte:head>
 	<title>NAEQUINA | NUTRICIÓN Y ALIMENTACIÓN EQUINA</title>
+	<meta
+		name="description"
+		content="El evento de Nutrición Animal Equina más importante en Latinoamérica"
+	/>
 
 	<meta property="og:title" content="NAEQUINA 2024" />
 	<meta
