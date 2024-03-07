@@ -76,7 +76,7 @@
 						x: 300,
 						delay: 400
 					}}
-					class="flex flex-col justify-end align-bottom min-w-[20vw]"
+					class="flex flex-col justify-end align-bottom min-w-[35vw]"
 				>
 					<Title right>{lang.jumbotron.mainTitle.third}</Title>
 					<Title white right>{lang.jumbotron.mainTitle.fourth}</Title>
