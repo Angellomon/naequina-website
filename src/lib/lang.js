@@ -80,7 +80,8 @@ export const es = {
 		namePlaceholder: 'Nombre',
 		emailPlaceholder: 'Correo',
 		messagePlaceholder: 'Comentarios',
-		submitText: 'ENVIAR'
+		submitText: 'ENVIAR',
+		successMessage: '¡Solicutud enviada con éxito!'
 	}
 };
 
@@ -166,6 +167,7 @@ export const en = {
 		namePlaceholder: 'Name',
 		emailPlaceholder: 'Email',
 		messagePlaceholder: 'Message',
-		submitText: 'SEND'
+		submitText: 'SEND',
+		successMessage: 'Request successfully sent!'
 	}
 };

@@ -1,5 +1,5 @@
 <script>
-	import { fade } from 'svelte/transition';
+	import { fade, slide } from 'svelte/transition';
 	import { OnMount } from 'fractils';
 	import { scrollRef } from 'svelte-scrolling';
 	import { fly } from 'svelte/transition';
@@ -19,6 +19,8 @@
 
 	const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 
+	let success = false;
+
 	/** @type {(en | es)} */
 	export let lang;
 
@@ -28,7 +30,13 @@
 			// @ts-ignore
 			grecaptcha.execute(recaptchaSiteKey, { action: 'submit' }).then(function (token) {
 				// Add your logic to submit to your backend server here.
-				handleCaptchaCallback(token);
+				handleCaptchaCallback(token).then(() => {
+					success = true;
+
+					$name = '';
+					$email = '';
+					$message = '';
+				});
 			});
 		});
 	};
@@ -230,11 +238,19 @@
 				></textarea>
 			</div>
 
-			<input
-				class="g-recaptcha w-min static transition-all ease-in-out right-5 bottom-5 text-right upper bg-transparent hover:bg-black hover:cursor-pointer text-white text-2xl px-3 py-3 mb-4"
-				type="submit"
-				value={lang.eventContact.submitText}
-			/>
+			<div class="flex flex-row items-baseline gap-4 static right-5 bottom-5">
+				<input
+					class="g-recaptcha w-min transition-all ease-in-out text-right upper bg-transparent hover:bg-black hover:cursor-pointer text-white text-2xl px-3 py-3 mb-4"
+					type="submit"
+					value={lang.eventContact.submitText}
+				/>
+
+				{#if success}
+					<p class="text-white" transition:slide={{ axis: 'y' }}>
+						{lang.eventContact.successMessage}
+					</p>
+				{/if}
+			</div>
 		</form>
 	</div>
 	<div class="spacer flex flex-col"></div>
