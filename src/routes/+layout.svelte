@@ -10,6 +10,7 @@
 		'logo-uvm'
 	];
 	// padding for list py-7
+	const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 </script>
 
 <svelte:head>
@@ -74,6 +75,7 @@
 		gtag('js', new Date());
 		gtag('config', 'G-MFR4TLDGTS');
 	</script>
+	<script src={'https://www.google.com/recaptcha/api.js?render=' + recaptchaSiteKey}></script>
 </svelte:head>
 
 <header

@@ -9,6 +9,52 @@
 	import Horse from './horse.svelte';
 	import Events_2Days from './events-2-days.svelte';
 	import AnnouncementRegistration from './announcement-registration.svelte';
+
+	import { name, email, message } from '$lib/store';
+	import { handleCaptchaError, resetCaptcha } from '$lib/captcha';
+	import { sendMessage } from '$lib/requests';
+	import { onMount } from 'svelte';
+
+	const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
+
+	export const handleOnSubmit = () => {
+		const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
+		console.log('handleOnSubmit');
+		// reset any errors
+
+		// tell recaptcha to process a request
+		// @ts-ignore
+		// window.grecaptcha.execute();
+		grecaptcha.ready(function () {
+			console.log('hmmm');
+			// @ts-ignore
+			grecaptcha.execute(recaptchaSiteKey, { action: 'submit' }).then(function (token) {
+				// Add your logic to submit to your backend server here.
+				handleCaptchaCallback(token);
+			});
+		});
+	};
+
+	/**
+	 * @param {string} token
+	 */
+	const handleCaptchaCallback = async (token) => {
+		console.log('token', token);
+		console.log('key', recaptchaSiteKey);
+
+		await sendMessage({
+			correo: $email,
+			mensaje: $message,
+			nombre: $name,
+			recaptchaToken: token
+		});
+	};
+
+	onMount(() => {
+		window.handleCaptchaCallback = handleCaptchaCallback;
+		window.handleCaptchaError = handleCaptchaError;
+		window.resetCaptcha = resetCaptcha;
+	});
 </script>
 
 <OnMount>
@@ -101,19 +147,17 @@
 		use:scrollRef={'contacto'}
 		class="extra-large-right sm:pl-[7rem] md:pl-[11rem] pr-10 sm:pr-[7rem] md:pr-[8rem] lg:pr-[14rem] 2xl:pr-[28rem] px-14 flex flex-col-reverse md:flex-row justify-between items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-l from-torch-red to-black to-80%"
 	>
-		<OnMount>
-			<div class="flex flex-col">
-				<div transition:fade class="text-white uppercase text-sm">
-					<p>UNIVERSIDAD DEL VALLE DE MÉXICO</p>
-					<p>CAMPUS SUR, SEDE COYOACÁN,</p>
-					<p>ASOCIACIÓN MEXICANA DE MÉDICOS</p>
-					<p>VETERINARIOS ESPECIALISTAS EN</p>
-					<p>EQUINOS, A.C. (AMMVEE),</p>
-					<p>DEPARTAMENTO DE NUTRICIÓN</p>
-					<p>ANIMAL Y BIOQUÍMICA, FMVZ-UNAM</p>
-				</div>
+		<div class="flex flex-col">
+			<div transition:fade class="text-white uppercase text-sm">
+				<p>UNIVERSIDAD DEL VALLE DE MÉXICO</p>
+				<p>CAMPUS SUR, SEDE COYOACÁN,</p>
+				<p>ASOCIACIÓN MEXICANA DE MÉDICOS</p>
+				<p>VETERINARIOS ESPECIALISTAS EN</p>
+				<p>EQUINOS, A.C. (AMMVEE),</p>
+				<p>DEPARTAMENTO DE NUTRICIÓN</p>
+				<p>ANIMAL Y BIOQUÍMICA, FMVZ-UNAM</p>
 			</div>
-		</OnMount>
+		</div>
 
 		<div class="flex flex-col items-end">
 			<h2 class="text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
@@ -152,11 +196,68 @@
 		</div>
 	</div>
 </OnMount>
+<div class="w-full h-10 bg-black"></div>
+
+<div
+	class="contacto px-14 flex flex-col sm:flex-row justify-center items-center gap-10 py-7 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
+>
+	<div class="flex flex-col">
+		<h2 class="w-min text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">CONTÁCTANOS</h2>
+
+		<form class="flex flex-col gap-5 relative" on:submit|preventDefault={handleOnSubmit}>
+			<div class="flex flex-col sm:flex-row gap-5">
+				<input
+					class="rounded-md py-2 px-3"
+					type="text"
+					placeholder="Nombre"
+					name="nombre"
+					id="nombre"
+					required
+					bind:value={$name}
+				/>
+				<input
+					class="rounded-md py-2 px-3"
+					type="email"
+					placeholder="Correo"
+					name="correo"
+					id="correo"
+					required
+					bind:value={$email}
+				/>
+			</div>
+
+			<div class="flex flex-col">
+				<textarea
+					class="rounded-md py-2 px-3"
+					name="mensaje"
+					id="mensaje"
+					cols="30"
+					rows="6"
+					placeholder="Comentarios"
+					required
+					bind:value={$message}
+				></textarea>
+			</div>
+
+			<input
+				class="g-recaptcha w-min static transition-all ease-in-out right-5 bottom-5 text-right upper bg-transparent hover:bg-black hover:cursor-pointer text-white text-2xl px-3 py-3 mb-4"
+				type="submit"
+				value="ENVIAR"
+			/>
+		</form>
+	</div>
+	<div class="spacer flex flex-col"></div>
+</div>
 
 <style>
 	h2,
 	ul li strong {
 		font-family: 'Montserrat Bold';
+	}
+
+	form {
+		font-family: 'Montserrat Regular';
+		font-weight: bold;
 	}
 
 	ul li p {
@@ -206,5 +307,13 @@
 		.extra-large {
 			padding-left: 3rem;
 		}
+
+		.spacer {
+			display: none;
+		}
+	}
+
+	.spacer {
+		width: 31%;
 	}
 </style>
