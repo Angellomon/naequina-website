@@ -1,15 +1,19 @@
 <script>
 	import { OnMount } from 'fractils';
 	import { fade } from 'svelte/transition';
+	import { en, es } from '$lib/lang';
 
-	/** @type{string}*/
+	/** @type {string}*/
 	export let month;
 
-	/** @type{number}*/
+	/** @type {number}*/
 	export let day;
 
-	/** @type{string}*/
+	/** @type {string}*/
 	export let startHour;
+
+	/** @type {(en | es)} */
+	export let lang;
 </script>
 
 <OnMount>
@@ -21,12 +25,15 @@
 		class="flex flex-col justify-center items-center"
 	>
 		<p class="bg-transparent text-torch-red sm:text-2xl font-bold uppercase px-5 mb-3">
-			INICIO DE INSCRIPCIONES
+			{lang.eventDates.rightEvent.title}
 		</p>
 
-		<p class="text-white text-3xl leading-5">{day} DE {month}</p>
+		<p class="text-white text-3xl leading-5">{lang.eventDates.rightEvent.date}</p>
 
-		<p class="text-white text-md leading-5"><span>DESDE LAS</span> {startHour} H<span></span></p>
+		<p class="text-white text-md leading-5">
+			<span>{lang.eventDates.rightEvent.from}</span>
+			{lang.eventDates.rightEvent.hour}<span></span>
+		</p>
 	</div>
 </OnMount>
 

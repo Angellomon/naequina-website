@@ -15,18 +15,16 @@
 	import { sendMessage } from '$lib/requests';
 	import { onMount } from 'svelte';
 
+	import { en, es } from '$lib/lang';
+
 	const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 
-	export const handleOnSubmit = () => {
-		const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
-		console.log('handleOnSubmit');
-		// reset any errors
+	/** @type {(en | es)} */
+	export let lang;
 
-		// tell recaptcha to process a request
+	export const handleOnSubmit = () => {
 		// @ts-ignore
-		// window.grecaptcha.execute();
 		grecaptcha.ready(function () {
-			console.log('hmmm');
 			// @ts-ignore
 			grecaptcha.execute(recaptchaSiteKey, { action: 'submit' }).then(function (token) {
 				// Add your logic to submit to your backend server here.
@@ -39,9 +37,6 @@
 	 * @param {string} token
 	 */
 	const handleCaptchaCallback = async (token) => {
-		console.log('token', token);
-		console.log('key', recaptchaSiteKey);
-
 		await sendMessage({
 			correo: $email,
 			mensaje: $message,
@@ -71,8 +66,8 @@
 					}}
 					class="flex flex-col justify-start align-top w-full mb-5"
 				>
-					<Title>SIETE AÑOS DE</Title>
-					<Title white extraLarge>NAEQUINA,</Title>
+					<Title>{lang.jumbotron.mainTitle.first}</Title>
+					<Title white extraLarge>{lang.jumbotron.mainTitle.second}</Title>
 				</div>
 
 				<div
@@ -81,25 +76,25 @@
 						x: 300,
 						delay: 400
 					}}
-					class="flex flex-col justify-end align-bottom w-full"
+					class="flex flex-col justify-end align-bottom min-w-[20vw]"
 				>
-					<Title right>UNA MIRADA</Title>
-					<Title white right>RETROSPECTIVA</Title>
+					<Title right>{lang.jumbotron.mainTitle.third}</Title>
+					<Title white right>{lang.jumbotron.mainTitle.fourth}</Title>
 				</div>
 			</div>
 		</div>
 		<div
 			class="extra-large 2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 		>
-			<TitleConferencias numConf={7} year={2024} />
-			<Message />
+			<TitleConferencias {lang} year={2024} />
+			<Message {lang} />
 		</div>
 
 		<div
 			class="extra-large pl-10 sm:pl-[9rem] 2xl:pl-[28rem] w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center sm:justify-start items-start gap-20 md:gap-10 py-8 bg-black"
 		>
-			<Events_2Days day1={25} day2={26} month="abr" startHour="08:50" endHour="06:00" />
-			<AnnouncementRegistration day={18} month="MARZO" startHour="00:00" />
+			<Events_2Days {lang} day1={25} day2={26} month="abr" startHour="08:50" endHour="06:00" />
+			<AnnouncementRegistration {lang} day={18} month="MARZO" startHour="00:00" />
 		</div>
 
 		<Horse />
@@ -108,34 +103,47 @@
 		class="px-14 flex flex-col sm:flex-row justify-center items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 	>
 		<div class="flex flex-col items-start">
-			<h2 class="upper bg-black text-white text-2xl px-3 py-3 mb-4">CONTENIDO TEMÁTICO</h2>
+			<h2 class="upper bg-black text-white text-2xl px-3 py-3 mb-4">{lang.eventContent.title}</h2>
 			<ul class="list-disc text-white ml-5">
 				<li>
-					<strong>APARATO DIGESTIVO:</strong>
-					<p>EVOLUCIÓN, MICROBIOMA Y DESÓRDENES DIGESTIVOS</p>
+					<strong>{lang.eventContent.firstElement[0]}:</strong>
+					<p>{lang.eventContent.fifthElement[1]}</p>
 				</li>
 
 				<li>
-					<p><strong>ALIMENTOS</strong> Y NECESIDADES DE <strong>NUTRIENTES</strong></p>
+					<p>
+						<strong>{lang.eventContent.secondElement[0]}</strong>
+						{lang.eventContent.secondElement[1]}
+						<strong>{lang.eventContent.secondElement[2]}</strong>
+					</p>
 				</li>
 
 				<li>
-					<p><strong>ALIMENTACIÓN</strong> PARA LA VIDA</p>
+					<p>
+						<strong>{lang.eventContent.thirdElement[0]}</strong>
+						{lang.eventContent.thirdElement[1]}
+					</p>
 				</li>
 
 				<li>
-					<p><strong>ALIMENTACIÓN</strong> DEL POTRO</p>
+					<p>
+						<strong>{lang.eventContent.fourthElement[0]}</strong>
+						{lang.eventContent.fourthElement[1]}
+					</p>
 				</li>
 
 				<li>
-					<p><strong>BIENESTAR ANIMAL</strong>, LA BUENA ALIMENTACIÓN</p>
+					<p>
+						<strong>{lang.eventContent.fifthElement[0]}</strong>
+						{lang.eventContent.fifthElement[1]}
+					</p>
 				</li>
 			</ul>
 		</div>
 
 		<div class="flex flex-col justify-center items-center sm:w-1/3">
 			<h2 class="text-right text-3xl text-white w-80">
-				MESA REDONDA CON EXPERTOS EN ALIMENTACIÓN Y SALUD EQUINA
+				{lang.eventContent.rightText}
 			</h2>
 		</div>
 	</div>
@@ -161,37 +169,18 @@
 
 		<div class="flex flex-col items-end">
 			<h2 class="text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
-				INFORMES Y COORDINADORES
+				{lang.eventContactInfo.title}
 			</h2>
 
 			<ul class="text-white list-none text-right sm:pr-5">
-				<li>
-					<strong>DRA.SILVIA ELENA BUNTINX DIOS</strong>
-				</li>
-
-				<li>
-					<strong>DR. SANTIAGO GARCÍA PASQUEL</strong>
-					<p><a href="mailto:santiago.garcia@uvmnet.edu">santiago.garcia@uvmnet.edu</a></p>
-				</li>
-
-				<li>
-					<strong>DR. MARIANO HERNÁNDEZ GIL</strong>
-				</li>
-
-				<li>
-					<strong>DR. EDUARDO MORONES</strong>
-					<p><a href="lalovaquero@yahoo.com.mx">lalovaquero@yahoo.com.mx</a></p>
-				</li>
-
-				<li>
-					<strong>DRA. AURORA HILDA RAMÍREZ PÉREZ</strong>
-					<p><a href="rpereza@unam.mx">rpereza@unam.mx</a></p>
-				</li>
-
-				<li>
-					<strong>DR. ELÍAS VELÁZQUEZ CANTÓN</strong>
-					<p><a href="evelazquez@gponutec.com">evelazquez@gponutec.com</a></p>
-				</li>
+				{#each lang.eventContactInfo.doctrsList as doc}
+					<li>
+						<strong>{doc.name}</strong>
+					</li>
+					{#if doc.email}
+						<p><a href={'mailto:' + doc.email}>santiago.garcia@uvmnet.edu</a></p>
+					{/if}
+				{/each}
 			</ul>
 		</div>
 	</div>
@@ -202,14 +191,16 @@
 	class="contacto px-14 flex flex-col sm:flex-row justify-center items-center gap-10 py-7 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 >
 	<div class="flex flex-col">
-		<h2 class="w-min text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">CONTÁCTANOS</h2>
+		<h2 class="w-min min-w-[12rem] text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
+			{lang.eventContact.title}
+		</h2>
 
 		<form class="flex flex-col gap-5 relative" on:submit|preventDefault={handleOnSubmit}>
 			<div class="flex flex-col sm:flex-row gap-5">
 				<input
 					class="rounded-md py-2 px-3"
 					type="text"
-					placeholder="Nombre"
+					placeholder={lang.eventContact.namePlaceholder}
 					name="nombre"
 					id="nombre"
 					required
@@ -218,7 +209,7 @@
 				<input
 					class="rounded-md py-2 px-3"
 					type="email"
-					placeholder="Correo"
+					placeholder={lang.eventContact.emailPlaceholder}
 					name="correo"
 					id="correo"
 					required
@@ -233,7 +224,7 @@
 					id="mensaje"
 					cols="30"
 					rows="6"
-					placeholder="Comentarios"
+					placeholder={lang.eventContact.messagePlaceholder}
 					required
 					bind:value={$message}
 				></textarea>
@@ -242,7 +233,7 @@
 			<input
 				class="g-recaptcha w-min static transition-all ease-in-out right-5 bottom-5 text-right upper bg-transparent hover:bg-black hover:cursor-pointer text-white text-2xl px-3 py-3 mb-4"
 				type="submit"
-				value="ENVIAR"
+				value={lang.eventContact.submitText}
 			/>
 		</form>
 	</div>
