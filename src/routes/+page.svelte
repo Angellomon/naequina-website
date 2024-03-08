@@ -108,7 +108,7 @@
 				animation: 'slide'
 			}}
 			href="/en"
-			class="w-[50px]"
+			class="w-[30px]"
 		>
 			<img src="/img/BANDERA-EUA.png" alt="USA" />
 		</a>
