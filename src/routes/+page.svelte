@@ -72,7 +72,7 @@
 	class="relative w-full px-5 sm:px-20 py-4 flex flex-row min-h-20 bg-torch-red bg-gradient-to-r from-torch-red-500 from-15% to-black"
 >
 	<a href="/">
-		<img class="h-24" src="/logo.png" alt="logo NAEQUINA" />
+		<img class="h-16 sm:h-24" src="/logo.png" alt="logo NAEQUINA" />
 	</a>
 
 	<div class="flex flex-row absolute z-50 right-4 sm:right-10 top-1/3">
