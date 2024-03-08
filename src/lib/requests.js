@@ -34,5 +34,5 @@ export const sendMessage = async (data) => {
 	await fetch(emailUrl, options);
 
 	// reset recaptcha for future requests
-	resetCaptcha();
+	// resetCaptcha();
 };
