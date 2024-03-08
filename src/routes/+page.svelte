@@ -101,6 +101,12 @@
 
 <footer class="flex flex-row flex-wrap justify-evenly items-center bg-[#121212]">
 	{#each logos as logo}
-		<img class="max-h-[100px]" src={`/img/${logo}.png`} alt={logo} />
+		{#if logo.link}
+			<a href={logo.link}
+				><img class="max-h-[100px]" src={`/img/${logo.logo}.png`} alt={logo.logo} /></a
+			>
+		{:else}
+			<img class="max-h-[100px]" src={`/img/${logo.logo}.png`} alt={logo.logo} />
+		{/if}
 	{/each}
 </footer>
