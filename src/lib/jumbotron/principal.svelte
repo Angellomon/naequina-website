@@ -30,13 +30,7 @@
 			// @ts-ignore
 			grecaptcha.execute(recaptchaSiteKey, { action: 'submit' }).then(function (token) {
 				// Add your logic to submit to your backend server here.
-				handleCaptchaCallback(token).then(() => {
-					success = true;
-
-					$name = '';
-					$email = '';
-					$message = '';
-				});
+				handleCaptchaCallback(token);
 			});
 		});
 	};
@@ -51,6 +45,14 @@
 			nombre: $name,
 			recaptchaToken: token
 		});
+
+		console.log('exito');
+
+		success = true;
+
+		$name = '';
+		$email = '';
+		$message = '';
 	};
 
 	onMount(() => {
