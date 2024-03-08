@@ -117,7 +117,7 @@
 			<ul class="list-disc text-white ml-5">
 				<li>
 					<strong>{lang.eventContent.firstElement[0]}:</strong>
-					<p>{lang.eventContent.fifthElement[1]}</p>
+					<p>{lang.eventContent.firstElement[1]}</p>
 				</li>
 
 				<li>
