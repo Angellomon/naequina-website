@@ -81,7 +81,7 @@ export const es = {
 		emailPlaceholder: 'Correo',
 		messagePlaceholder: 'Comentarios',
 		submitText: 'ENVIAR',
-		successMessage: '¡Solicutud enviada con éxito!'
+		successMessage: '¡Solicitud enviada con éxito!'
 	}
 };
 
@@ -102,12 +102,12 @@ export const en = {
 		leftConferenceText: {
 			conferenceNumber: '7TH.',
 			firstText: 'INTERNATIONAL',
-			secondText: 'CONFERENCE SERIES'
+			secondText: 'CONFERENCES'
 		},
 		rightConferenceText: {
 			firstText: 'FREE VIRTUAL',
-			secondText: 'EVENT WITH',
-			thirdText: 'CURRICULAR VALUE'
+			secondText: 'EVENT',
+			thirdText: 'WITH CURRICULAR VALUE'
 		}
 	},
 	eventDates: {
