@@ -5,12 +5,30 @@
 	import { es as lang } from '$lib/lang';
 
 	const logos = [
-		'logo-galope',
-		'logo-equitonik',
-		'logo-galotec',
-		'logo-grupo-nutec',
-		'logo-asociacion-mexicana-vet',
-		'logo-uvm'
+		{
+			logo: 'logo-galope',
+			link: ''
+		},
+		{
+			logo: 'logo-equitonik',
+			link: ''
+		},
+		{
+			logo: 'logo-galotec',
+			link: ''
+		},
+		{
+			logo: 'logo-grupo-nutec',
+			link: 'https://www.gponutec.com/'
+		},
+		{
+			logo: 'logo-asociacion-mexicana-vet',
+			link: 'https://ammvee.org.mx/'
+		},
+		{
+			logo: 'logo-uvm',
+			link: 'https://uvm.mx'
+		}
 	];
 	// padding for list py-7
 </script>
