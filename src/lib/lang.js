@@ -4,6 +4,13 @@ export const es = {
 		contactButton: 'CONTACTO'
 	},
 	jumbotron: {
+		eventDescription: [
+			'EL EVENTO DE',
+			'NUTRICIÓN ANIMAL EQUINA',
+			'MÁS IMPORTANTE',
+			'DE',
+			'HISPANOAMÉRICA'
+		],
 		mainTitle: {
 			first: 'SIETE AÑOS DE',
 			second: 'NAEQUINA,',
@@ -91,6 +98,7 @@ export const en = {
 		contactButton: 'CONTACT'
 	},
 	jumbotron: {
+		eventDescription: ['THE MOST IMPORTANT', 'EQUINE ANIMAL NUTRITION', 'EVENT IN LATIN AMERICA'],
 		mainTitle: {
 			first: 'SEVEN YEARS OF',
 			second: 'NAEQUINA,',

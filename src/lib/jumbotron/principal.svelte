@@ -158,7 +158,30 @@
 		</div>
 	</div>
 
-	<div class="w-full h-10 bg-black"></div>
+	<!-- <div class="w-full h-10 bg-black"></div> -->
+	<div
+		class="flex flex-col justify-center items-center bg-black py-3 text-2xl sm:text-3xl text-center"
+	>
+		{#if lang.lang == 'es'}
+			<p class="text-white">
+				{lang.jumbotron.eventDescription[0]}
+				<strong class="text-torch-red">{lang.jumbotron.eventDescription[1]}</strong>
+			</p>
+			<p class="text-white">
+				<strong class="text-white">{lang.jumbotron.eventDescription[2]}</strong>
+				{lang.jumbotron.eventDescription[3]}
+				<strong class="text-white">{lang.jumbotron.eventDescription[4]}</strong>
+			</p>
+		{:else}
+			<p class="text-white">
+				{lang.jumbotron.eventDescription[0]}
+				<strong class="text-torch-red">{lang.jumbotron.eventDescription[1]}</strong>
+			</p>
+			<p class="text-white">
+				{lang.jumbotron.eventDescription[2]}
+			</p>
+		{/if}
+	</div>
 
 	<div
 		id="contacto"
@@ -260,7 +283,8 @@
 
 <style>
 	h2,
-	ul li strong {
+	ul li strong,
+	strong {
 		font-family: 'Montserrat Bold';
 	}
 

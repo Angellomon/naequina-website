@@ -93,7 +93,7 @@
 		<img class="h-16 sm:h-24" src="/logo.png" alt="logo NAEQUINA" />
 	</a>
 
-	<div class="flex flex-row absolute z-50 right-4 sm:right-10 top-1/3">
+	<div class="flex flex-row items-center absolute z-50 right-4 sm:right-10 top-1/3">
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<a use:scrollTo={'contacto'} class="text-white px-5 py-2 contact hover:underline"
 			>{lang.header.contactButton}</a
