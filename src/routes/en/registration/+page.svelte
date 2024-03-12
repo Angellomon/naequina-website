@@ -3,6 +3,7 @@
 	import { en as lang } from '$lib/lang';
 
 	import Footer from '$lib/footer.svelte';
+	import EventbriteCheckout from '$lib/eventbrite-checkout.svelte';
 </script>
 
 <svelte:head>
@@ -59,5 +60,7 @@
 </svelte:head>
 
 <Header {lang} langUrl="/registro" />
+
+<EventbriteCheckout />
 
 <Footer />
