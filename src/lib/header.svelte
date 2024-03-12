@@ -27,7 +27,7 @@
 		<a
 			use:tooltip={{
 				position: 'bottom',
-				content: 'Switch to English',
+				content: lang.switchText,
 				action: 'hover',
 				arrow: true,
 				animation: 'slide'
@@ -35,7 +35,7 @@
 			href={langUrl}
 			class="w-[30px]"
 		>
-			<img src="/img/BANDERA-EUA.png" alt="USA" />
+			<img src={lang.flagUrl} alt="USA" />
 		</a>
 	</div>
 </header>
