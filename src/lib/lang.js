@@ -1,5 +1,7 @@
 export const es = {
 	lang: 'es',
+	flagUrl: '/img/BANDERA-EUA.png',
+	switchText: 'Switch to English',
 	header: {
 		contactButton: 'CONTACTO'
 	},
@@ -94,6 +96,8 @@ export const es = {
 
 export const en = {
 	lang: 'en',
+	switchText: 'Cambiar a Español',
+	flagUrl: '/img/BANDERA-MEXICO.png',
 	header: {
 		contactButton: 'CONTACT'
 	},
@@ -110,7 +114,7 @@ export const en = {
 		leftConferenceText: {
 			conferenceNumber: '7TH.',
 			firstText: 'INTERNATIONAL',
-			secondText: 'CONFERENCES'
+			secondText: 'CONFERENCE SERIES'
 		},
 		rightConferenceText: {
 			firstText: 'FREE VIRTUAL',
