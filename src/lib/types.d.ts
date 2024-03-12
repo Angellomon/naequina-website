@@ -3,5 +3,6 @@ export declare global {
 		handleCaptchaCallback: (token: string) => Promise<void>;
 		resetCaptcha: () => void;
 		handleCaptchaError: () => void;
+		EBWidgets: any;
 	}
 }
