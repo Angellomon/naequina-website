@@ -58,7 +58,7 @@
 	</script>
 </svelte:head>
 
-<Header {lang} />
+<Header {lang} langUrl="/" />
 
 <Jumbotron {lang} />
 
