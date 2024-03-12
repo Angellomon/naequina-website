@@ -29,4 +29,8 @@
 	>
 </svelte:head>
 <!-- Puedes personalizar este botón como quieras -->
-<button id="eventbrite-widget-modal-trigger-861021718137" type="button">Comprar boletos</button>
+<button
+	class="bg-torch-red text-white px-5- py-3 w-full"
+	id="eventbrite-widget-modal-trigger-861021718137"
+	type="button">Comprar boletos</button
+>
