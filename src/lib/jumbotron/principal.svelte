@@ -211,7 +211,7 @@
 						<strong>{doc.name}</strong>
 					</li>
 					{#if doc.email}
-						<p><a href={'mailto:' + doc.email}>santiago.garcia@uvmnet.edu</a></p>
+						<p><a href={'mailto:' + doc.email}>{doc.email}</a></p>
 					{/if}
 				{/each}
 			</ul>
