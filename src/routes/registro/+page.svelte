@@ -5,6 +5,7 @@
 	import Footer from '$lib/footer.svelte';
 	import EventbriteCheckout from '$lib/eventbrite-checkout.svelte';
 	import EventbriteButton from '$lib/eventbrite-button.svelte';
+	import { page } from '$app/stores';
 </script>
 
 <svelte:head>
@@ -62,7 +63,10 @@
 
 <Header {lang} langUrl="/en/registration" />
 
-<!-- <EventbriteButton /> -->
-<EventbriteCheckout />
+{#if $page.data.mode === 'btn'}
+	<EventbriteButton />
+{:else}
+	<EventbriteCheckout />
+{/if}
 
 <Footer />
