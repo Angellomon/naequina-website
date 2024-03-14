@@ -2,7 +2,7 @@
 	import { OnMount } from 'fractils';
 	import { fade } from 'svelte/transition';
 
-	import { en, es } from '$lib/lang';
+	import { en, es } from '$lib/langs';
 
 	/** @type {number}*/
 	export let year;

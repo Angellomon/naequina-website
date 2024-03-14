@@ -1,6 +1,6 @@
 <script>
 	import Header from '$lib/header.svelte';
-	import { en as lang } from '$lib/lang';
+	import { en as lang } from '$lib/langs';
 
 	import Footer from '$lib/footer.svelte';
 	import EventbriteCheckout from '$lib/eventbrite-checkout.svelte';

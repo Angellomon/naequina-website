@@ -2,7 +2,7 @@
 	import { tooltip } from '@svelte-plugins/tooltips';
 	import { scrollTo } from 'svelte-scrolling';
 
-	import { en, es } from '$lib/lang';
+	import { en, es } from '$lib/langs';
 
 	/** @type {(en | es)} */
 	export let lang;

@@ -15,7 +15,7 @@
 	import { sendMessage } from '$lib/requests';
 	import { onMount } from 'svelte';
 
-	import { en, es } from '$lib/lang';
+	import { en, es } from '$lib/langs';
 
 	const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 

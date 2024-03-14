@@ -1,7 +1,7 @@
 <script>
 	import { OnMount } from 'fractils';
 	import { fade } from 'svelte/transition';
-	import { en, es } from '$lib/lang';
+	import { en, es } from '$lib/langs';
 
 	/** @type {string}*/
 	export let month;

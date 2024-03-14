@@ -1,6 +1,6 @@
 <script>
 	import Jumbotron from '$lib/jumbotron/principal.svelte';
-	import { es as lang } from '$lib/lang';
+	import { es as lang } from '$lib/langs';
 	import Footer from '$lib/footer.svelte';
 	import Header from '$lib/header.svelte';
 </script>
