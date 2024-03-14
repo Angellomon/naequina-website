@@ -36,6 +36,8 @@
 
 				{#if pair[1]}
 					<Speaker speaker={pair[1]} white={i % 2 === 0} />
+				{:else}
+					<div class="w-full"></div>
 				{/if}
 			</div>
 		{/each}
