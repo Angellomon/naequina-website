@@ -35,8 +35,12 @@
 		class:bg-white={white}
 		class:bg-torch-red={!white}
 	>
-		<h2 class="text-2xl max-w-20 leading-7 mb-2" class:text-white={!white} class:text-black={white}>
-			{speaker.name}
+		<h2 class="text-2xl max-w-44 leading-7 mb-2" class:text-white={!white} class:text-black={white}>
+			{#if speaker.pre}
+				{speaker.pre}. {speaker.name}
+			{:else}
+				{speaker.name}
+			{/if}
 		</h2>
 
 		<p class="text-md max-w-[250px] leading-5" class:text-white={!white} class:text-black={white}>

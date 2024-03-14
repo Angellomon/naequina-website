@@ -97,7 +97,7 @@ export const es = {
 		{
 			id: 'alberto-casarin-valverde',
 			name: 'ALBERTO CASARÍN VALVERDE',
-			pre: '',
+			pre: 'DR',
 			description: 'Director Científico de Grupo Nutec',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -111,14 +111,14 @@ export const es = {
 		{
 			id: 'adriana-yolanda-diaz-archundia',
 			name: 'ADRIANA YOLANDA DÍAZ ARCHUNDIA',
-			pre: '',
+			pre: 'DRA',
 			description: 'FMVZ UAEM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
 		{
 			id: 'alfredo-julian-paredes',
 			name: 'ALFREDO JULIÁN PAREDES',
-			pre: '',
+			pre: 'DR',
 			description: 'Comité Mexicano de Arbitraje y Vigilancia de Carreras de Caballos y Galgos',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -132,13 +132,13 @@ export const es = {
 		{
 			id: 'bernardo-aguado-medina',
 			name: 'BERNARDO AGUADO MEDINA',
-			pre: '',
+			pre: 'MVZ',
 			description: 'Agribrands Purina México',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
 		{
 			id: 'bernardo-monroy-hernandez',
-			name: 'Bernardo Monroy Hernández',
+			name: 'BERNARDO MONROY HERNÁNDEZ',
 			pre: 'DR',
 			description: 'AMMVEE',
 			flagUrl: '/img/BANDERA-MEXICO.png'
@@ -146,7 +146,7 @@ export const es = {
 		{
 			id: 'chris-rogers',
 			name: 'CHRIS ROGERS',
-			pre: 'PROF',
+			pre: 'DR',
 			description: 'Massey University',
 			flagUrl: '/img/BANDERA-AUS.png'
 		},
@@ -216,7 +216,7 @@ export const es = {
 		{
 			id: 'ramiro-calderon-villa',
 			name: 'RAMIRO CALDERÓN VILLA',
-			pre: '',
+			pre: 'DR',
 			description: 'FMVZ UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -237,7 +237,7 @@ export const es = {
 		{
 			id: 'tamara-tamich-gallo',
 			name: 'TAMARA TAMICH GALLO',
-			pre: '',
+			pre: 'DRA',
 			description: 'Universidad Austral de Chile',
 			flagUrl: '/img/BANDERA-CHILE.png'
 		},
@@ -347,7 +347,7 @@ export const en = {
 		{
 			id: 'alberto-casarin-valverde',
 			name: 'ALBERTO CASARÍN VALVERDE',
-			pre: '',
+			pre: 'DR',
 			description: 'Director Científico de Grupo Nutec',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -361,14 +361,14 @@ export const en = {
 		{
 			id: 'adriana-yolanda-diaz-archundia',
 			name: 'ADRIANA YOLANDA DÍAZ ARCHUNDIA',
-			pre: '',
+			pre: 'DRA',
 			description: 'FMVZ UAEM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
 		{
 			id: 'alfredo-julian-paredes',
 			name: 'ALFREDO JULIÁN PAREDES',
-			pre: '',
+			pre: 'DR',
 			description: 'Comité Mexicano de Arbitraje y Vigilancia de Carreras de Caballos y Galgos',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -382,13 +382,13 @@ export const en = {
 		{
 			id: 'bernardo-aguado-medina',
 			name: 'BERNARDO AGUADO MEDINA',
-			pre: '',
+			pre: 'MVZ',
 			description: 'Agribrands Purina México',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
 		{
 			id: 'bernardo-monroy-hernandez',
-			name: 'Bernardo Monroy Hernández',
+			name: 'BERNARDO MONROY HERNÁNDEZ',
 			pre: 'DR',
 			description: 'AMMVEE',
 			flagUrl: '/img/BANDERA-MEXICO.png'
@@ -396,7 +396,7 @@ export const en = {
 		{
 			id: 'chris-rogers',
 			name: 'CHRIS ROGERS',
-			pre: 'PROF',
+			pre: 'DR',
 			description: 'Massey University',
 			flagUrl: '/img/BANDERA-AUS.png'
 		},
@@ -466,7 +466,7 @@ export const en = {
 		{
 			id: 'ramiro-calderon-villa',
 			name: 'RAMIRO CALDERÓN VILLA',
-			pre: '',
+			pre: 'DR',
 			description: 'FMVZ UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -487,7 +487,7 @@ export const en = {
 		{
 			id: 'tamara-tamich-gallo',
 			name: 'TAMARA TAMICH GALLO',
-			pre: '',
+			pre: 'DRA',
 			description: 'Universidad Austral de Chile',
 			flagUrl: '/img/BANDERA-CHILE.png'
 		},
