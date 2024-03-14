@@ -1,10 +1,12 @@
 <script>
 	import Header from '$lib/header.svelte';
-	import { es as lang } from '$lib/langs';
+	import { es } from '$lib/langs';
 
 	import Footer from '$lib/footer.svelte';
 	import EventbriteCheckout from '$lib/eventbrite-checkout.svelte';
-	import EventbriteButton from '$lib/eventbrite-button.svelte';
+	import { setContext } from 'svelte';
+
+	setContext('lang', es);
 </script>
 
 <svelte:head>
@@ -60,7 +62,7 @@
 	</script>
 </svelte:head>
 
-<Header {lang} langUrl="/en/registration" />
+<Header langUrl="/en/registration" />
 
 <EventbriteCheckout />
 

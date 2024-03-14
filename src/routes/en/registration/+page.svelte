@@ -1,9 +1,12 @@
 <script>
 	import Header from '$lib/header.svelte';
-	import { en as lang } from '$lib/langs';
+	import { en } from '$lib/langs';
 
 	import Footer from '$lib/footer.svelte';
 	import EventbriteCheckout from '$lib/eventbrite-checkout.svelte';
+	import { setContext } from 'svelte';
+
+	setContext('lang', en);
 </script>
 
 <svelte:head>
@@ -28,11 +31,11 @@
 			"@context": "https://schema.org/",
 			"@type": "Event",
 			"name": "NAEQUINA 2024",
-			"description": "El evento de nutrición animal equina más importante en Latinoamérica.",
+			"description": "THE MOST IMPORTANT EQUINE ANIMAL NUTRITION EVENT IN LATIN AMERICA.",
 			"event": [
 				{
-					"@type": "Event",
-					"name": "Inicio de Inscripciones",
+					"@type": "Event"
+					"name": "REGISTRATION STARTS ON",
 					"startDate": "2024-03-18T00:00-06:00",
 					"location": {
 						"@type": "Place",
@@ -59,7 +62,7 @@
 	</script>
 </svelte:head>
 
-<Header {lang} langUrl="/registro" />
+<Header langUrl="/registro" />
 
 <EventbriteCheckout />
 

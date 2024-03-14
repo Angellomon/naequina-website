@@ -1,23 +1,26 @@
 <script>
 	import Jumbotron from '$lib/jumbotron/principal.svelte';
-	import { en as lang } from '$lib/langs';
+	import { en } from '$lib/langs';
 	import Footer from '$lib/footer.svelte';
 	import Header from '$lib/header.svelte';
+	import { setContext } from 'svelte';
+
+	setContext('lang', en);
 </script>
 
 <svelte:head>
 	<title>NAEQUINA | NUTRICIÓN Y ALIMENTACIÓN EQUINA</title>
 	<meta
 		name="description"
-		content="El evento de Nutrición Animal Equina más importante en Latinoamérica"
+		content="THE MOST IMPORTANT EQUINE ANIMAL NUTRITION EVENT IN LATIN AMERICA"
 	/>
 
 	<meta property="og:title" content="NAEQUINA 2024" />
 	<meta
 		property="og:description"
-		content="El evento de Nutrición Animal Equina más importante en Latinoamérica"
+		content="THE MOST IMPORTANT EQUINE ANIMAL NUTRITION EVENT IN LATIN AMERICA"
 	/>
-	<meta property="og:locale" content="es_MX" />
+	<meta property="og:locale" content="en_US" />
 	<meta property="og:site_name" content="NAEQUINA" />
 	<meta property="og:image" content="https://naequina.com/logo-caballo.png" />
 	<meta property="og:url" content="https://naequina.com/" />
@@ -27,11 +30,11 @@
 			"@context": "https://schema.org/",
 			"@type": "Event",
 			"name": "NAEQUINA 2024",
-			"description": "El evento de nutrición animal equina más importante en Latinoamérica.",
+			"description": "THE MOST IMPORTANT EQUINE ANIMAL NUTRITION EVENT IN LATIN AMERICA.",
 			"event": [
 				{
-					"@type": "Event",
-					"name": "Inicio de Inscripciones",
+					"@type": "Event"
+					"name": "REGISTRATION STARTS ON",
 					"startDate": "2024-03-18T00:00-06:00",
 					"location": {
 						"@type": "Place",
@@ -58,8 +61,8 @@
 	</script>
 </svelte:head>
 
-<Header {lang} langUrl="/" />
+<Header langUrl="/" />
 
-<Jumbotron {lang} />
+<Jumbotron />
 
 <Footer />

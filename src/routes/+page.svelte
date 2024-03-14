@@ -1,8 +1,11 @@
 <script>
 	import Jumbotron from '$lib/jumbotron/principal.svelte';
-	import { es as lang } from '$lib/langs';
+	import { es } from '$lib/langs';
 	import Footer from '$lib/footer.svelte';
 	import Header from '$lib/header.svelte';
+	import { setContext } from 'svelte';
+
+	setContext('lang', es);
 </script>
 
 <svelte:head>
@@ -58,8 +61,8 @@
 	</script>
 </svelte:head>
 
-<Header {lang} />
+<Header />
 
-<Jumbotron {lang} />
+<Jumbotron />
 
 <Footer />

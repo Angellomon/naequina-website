@@ -3,15 +3,6 @@
 	import { fade } from 'svelte/transition';
 	import { en, es } from '$lib/langs';
 
-	/** @type {string}*/
-	export let month;
-
-	/** @type {number}*/
-	export let day;
-
-	/** @type {string}*/
-	export let startHour;
-
 	/** @type {(en | es)} */
 	export let lang;
 </script>

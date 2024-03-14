@@ -3,9 +3,10 @@
 	import { scrollTo } from 'svelte-scrolling';
 
 	import { en, es } from '$lib/langs';
+	import { getContext } from 'svelte';
 
 	/** @type {(en | es)} */
-	export let lang;
+	const lang = getContext('lang');
 
 	export let contactoId = 'contacto';
 	export let langUrl = '/en';

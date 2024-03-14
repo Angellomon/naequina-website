@@ -13,7 +13,7 @@
 	import { name, email, message } from '$lib/store';
 	import { handleCaptchaError, resetCaptcha } from '$lib/captcha';
 	import { sendMessage } from '$lib/requests';
-	import { onMount } from 'svelte';
+	import { getContext, onMount } from 'svelte';
 
 	import { en, es } from '$lib/langs';
 
@@ -22,7 +22,7 @@
 	let success = false;
 
 	/** @type {(en | es)} */
-	export let lang;
+	const lang = getContext('lang');
 
 	export const handleOnSubmit = () => {
 		// @ts-ignore
@@ -104,7 +104,7 @@
 			class="extra-large pl-10 sm:pl-[9rem] 2xl:pl-[28rem] w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center sm:justify-start items-start gap-20 md:gap-10 py-8 bg-black"
 		>
 			<Events_2Days {lang} day1={25} day2={26} month="abr" startHour="08:50" endHour="06:00" />
-			<AnnouncementRegistration {lang} day={18} month="MARZO" startHour="00:00" />
+			<AnnouncementRegistration {lang} />
 		</div>
 
 		<Horse />
