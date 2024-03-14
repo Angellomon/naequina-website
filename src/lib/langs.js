@@ -162,7 +162,7 @@ export const es = {
 			name: 'GULSAH KAYA KARASU',
 			pre: 'DR',
 			description: 'AGG Equine Nutrition Consultancy',
-			flagUrl: ''
+			flagUrl: '/img/BANDERA-TURK.png'
 		},
 		{
 			id: 'lucia-perez-manrique',
@@ -197,14 +197,14 @@ export const es = {
 			name: 'MERIEL MOORE-COLYER',
 			pre: 'DR',
 			description: 'Royal Agricultural University',
-			flagUrl: ''
+			flagUrl: '/img/BANDERA-UK.png'
 		},
 		{
 			id: 'pamela-thompson-morales',
 			name: 'PAMELA THOMPSON MORALES',
 			pre: 'PROF',
 			description: 'Sporotrichosis Group',
-			flagUrl: ''
+			flagUrl: '/img/BANDERA-CHILE.png'
 		},
 		{
 			id: 'peter-huntington',
@@ -239,7 +239,7 @@ export const es = {
 			name: 'TAMARA TAMICH GALLO',
 			pre: '',
 			description: 'Universidad Austral de Chile',
-			flagUrl: ''
+			flagUrl: '/img/BANDERA-CHILE.png'
 		},
 		{
 			id: 'wendy-pearson',
@@ -412,7 +412,7 @@ export const en = {
 			name: 'GULSAH KAYA KARASU',
 			pre: 'DR',
 			description: 'AGG Equine Nutrition Consultancy',
-			flagUrl: ''
+			flagUrl: '/img/BANDERA-TURK.png'
 		},
 		{
 			id: 'lucia-perez-manrique',
@@ -447,14 +447,14 @@ export const en = {
 			name: 'MERIEL MOORE-COLYER',
 			pre: 'DR',
 			description: 'Royal Agricultural University',
-			flagUrl: ''
+			flagUrl: '/img/BANDERA-UK.png'
 		},
 		{
 			id: 'pamela-thompson-morales',
 			name: 'PAMELA THOMPSON MORALES',
 			pre: 'PROF',
 			description: 'Sporotrichosis Group',
-			flagUrl: ''
+			flagUrl: '/img/BANDERA-CHILE.png'
 		},
 		{
 			id: 'peter-huntington',
@@ -489,7 +489,7 @@ export const en = {
 			name: 'TAMARA TAMICH GALLO',
 			pre: '',
 			description: 'Universidad Austral de Chile',
-			flagUrl: ''
+			flagUrl: '/img/BANDERA-CHILE.png'
 		},
 		{
 			id: 'wendy-pearson',
