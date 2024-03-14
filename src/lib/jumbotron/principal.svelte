@@ -6,11 +6,16 @@
 	import Heading from './heading.svelte';
 	import Spacer from '$lib/spacer.svelte';
 	import EventContent from './event-content.svelte';
+	import Speakers from '$lib/speakers.svelte';
 </script>
 
 <Heading />
 
 <EventContent />
+
+<Speakers />
+
+<div class="w-full h-10 bg-black"></div>
 
 <div
 	id="contacto"
@@ -19,6 +24,7 @@
 >
 	<ContactoInfo />
 </div>
+
 <div class="w-full h-10 bg-black"></div>
 
 <div
