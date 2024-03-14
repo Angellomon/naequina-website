@@ -106,7 +106,7 @@ export const es = {
 			name: 'KATHLEEN CRANDELL',
 			pre: 'DRA',
 			description: 'Universidad de Gelph',
-			flagUrl: '/img/BANDERA-USA.png'
+			flagUrl: '/img/BANDERA-EUA.png'
 		},
 		{
 			id: 'adriana-yolanda-diaz-archundia',
@@ -248,7 +248,10 @@ export const es = {
 			description: 'Universidad de Guelph',
 			flagUrl: '/img/BANDERA-CANADA.png'
 		}
-	]
+	],
+	speakersText: {
+		title: 'PONENTES'
+	}
 };
 
 export const en = {
@@ -353,7 +356,7 @@ export const en = {
 			name: 'KATHLEEN CRANDELL',
 			pre: 'DRA',
 			description: 'Universidad de Gelph',
-			flagUrl: '/img/BANDERA-USA.png'
+			flagUrl: '/img/BANDERA-EUA.png'
 		},
 		{
 			id: 'adriana-yolanda-diaz-archundia',
@@ -495,5 +498,8 @@ export const en = {
 			description: 'Universidad de Guelph',
 			flagUrl: '/img/BANDERA-CANADA.png'
 		}
-	]
+	],
+	speakersText: {
+		title: 'SPEAKERS'
+	}
 };
