@@ -92,7 +92,163 @@ export const es = {
 		submitText: 'ENVIAR',
 		successMessage: '¡Solicitud enviada con éxito!'
 	},
-	title: 'NAEQUINA | NUTRICIÓN Y ALIMENTACIÓN EQUINA'
+	title: 'NAEQUINA | NUTRICIÓN Y ALIMENTACIÓN EQUINA',
+	speakers: [
+		{
+			id: 'alberto-casarin-valverde',
+			name: 'ALBERTO CASARÍN VALVERDE',
+			pre: '',
+			description: 'Director Científico de Grupo Nutec',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'kathleen-crandell',
+			name: 'KATHLEEN CRANDELL',
+			pre: 'DRA',
+			description: 'Universidad de Gelph',
+			flagUrl: '/img/BANDERA-USA.png'
+		},
+		{
+			id: 'adriana-yolanda-diaz-archundia',
+			name: 'ADRIANA YOLANDA DÍAZ ARCHUNDIA',
+			pre: '',
+			description: 'FMVZ UAEM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'alfredo-julian-paredes',
+			name: 'ALFREDO JULIÁN PAREDES',
+			pre: '',
+			description: 'Comité Mexicano de Arbitraje y Vigilancia de Carreras de Caballos y Galgos',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'ana-cecilia-gomez-campos',
+			name: 'ANA CECILIA GÓMEZ CAMPOS',
+			pre: 'DRA',
+			description: 'AMMVEE',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'bernardo-aguado-medina',
+			name: 'BERNARDO AGUADO MEDINA',
+			pre: '',
+			description: 'Agribrands Purina México',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'bernardo-monroy-hernandez',
+			name: 'Bernardo Monroy Hernández',
+			pre: 'DR',
+			description: 'AMMVEE',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'chris-rogers',
+			name: 'CHRIS ROGERS',
+			pre: 'PROF',
+			description: 'Massey University',
+			flagUrl: '/img/BANDERA-AUS.png'
+		},
+		{
+			id: 'elias-velazquez-canton',
+			name: 'ELÍAS VELÁZQUEZ CANTÓN',
+			pre: 'DR',
+			description: 'GRUPO NUTEC',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'gulsah-kaya-karasu',
+			name: 'GULSAH KAYA KARASU',
+			pre: 'DR',
+			description: 'AGG Equine Nutrition Consultancy',
+			flagUrl: ''
+		},
+		{
+			id: 'lucia-perez-manrique',
+			name: 'LUCIA PÉREZ MANRIQUE',
+			pre: 'DRA',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'maria-esther-ortega-cerrilla',
+			name: 'MARÍA ESTHER ORTEGA CARRILLA',
+			pre: 'DRA',
+			description: 'Sistema Nacional de Investigadores',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'maria-masri-daba',
+			name: 'MARÍA MASRI DABA',
+			pre: 'DRA',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'mariano-hernandez-gil',
+			name: 'MARIANO HERNÁNDEZ GIL',
+			pre: '',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'meriel-moore-colyer',
+			name: 'MERIEL MOORE-COLYER',
+			pre: 'DR',
+			description: 'Royal Agricultural University',
+			flagUrl: ''
+		},
+		{
+			id: 'pamela-thompson-morales',
+			name: 'PAMELA THOMPSON MORALES',
+			pre: 'PROF',
+			description: 'Sporotrichosis Group',
+			flagUrl: ''
+		},
+		{
+			id: 'peter-huntington',
+			name: 'PETER HUNTINGTON',
+			pre: 'DR',
+			description: 'Kentucky Equine Research',
+			flagUrl: '/img/BANDERA-AUS.png'
+		},
+		{
+			id: 'ramiro-calderon-villa',
+			name: 'RAMIRO CALDERÓN VILLA',
+			pre: '',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'santiago-garcia-pasquel',
+			name: 'SANTIAGO GARCÍA PASQUEL',
+			pre: 'DR',
+			description: 'UVM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'silvia-elena-buntinx-dios',
+			name: 'SILVIA ELENA BUNTINX DIOS',
+			pre: 'DRA',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'tamara-tamich-gallo',
+			name: 'TAMARA TAMICH GALLO',
+			pre: '',
+			description: 'Universidad Austral de Chile',
+			flagUrl: ''
+		},
+		{
+			id: 'wendy-pearson',
+			name: 'WENDY PEARSON',
+			pre: 'DRA',
+			description: 'Universidad de Guelph',
+			flagUrl: '/img/BANDERA-CANADA.png'
+		}
+	]
 };
 
 export const en = {
@@ -183,5 +339,161 @@ export const en = {
 		submitText: 'SEND',
 		successMessage: 'Request successfully sent!'
 	},
-	title: 'NAEQUINA | EQUINE ANIMAL NUTRITION AND FEEDING'
+	title: 'NAEQUINA | EQUINE ANIMAL NUTRITION AND FEEDING',
+	speakers: [
+		{
+			id: 'alberto-casarin-valverde',
+			name: 'ALBERTO CASARÍN VALVERDE',
+			pre: '',
+			description: 'Director Científico de Grupo Nutec',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'kathleen-crandell',
+			name: 'KATHLEEN CRANDELL',
+			pre: 'DRA',
+			description: 'Universidad de Gelph',
+			flagUrl: '/img/BANDERA-USA.png'
+		},
+		{
+			id: 'adriana-yolanda-diaz-archundia',
+			name: 'ADRIANA YOLANDA DÍAZ ARCHUNDIA',
+			pre: '',
+			description: 'FMVZ UAEM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'alfredo-julian-paredes',
+			name: 'ALFREDO JULIÁN PAREDES',
+			pre: '',
+			description: 'Comité Mexicano de Arbitraje y Vigilancia de Carreras de Caballos y Galgos',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'ana-cecilia-gomez-campos',
+			name: 'ANA CECILIA GÓMEZ CAMPOS',
+			pre: 'DRA',
+			description: 'AMMVEE',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'bernardo-aguado-medina',
+			name: 'BERNARDO AGUADO MEDINA',
+			pre: '',
+			description: 'Agribrands Purina México',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'bernardo-monroy-hernandez',
+			name: 'Bernardo Monroy Hernández',
+			pre: 'DR',
+			description: 'AMMVEE',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'chris-rogers',
+			name: 'CHRIS ROGERS',
+			pre: 'PROF',
+			description: 'Massey University',
+			flagUrl: '/img/BANDERA-AUS.png'
+		},
+		{
+			id: 'elias-velazquez-canton',
+			name: 'ELÍAS VELÁZQUEZ CANTÓN',
+			pre: 'DR',
+			description: 'GRUPO NUTEC',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'gulsah-kaya-karasu',
+			name: 'GULSAH KAYA KARASU',
+			pre: 'DR',
+			description: 'AGG Equine Nutrition Consultancy',
+			flagUrl: ''
+		},
+		{
+			id: 'lucia-perez-manrique',
+			name: 'LUCIA PÉREZ MANRIQUE',
+			pre: 'DRA',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'maria-esther-ortega-cerrilla',
+			name: 'MARÍA ESTHER ORTEGA CARRILLA',
+			pre: 'DRA',
+			description: 'Sistema Nacional de Investigadores',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'maria-masri-daba',
+			name: 'MARÍA MASRI DABA',
+			pre: 'DRA',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'mariano-hernandez-gil',
+			name: 'MARIANO HERNÁNDEZ GIL',
+			pre: '',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'meriel-moore-colyer',
+			name: 'MERIEL MOORE-COLYER',
+			pre: 'DR',
+			description: 'Royal Agricultural University',
+			flagUrl: ''
+		},
+		{
+			id: 'pamela-thompson-morales',
+			name: 'PAMELA THOMPSON MORALES',
+			pre: 'PROF',
+			description: 'Sporotrichosis Group',
+			flagUrl: ''
+		},
+		{
+			id: 'peter-huntington',
+			name: 'PETER HUNTINGTON',
+			pre: 'DR',
+			description: 'Kentucky Equine Research',
+			flagUrl: '/img/BANDERA-AUS.png'
+		},
+		{
+			id: 'ramiro-calderon-villa',
+			name: 'RAMIRO CALDERÓN VILLA',
+			pre: '',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'santiago-garcia-pasquel',
+			name: 'SANTIAGO GARCÍA PASQUEL',
+			pre: 'DR',
+			description: 'UVM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'silvia-elena-buntinx-dios',
+			name: 'SILVIA ELENA BUNTINX DIOS',
+			pre: 'DRA',
+			description: 'FMVZ UNAM',
+			flagUrl: '/img/BANDERA-MEXICO.png'
+		},
+		{
+			id: 'tamara-tamich-gallo',
+			name: 'TAMARA TAMICH GALLO',
+			pre: '',
+			description: 'Universidad Austral de Chile',
+			flagUrl: ''
+		},
+		{
+			id: 'wendy-pearson',
+			name: 'WENDY PEARSON',
+			pre: 'DRA',
+			description: 'Universidad de Guelph',
+			flagUrl: '/img/BANDERA-CANADA.png'
+		}
+	]
 };
