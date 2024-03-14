@@ -2,9 +2,10 @@
 	import { OnMount } from 'fractils';
 	import { fade } from 'svelte/transition';
 	import { es, en } from '$lib/langs';
+	import { getContext } from 'svelte';
 
-	/** @type {(es | en)} */
-	export let lang;
+	/** @type {(en | es)} */
+	const lang = getContext('lang');
 </script>
 
 <OnMount>

@@ -1,5 +1,5 @@
 <script>
-	import { fade, slide } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 	import { OnMount } from 'fractils';
 	import { scrollRef } from 'svelte-scrolling';
 	import { fly } from 'svelte/transition';
@@ -10,56 +10,13 @@
 	import Events_2Days from './events-2-days.svelte';
 	import AnnouncementRegistration from './announcement-registration.svelte';
 
-	import { name, email, message } from '$lib/store';
-	import { handleCaptchaError, resetCaptcha } from '$lib/captcha';
-	import { sendMessage } from '$lib/requests';
-	import { getContext, onMount } from 'svelte';
+	import { getContext } from 'svelte';
 
 	import { en, es } from '$lib/langs';
-
-	const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
-
-	let success = false;
+	import ContactForm from '$lib/contact-form.svelte';
 
 	/** @type {(en | es)} */
 	const lang = getContext('lang');
-
-	export const handleOnSubmit = () => {
-		// @ts-ignore
-		grecaptcha.ready(function () {
-			// @ts-ignore
-			grecaptcha.execute(recaptchaSiteKey, { action: 'submit' }).then(function (token) {
-				// Add your logic to submit to your backend server here.
-				handleCaptchaCallback(token);
-			});
-		});
-	};
-
-	/**
-	 * @param {string} token
-	 */
-	const handleCaptchaCallback = async (token) => {
-		await sendMessage({
-			correo: $email,
-			mensaje: $message,
-			nombre: $name,
-			recaptchaToken: token
-		});
-
-		console.log('exito');
-
-		success = true;
-
-		$name = '';
-		$email = '';
-		$message = '';
-	};
-
-	onMount(() => {
-		window.handleCaptchaCallback = handleCaptchaCallback;
-		window.handleCaptchaError = handleCaptchaError;
-		window.resetCaptcha = resetCaptcha;
-	});
 </script>
 
 <OnMount>
@@ -96,15 +53,15 @@
 		<div
 			class="extra-large 2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 		>
-			<TitleConferencias {lang} year={2024} />
-			<Message {lang} />
+			<TitleConferencias year={2024} />
+			<Message />
 		</div>
 
 		<div
 			class="extra-large pl-10 sm:pl-[9rem] 2xl:pl-[28rem] w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center sm:justify-start items-start gap-20 md:gap-10 py-8 bg-black"
 		>
-			<Events_2Days {lang} day1={25} day2={26} month="abr" startHour="08:50" endHour="06:00" />
-			<AnnouncementRegistration {lang} />
+			<Events_2Days day1={25} day2={26} startHour="08:50" endHour="06:00" />
+			<AnnouncementRegistration />
 		</div>
 
 		<Horse />
@@ -182,102 +139,47 @@
 			</p>
 		{/if}
 	</div>
-
-	<div
-		id="contacto"
-		use:scrollRef={'contacto'}
-		class="extra-large-right sm:pl-[7rem] md:pl-[11rem] pr-10 sm:pr-[7rem] md:pr-[8rem] lg:pr-[14rem] 2xl:pr-[28rem] px-14 flex flex-col-reverse md:flex-row justify-between items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-l from-torch-red to-black to-80%"
-	>
-		<div class="flex flex-col">
-			<div transition:fade class="text-white uppercase text-sm">
-				<p>UNIVERSIDAD DEL VALLE DE MÉXICO</p>
-				<p>CAMPUS SUR, SEDE COYOACÁN,</p>
-				<p>ASOCIACIÓN MEXICANA DE MÉDICOS</p>
-				<p>VETERINARIOS ESPECIALISTAS EN</p>
-				<p>EQUINOS, A.C. (AMMVEE),</p>
-				<p>DEPARTAMENTO DE NUTRICIÓN</p>
-				<p>ANIMAL Y BIOQUÍMICA, FMVZ-UNAM</p>
-			</div>
-		</div>
-
-		<div class="flex flex-col items-end">
-			<h2 class="text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
-				{lang.eventContactInfo.title}
-			</h2>
-
-			<ul class="text-white list-none text-right sm:pr-5">
-				{#each lang.eventContactInfo.doctrsList as doc}
-					<li>
-						<strong>{doc.name}</strong>
-					</li>
-					{#if doc.email}
-						<p><a href={'mailto:' + doc.email}>{doc.email}</a></p>
-					{/if}
-				{/each}
-			</ul>
+</OnMount>
+<div
+	id="contacto"
+	use:scrollRef={'contacto'}
+	class="extra-large-right sm:pl-[7rem] md:pl-[11rem] pr-10 sm:pr-[7rem] md:pr-[8rem] lg:pr-[14rem] 2xl:pr-[28rem] px-14 flex flex-col-reverse md:flex-row justify-between items-center gap-10 py-7 w-full bg-torch-red bg-gradient-to-l from-torch-red to-black to-80%"
+>
+	<div class="flex flex-col">
+		<div transition:fade class="text-white uppercase text-sm">
+			<p>UNIVERSIDAD DEL VALLE DE MÉXICO</p>
+			<p>CAMPUS SUR, SEDE COYOACÁN,</p>
+			<p>ASOCIACIÓN MEXICANA DE MÉDICOS</p>
+			<p>VETERINARIOS ESPECIALISTAS EN</p>
+			<p>EQUINOS, A.C. (AMMVEE),</p>
+			<p>DEPARTAMENTO DE NUTRICIÓN</p>
+			<p>ANIMAL Y BIOQUÍMICA, FMVZ-UNAM</p>
 		</div>
 	</div>
-</OnMount>
+
+	<div class="flex flex-col items-end">
+		<h2 class="text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
+			{lang.eventContactInfo.title}
+		</h2>
+
+		<ul class="text-white list-none text-right sm:pr-5">
+			{#each lang.eventContactInfo.doctrsList as doc}
+				<li>
+					<strong>{doc.name}</strong>
+				</li>
+				{#if doc.email}
+					<p><a href={'mailto:' + doc.email}>{doc.email}</a></p>
+				{/if}
+			{/each}
+		</ul>
+	</div>
+</div>
 <div class="w-full h-10 bg-black"></div>
 
 <div
 	class="contacto px-14 flex flex-col sm:flex-row justify-center items-center gap-10 py-7 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 >
-	<div class="flex flex-col">
-		<h2 class="w-min min-w-[12rem] text-right upper bg-black text-white text-2xl px-3 py-3 mb-4">
-			{lang.eventContact.title}
-		</h2>
-
-		<form class="flex flex-col gap-5 relative" on:submit|preventDefault={handleOnSubmit}>
-			<div class="flex flex-col sm:flex-row gap-5">
-				<input
-					class="rounded-md py-2 px-3"
-					type="text"
-					placeholder={lang.eventContact.namePlaceholder}
-					name="nombre"
-					id="nombre"
-					required
-					bind:value={$name}
-				/>
-				<input
-					class="rounded-md py-2 px-3"
-					type="email"
-					placeholder={lang.eventContact.emailPlaceholder}
-					name="correo"
-					id="correo"
-					required
-					bind:value={$email}
-				/>
-			</div>
-
-			<div class="flex flex-col">
-				<textarea
-					class="rounded-md py-2 px-3"
-					name="mensaje"
-					id="mensaje"
-					cols="30"
-					rows="6"
-					placeholder={lang.eventContact.messagePlaceholder}
-					required
-					bind:value={$message}
-				></textarea>
-			</div>
-
-			<div class="flex flex-row items-baseline gap-4 static right-5 bottom-5">
-				<input
-					class="g-recaptcha w-min transition-all ease-in-out text-right upper bg-transparent hover:bg-black hover:cursor-pointer text-white text-2xl px-3 py-3 mb-4"
-					type="submit"
-					value={lang.eventContact.submitText}
-				/>
-
-				{#if success}
-					<p class="text-white" transition:slide={{ axis: 'y' }}>
-						{lang.eventContact.successMessage}
-					</p>
-				{/if}
-			</div>
-		</form>
-	</div>
+	<ContactForm />
 	<div class="spacer flex flex-col"></div>
 </div>
 
@@ -286,11 +188,6 @@
 	ul li strong,
 	strong {
 		font-family: 'Montserrat Bold';
-	}
-
-	form {
-		font-family: 'Montserrat Regular';
-		font-weight: bold;
 	}
 
 	ul li p {

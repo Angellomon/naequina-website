@@ -3,12 +3,13 @@
 	import { fade } from 'svelte/transition';
 
 	import { en, es } from '$lib/langs';
+	import { getContext } from 'svelte';
 
 	/** @type {number}*/
 	export let year;
 
 	/** @type {(en | es)} */
-	export let lang;
+	const lang = getContext('lang');
 </script>
 
 <OnMount>

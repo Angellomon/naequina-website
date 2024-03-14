@@ -2,6 +2,7 @@
 	import { OnMount } from 'fractils';
 	import { fade } from 'svelte/transition';
 	import { es, en } from '$lib/langs';
+	import { getContext } from 'svelte';
 
 	/** @type {number}*/
 	export let day1;
@@ -15,11 +16,8 @@
 	/** @type {string}*/
 	export let endHour;
 
-	/** @type {string}*/
-	export let month;
-
 	/** @type {(en | es)} */
-	export let lang;
+	const lang = getContext('lang');
 </script>
 
 <OnMount>
