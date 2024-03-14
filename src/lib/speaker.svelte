@@ -12,12 +12,12 @@
 </script>
 
 <div
-	class="flex flex-row justify-center gap-5 w-full h-[250px] sm:h-[200px]"
-	class:bg-white={!white}
-	class:bg-torch-red={white}
+	class="flex flex-row justify-center gap-5 bg-black border-2 w-full h-[250px] sm:h-[200px]"
+	class:border-torch-red={!white}
+	class:border-white={white}
 >
 	<div
-		class="relative w-[200px]"
+		class="relative w-[200px] m-2"
 		style={`background: no-repeat center/cover url("/img/ponentes/${speaker.id}.png");`}
 	>
 		<!-- <img
@@ -27,15 +27,15 @@
 			class:big={bigPhoto}
 		/> -->
 
-		<img src={speaker.flagUrl} alt={speaker.flagUrl} class="absolute bottom-1 right-2 w-[50px]" />
+		<img
+			src={speaker.flagUrl}
+			alt={speaker.flagUrl}
+			class="absolute bottom-1 -right-6 w-[50px] z-10 rounded-full border-2 border-solid border-white"
+		/>
 	</div>
 
-	<div
-		class="flex flex-col px-7 py-3 flex-1 min-w-48"
-		class:bg-white={white}
-		class:bg-torch-red={!white}
-	>
-		<h2 class="text-2xl max-w-44 leading-7 mb-2" class:text-white={!white} class:text-black={white}>
+	<div class="flex flex-col px-7 py-3 flex-1 min-w-48">
+		<h2 class="text-2xl max-w-44 leading-7 mb-2 text-white">
 			{#if speaker.pre}
 				{speaker.pre}. {speaker.name}
 			{:else}
@@ -43,7 +43,7 @@
 			{/if}
 		</h2>
 
-		<p class="text-md max-w-[250px] leading-5" class:text-white={!white} class:text-black={white}>
+		<p class="text-md max-w-[250px] leading-5 text-white">
 			{speaker.description}
 		</p>
 	</div>
