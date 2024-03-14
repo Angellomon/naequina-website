@@ -13,13 +13,13 @@
 	<title>NAEQUINA | NUTRICIÓN Y ALIMENTACIÓN EQUINA</title>
 	<meta
 		name="description"
-		content="El evento de Nutrición Animal Equina más importante en Latinoamérica"
+		content="THE MOST IMPORTANT EQUINE ANIMAL NUTRITION EVENT IN LATIN AMERICA"
 	/>
 
 	<meta property="og:title" content="NAEQUINA 2024" />
 	<meta
 		property="og:description"
-		content="El evento de Nutrición Animal Equina más importante en Latinoamérica"
+		content="THE MOST IMPORTANT EQUINE ANIMAL NUTRITION EVENT IN LATIN AMERICA"
 	/>
 	<meta property="og:locale" content="es_MX" />
 	<meta property="og:site_name" content="NAEQUINA" />
