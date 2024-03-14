@@ -16,7 +16,7 @@
 	}
 </script>
 
-<div class="flex flex-col">
+<div class="bg-black flex flex-col gap-2">
 	<div
 		class="flex justify-center py-3 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 	>
@@ -31,7 +31,7 @@
 
 	<div class="bg-black flex flex-col">
 		{#each speakersPairs as pair, i}
-			<div class="flex flex-col md:flex-row" class:flex-col-reverse={i % 2 !== 0}>
+			<div class="flex flex-col md:flex-row gap-2" class:flex-col-reverse={i % 2 !== 0}>
 				<Speaker speaker={pair[0]} white={i % 2 !== 0} />
 
 				{#if pair[1]}
