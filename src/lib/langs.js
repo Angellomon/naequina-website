@@ -188,7 +188,7 @@ export const es = {
 		{
 			id: 'mariano-hernandez-gil',
 			name: 'MARIANO HERNÁNDEZ GIL',
-			pre: '',
+			pre: 'DR',
 			description: 'FMVZ UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -202,7 +202,7 @@ export const es = {
 		{
 			id: 'pamela-thompson-morales',
 			name: 'PAMELA THOMPSON MORALES',
-			pre: 'PROF',
+			pre: 'DRA',
 			description: 'Sporotrichosis Group',
 			flagUrl: '/img/BANDERA-CHILE.png'
 		},
@@ -438,7 +438,7 @@ export const en = {
 		{
 			id: 'mariano-hernandez-gil',
 			name: 'MARIANO HERNÁNDEZ GIL',
-			pre: '',
+			pre: 'DR',
 			description: 'FMVZ UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -452,7 +452,7 @@ export const en = {
 		{
 			id: 'pamela-thompson-morales',
 			name: 'PAMELA THOMPSON MORALES',
-			pre: 'PROF',
+			pre: 'DRA',
 			description: 'Sporotrichosis Group',
 			flagUrl: '/img/BANDERA-CHILE.png'
 		},
