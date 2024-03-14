@@ -91,7 +91,8 @@ export const es = {
 		messagePlaceholder: 'Comentarios',
 		submitText: 'ENVIAR',
 		successMessage: '¡Solicitud enviada con éxito!'
-	}
+	},
+	title: 'NAEQUINA | NUTRICIÓN Y ALIMENTACIÓN EQUINA'
 };
 
 export const en = {
@@ -181,5 +182,6 @@ export const en = {
 		messagePlaceholder: 'Message',
 		submitText: 'SEND',
 		successMessage: 'Request successfully sent!'
-	}
+	},
+	title: 'NAEQUINA | EQUINE ANIMAL NUTRITION AND FEEDING'
 };

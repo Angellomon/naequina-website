@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>NAEQUINA | NUTRICIÓN Y ALIMENTACIÓN EQUINA</title>
+	<title>NAEQUINA | EQUINE ANIMAL NUTRITION AND FEEDING</title>
 	<meta
 		name="description"
 		content="THE MOST IMPORTANT EQUINE ANIMAL NUTRITION EVENT IN LATIN AMERICA"
