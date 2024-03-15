@@ -339,7 +339,7 @@ export const es = {
 					endHour: '11:25'
 				},
 				{
-					contents: `<p>RECESO</p>`,
+					contents: `<p><strong>CLAUSURA</strong></p>`,
 					cols: 1,
 					startHour: '11:25',
 					endHour: '12:10'
@@ -560,7 +560,7 @@ export const es = {
 					endHour: '16:20'
 				},
 				{
-					contents: `<p><strongMESA REDONDA: SIETE AÑOS DE NAEQUINA.
+					contents: `<p>MESA REDONDA: SIETE AÑOS DE NAEQUINA.
 						<br>
 						<br>CONDUCE DRA. SILVIA E. BUNTINX DIOS. FMVZ-UNAM</strong>
 						<br><strong>DRA. MARIA MASRI DABA</strong>
@@ -574,7 +574,7 @@ export const es = {
 						<br><strong>DR. ALFREDO JULIÁN PAREDES</strong>
 						<br>PRÁCTICA PRIVADA
 						<br>
-						<br>CLAUSURA</p>`,
+						<br><strong>CLAUSURA</strong></p>`,
 					cols: 1,
 					extraContent: '',
 					startHour: '16:20',
@@ -919,7 +919,7 @@ export const en = {
 					endHour: '11:25'
 				},
 				{
-					contents: `<p>RECESO</p>`,
+					contents: `<p><strong>CLAUSURA</strong></p>`,
 					cols: 1,
 					startHour: '11:25',
 					endHour: '12:10'
@@ -1140,7 +1140,7 @@ export const en = {
 					endHour: '16:20'
 				},
 				{
-					contents: `<p><strongMESA REDONDA: SIETE AÑOS DE NAEQUINA.
+					contents: `<p>MESA REDONDA: SIETE AÑOS DE NAEQUINA.
 						<br>
 						<br>CONDUCE DRA. SILVIA E. BUNTINX DIOS. FMVZ-UNAM</strong>
 						<br><strong>DRA. MARIA MASRI DABA</strong>
@@ -1154,7 +1154,7 @@ export const en = {
 						<br><strong>DR. ALFREDO JULIÁN PAREDES</strong>
 						<br>PRÁCTICA PRIVADA
 						<br>
-						<br>CLAUSURA</p>`,
+						<br><strong>CLAUSURA</strong></p>`,
 					cols: 1,
 					extraContent: '',
 					startHour: '16:20',
