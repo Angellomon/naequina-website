@@ -689,21 +689,21 @@ export const en = {
 		{
 			id: 'wendy-pearson',
 			name: 'WENDY PEARSON',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'Universidad de Guelph',
 			flagUrl: '/img/BANDERA-CANADA.png'
 		},
 		{
 			id: 'kathleen-crandell',
 			name: 'KATHLEEN CRANDELL',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'Kentucky Equine Research, USA',
 			flagUrl: '/img/BANDERA-EUA.png'
 		},
 		{
 			id: 'adriana-yolanda-diaz-archundia',
 			name: 'ADRIANA YOLANDA DÍAZ ARCHUNDIA',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'UAEMEX',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -717,7 +717,7 @@ export const en = {
 		{
 			id: 'ana-cecilia-gomez-campos',
 			name: 'ANA CECILIA GÓMEZ CAMPOS',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'GRUPO NUTEC',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -759,21 +759,21 @@ export const en = {
 		{
 			id: 'lucia-perez-manrique',
 			name: 'LUCIA PÉREZ MANRIQUE',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
 		{
 			id: 'maria-esther-ortega-cerrilla',
 			name: 'MARÍA ESTHER ORTEGA CERRILLA',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'Colegio de Postgraduados',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
 		{
 			id: 'maria-masri-daba',
 			name: 'MARÍA MASRI DABA',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
@@ -787,14 +787,14 @@ export const en = {
 		{
 			id: 'meriel-moore-colyer',
 			name: 'MERIEL MOORE-COLYER',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'Consultoral Independiente en el Reino Unido',
 			flagUrl: '/img/BANDERA-UK.png'
 		},
 		{
 			id: 'pamela-thomson-morales',
 			name: 'PAMELA THOMSON MORALES',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'Universidad Andrés Bello, Santiago de Chile',
 			flagUrl: '/img/BANDERA-CHILE.png'
 		},
@@ -822,14 +822,14 @@ export const en = {
 		{
 			id: 'silvia-elena-buntinx-dios',
 			name: 'SILVIA ELENA BUNTINX DIOS',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'FMVZ UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
 		{
 			id: 'tamara-tadich-gallo',
 			name: 'TAMARA TADICH GALLO',
-			pre: 'DRA',
+			pre: 'DR',
 			description: 'Universidad Austral de Chile',
 			flagUrl: '/img/BANDERA-CHILE.png'
 		}
@@ -1088,7 +1088,7 @@ export const en = {
 				},
 				{
 					contents: `<p><strong>DR. LUCÍA PÉREZ MANRIQUE</strong>
-						<br>DETHOLOGY, WILDLIFE, AND LABORATORY
+						<br>ETHOLOGY, WILDLIFE, AND LABORATORY
 						<br>ANIMALS DEPT.</p>`,
 					cols: 2,
 					extraContent: `<p>EFFECT OF FEEDING ON HORSE WELFARE</p>`,
