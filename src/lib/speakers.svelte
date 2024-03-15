@@ -24,7 +24,7 @@
 	</div>
 
 	<div
-		class="flex flex-row sm:px-32 lg:px-72 xl:px-[30vw] 2xl:px-[35vw] justify-center bg-black max-h-[200px] sm:max-h-[250px]"
+		class="flex flex-row sm:px-32 lg:px-72 xl:px-[30vw] 2xl:px-[35vw] justify-center bg-black px-2"
 	>
 		<Speaker speaker={speakers[0]} />
 	</div>
