@@ -16,6 +16,8 @@
 
 <Speakers />
 
+<div class="w-full h-10 bg-black"></div>
+
 <Programs />
 
 <div class="w-full h-10 bg-black"></div>
