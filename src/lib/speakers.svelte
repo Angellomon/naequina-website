@@ -29,7 +29,7 @@
 		<Speaker speaker={speakers[0]} />
 	</div>
 
-	<div class="bg-black flex flex-col gap-3">
+	<div class="bg-black flex flex-col gap-3 px-2">
 		{#each speakersPairs as pair, i}
 			<div class="flex flex-col md:flex-row gap-3" class:flex-col-reverse={i % 2 !== 0}>
 				<Speaker speaker={pair[0]} white={i % 2 !== 0} />
