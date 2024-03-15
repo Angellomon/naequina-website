@@ -256,7 +256,8 @@ export const es = {
 	speakersText: {
 		title: 'PONENTES'
 	},
-	programsTitle: 'PROGRAMA',
+	programsText: 'PROGRAMA',
+	conferenciaText: 'CONFERENCIA',
 	programs: [
 		{
 			date: ['JUEVES 25', 'DE ABRIL'],
@@ -836,7 +837,8 @@ export const en = {
 	speakersText: {
 		title: 'SPEAKERS'
 	},
-	programsTitle: 'PROGRAM',
+	programsText: 'PROGRAM',
+	conferenciaText: 'CONFERENCIA',
 	programs: [
 		{
 			date: ['JUEVES 25', 'DE ABRIL'],
