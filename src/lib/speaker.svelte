@@ -53,8 +53,4 @@
 	h2 {
 		font-family: 'Montserrat Bold';
 	}
-
-	.big {
-		width: 300px;
-	}
 </style>
