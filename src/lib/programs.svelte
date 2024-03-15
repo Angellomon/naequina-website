@@ -13,13 +13,7 @@
 <div class="bg-black w-full flex flex-col justify-center items-center gap-4 pt-4 px-2">
 	{#each lang.programs as program}
 		<p class="text-center text-white text-4xl sm:text-5xl">
-			{#if lang.lang === 'es'}
-				<strong>{program.date[0]}</strong>
-				{program.date[1]}
-			{:else}
-				{program.date[0]}
-				<strong>{program.date[1]}</strong>
-			{/if}
+			{@html program.date}
 		</p>
 
 		<div

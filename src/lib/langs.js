@@ -260,7 +260,7 @@ export const es = {
 	conferenciaText: 'CONFERENCIA',
 	programs: [
 		{
-			date: ['JUEVES 25', 'DE ABRIL'],
+			date: `<p><strong>JUEVES 25</strong> DE ABRIL</p>`,
 			events: [
 				{
 					contents: `<p>PRESENTADOR: <strong>IA OSCAR MARTÍNEZ GUAJARDO</strong>
@@ -340,7 +340,7 @@ export const es = {
 					endHour: '11:25'
 				},
 				{
-					contents: `<p><strong>CLAUSURA</strong></p>`,
+					contents: `<p><strong>RECESO</strong></p>`,
 					cols: 1,
 					startHour: '11:25',
 					endHour: '12:10'
@@ -841,10 +841,10 @@ export const en = {
 	conferenciaText: 'CONFERENCIA',
 	programs: [
 		{
-			date: ['JUEVES 25', 'DE ABRIL'],
+			date: `<p>Thursday<strong>, April 25<sup>th<sup></strong></p>`,
 			events: [
 				{
-					contents: `<p>PRESENTADOR: <strong>IA OSCAR MARTÍNEZ GUAJARDO</strong>
+					contents: `<p>PRESENTER: <strong>IA OSCAR MARTÍNEZ GUAJARDO</strong>
 						<br>GRUPO NUTEC
 						<br></p>
 						${programsStyle}`,
@@ -854,15 +854,15 @@ export const en = {
 					extraContent: ``
 				},
 				{
-					contents: `<p>PALABRAS DEL <strong>DR. GONZALO VILLAR PATIÑO</strong>
-							<br>DIRECTOR DE INVESTIGACIÓN, GRUPO NUTEC.</p>`,
+					contents: `<p>REMARKS BY <strong>DR. GONZALO VILLAR PATIÑO</strong>
+							<br>DIRECTOR OF RESEARCH, GRUPO NUTEC</p>`,
 					cols: 1,
 					startHour: '08:55',
 					endHour: '09:00',
 					extraContent: ``
 				},
 				{
-					contents: `<p>PALABRAS DEL <strong>ING. JÉRÉMIE LARCHER</strong>
+					contents: `<p>REMARKS BY <strong>ING. JÉRÉMIE LARCHER</strong>
 						<br>CEO, GRUPO NUTEC.</p>`,
 					cols: 1,
 					startHour: '09:00',
@@ -870,8 +870,8 @@ export const en = {
 					extraContent: ``
 				},
 				{
-					contents: `<p>PALABRAS DEL <strong>MVZ CERT ROBERTO SOLÍS JAQUEZ</strong>
-						<br>PRESIDENTE DE LA ASOCIACIÓN MEXICANA DE MÉDICOS VETERINARIOS
+					contents: `<p>REMARKS BY <strong>MVZ CERT ROBERTO SOLÍS JAQUEZ</strong>
+						<br>PRESIDENT OF ASOCIACIÓN MEXICANA DE MEDICOS VETERINARIOS
 						<br>ESPECIALISTAS EN EQUINOS A.C.</p>`,
 					cols: 1,
 					startHour: '09:10',
@@ -879,23 +879,22 @@ export const en = {
 					extraContent: ``
 				},
 				{
-					contents: `<p>PALABRAS DE LA <strong>DRA. GABRIELA GIOCONDA REZA BORJA</strong>
-						<br>RECTORA DE LA UNIVERSIDAD DEL VALLE DE MÉXICO, CAMPUS SUR, CDMX.</p>`,
+					contents: `<p>PALABRAS DE LA <strong>DR. GABRIELA GIOCONDA REZA BORJA</strong>
+						<br>RECTOR OF UNIVERSIDAD DEL VALLE DE MÉXICO, SOUTH CAMPUS, CDMX.</p>`,
 					cols: 1,
 					startHour: '09:20',
 					endHour: '09:30',
 					extraContent: ``
 				},
 				{
-					contents: `<p>PALABRAS DEL <strong>DR. CARLOS GUILLERMO GUTIÉRREZ AGUILAR</strong>
-						<br>DIRECTOR DE LA FACULTAD DE MEDICINA VETERINARIA Y ZOOTECNIA
-						<br><strong>INAUGURACIÓN</strong>
+					contents: `<p>REMARKS BY <strong>DR. CARLOS GUILLERMO GUTIÉRREZ AGUILAR</strong>
+						<br>DIRECTOR OF FACULTAD DE MEDICINA VETERINARIA Y ZOOTECNIA
+						<br><strong>INAUGURATION</strong>
 						<br>
-						<br><strong>SESIÓN 1: APARATO DIGESTIVO: EVOLUCIÓN, MICROBIOMA Y DESÓRDENES DIGESTIVOS</strong>
+						<br><strong>SESSION 1: DIGESTIVE SYSTEM: EVOLUTION, MICROBIOME AND DIGESTIVE DISORDERS</strong>
 						<br>
-						<br><p>MODERADORA: <strong>DRA. MARÍA MASRI DABA</strong>
-						<br>DEPARTAMENTO DE MEDICINA, CIRUGÍA Y ZOOTECNIA PARA
-						<br>ÉQUIDOS, FMVZ-UNAM</p>`,
+						<br><p>MODERATOR: <strong>DR. MARÍA MASRI DABA</strong>
+						<br>MEDICINE, SURGERY, AND ANIMAL HUSBANDRY FOR EQUINES DEPT. FMVZ-UNAM</p>`,
 					cols: 1,
 					startHour: '09:45',
 					endHour: '10:30',
@@ -903,31 +902,31 @@ export const en = {
 				},
 				{
 					contents: `<p><strong>DR. MARIANO HERNÁNDEZ GIL</strong>
-						<br>DEPTO. MEDICINA CIRUGÍA Y ZOOTECNIA DE
-						<br>ÉQUIDOS. FMVZ-UNAM</p>`,
+						<br>EQUINE MEDICINE, SURGERY AND ANIMAL
+						<br>HUSBANDRY DEPT.</p>`,
 					cols: 2,
-					extraContent: '<p>NUTRICIÓN EVOLUTIVA DEL CABALLO</p>',
+					extraContent: '<p>EVOLUTIONARY HORSE NUTRITION</p>',
 					startHour: '10:30',
 					endHour: '11:15'
 				},
 				{
-					contents: `<p><strong>DRA. WENDY PEARSON</strong>
-						<br>DEPTO. BIOCIENCIA ANIMAL. UNIVERSIDAD
+					contents: `<p><strong>DR. WENDY PEARSON</strong>
+						<br>ANIMAL BIOSCIENCE UNIVERSITY OF
 						<br>
-						<br>DE GUELPH. ONTARIO CANADÁ</p>`,
+						<br>GUELPH DEPT. ONTARIO</p>`,
 					cols: 2,
-					extraContent: `<p>INFLUENCIA DE LA NUTRICIÓN EN EL SÍNDROME DEL INTESTINO PERMEABLE</p>`,
+					extraContent: `<p>INFLUENCE OF NUTRITION IN LEAKY GUT SYNDROME</p>`,
 					startHour: '11:15',
 					endHour: '11:25'
 				},
 				{
-					contents: `<p><strong>CLAUSURA</strong></p>`,
+					contents: `<p><strong>RECESO</strong></p>`,
 					cols: 1,
 					startHour: '11:25',
 					endHour: '12:10'
 				},
 				{
-					contents: `<p><strong>DRA. PAMELA THOMSON</strong>
+					contents: `<p><strong>DR. PAMELA THOMSON</strong>
 						<br>LABORATORIO DE MICROBIOLOGÍA CLÍNICA Y
 						<br>MICROBIOMA, ESCUELA DE MEDICINA
 						<br>VETERINARIA, FACULTAD DE CIENCIAS DE LA VIDA,
@@ -938,7 +937,7 @@ export const en = {
 					endHour: '12:55'
 				},
 				{
-					contents: `<p><strong>DRA. GULSAH KAYA KARASU</strong>
+					contents: `<p><strong>DR. GULSAH KAYA KARASU</strong>
 						<br>UNIVERSIDAD DE CIENCIAS APLICADAS VAN
 						<br>HALL LARENSTEIN. VELP, PAÍSES BAJOS</p>`,
 					cols: 2,
@@ -951,7 +950,7 @@ export const en = {
 						<br>
 						<br>SESIÓN 2: ALIMENTOS Y NECESIDADES DE NUTRIENTES
 						<br>
-						<br>MODERADORA: <strong>DRA. MYRIAM BOETA ACOSTA</strong>
+						<br>MODERATOR: <strong>DR. MYRIAM BOETA ACOSTA</strong>
 						<br>DEPARTAMENTO DE REPRODUCCIÓN. FMVZ-UNAM</p>`,
 					cols: 1,
 					extraContent: '',
@@ -959,7 +958,7 @@ export const en = {
 					endHour: '14:00'
 				},
 				{
-					contents: `<p><strong>DRA. MERIEL JEAN MOORE-COLYER</strong>
+					contents: `<p><strong>DR. MERIEL JEAN MOORE-COLYER</strong>
 						<br>CONSULTORA INDEPENDIENTE. REINO UNIDO</p>`,
 					cols: 2,
 					extraContent: `<p>FORRAJE: DEL HENOBIOMA A LA SALUD DEL CABALLO</p>`,
@@ -986,7 +985,7 @@ export const en = {
 						<br>
 						<br>SESIÓN 3: ALIMENTACIÓN PARA LA VIDA: LA YEGUA Y SU POTRO</strong>
 						<br>
-						<br>MODERADORA: <strong>DRA. ANA CELIA GÓMEZ CAMPOS</strong>
+						<br>MODERATOR: <strong>DR. ANA CELIA GÓMEZ CAMPOS</strong>
 						<br>GRUPO NUTEC</p>`,
 					cols: 1,
 					extraContent: '',
@@ -1020,7 +1019,7 @@ export const en = {
 						<br>
 						<br><strong>SESIÓN 4: ALIMENTACIÓN DEL POTRO</strong>
 						<br>
-						<br>MODERADORA: <strong>DRA. GABRIELA QUIJANO MONTOYA</strong>
+						<br>MODERATOR: <strong>DR. GABRIELA QUIJANO MONTOYA</strong>
 						<br>REPRODUCCIÓN EQUINA VILLARAÑA</p>`,
 					cols: 1,
 					startHour: '08:15',
@@ -1044,7 +1043,7 @@ export const en = {
 					extraContent: `<p>MADURACIÓN DEL SISTEMA DIGESTIVO DEL NEONATO</p>`
 				},
 				{
-					contents: `<p><strong>DRA. ADRIANA YOLANDA DÍAZ ARCHUNDIA</strong>
+					contents: `<p><strong>DR. ADRIANA YOLANDA DÍAZ ARCHUNDIA</strong>
 						<br>FACULTAD DE MEDICINA VETERINARIA Y
 						<br>ZOOTECNIA, UAEMEX</p>`,
 					cols: 2,
@@ -1053,7 +1052,7 @@ export const en = {
 					extraContent: `PROBLEMAS NUTRICIONALES EN LOS POTROS DESTETADOS Y HASTA EL AÑO DE EDAD`
 				},
 				{
-					contents: `<p><strong>DRA. KATHLEEN CRANDELL</strong>
+					contents: `<p><strong>DR. KATHLEEN CRANDELL</strong>
 						<br>KENTUCKY EQUINE RESEARCH, E.U.</p>`,
 					cols: 2,
 					startHour: '11:15',
@@ -1072,7 +1071,7 @@ export const en = {
 						<br>
 						<br><strong>SESIÓN 5: BIENESTAR ANIMAL, LA BUENA ALIMENTACIÓN</strong>
 						<br>
-						<br>MODERADORA: <strong>DRA. MARÍA FERNANDA VÁZQUEZ CARRILLO</strong>
+						<br>MODERATOR: <strong>DR. MARÍA FERNANDA VÁZQUEZ CARRILLO</strong>
 						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL Y BIOQUÍMICA. FMVZ- UNAM</p>`,
 					cols: 2,
 					extraContent: '<p>NUTRICIÓN EVOLUTIVA DEL CABALLO</p>',
@@ -1080,7 +1079,7 @@ export const en = {
 					endHour: '12:30'
 				},
 				{
-					contents: `<p><strong>DRA. TAMARA TADICH</strong>
+					contents: `<p><strong>DR. TAMARA TADICH</strong>
 						<br>INSTITUTO DE CIENCIA ANIMAL.
 						<br>UNIVERSIDAD AUSTRAL DE CHILE.</p>`,
 					cols: 2,
@@ -1089,7 +1088,7 @@ export const en = {
 					endHour: '13:15'
 				},
 				{
-					contents: `<p><strong>DRA. LUCÍA PÉREZ MANRIQUE</strong>
+					contents: `<p><strong>DR. LUCÍA PÉREZ MANRIQUE</strong>
 						<br>DEPTO. ETOLOGÍA, FAUNA SILVESTRE Y
 						<br>ANIMALES DE LABORATORIO</p>`,
 					cols: 2,
@@ -1098,7 +1097,7 @@ export const en = {
 					endHour: '14:00'
 				},
 				{
-					contents: `<p><strong>DRA. MARÍA ESTHER ORTEGA CERRILLA</strong>
+					contents: `<p><strong>DR. MARÍA ESTHER ORTEGA CERRILLA</strong>
 						<br>COLEGIO DE POSTGRADUADOS,
 						<br>MONTECILLO MÉXICO</p>`,
 					cols: 2,
@@ -1118,7 +1117,7 @@ export const en = {
 						<br>
 						<br>SESIÓN 6: A SIETE AÑOS DEL NAEQUINA
 						<br>
-						<br>MODERADORA: <strong>DRA. AURORA H. RAMÍREZ PÉREZ</strong>
+						<br>MODERATOR: <strong>DR. AURORA H. RAMÍREZ PÉREZ</strong>
 						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL Y BIOQUÍMICA. FMVZ- UNAM.</p>`,
 					cols: 1,
 					extraContent: '',
@@ -1126,7 +1125,7 @@ export const en = {
 					endHour: '16:15'
 				},
 				{
-					contents: `<p><strong>DRA. SILVIA E. BUNTINX DIOS</strong>
+					contents: `<p><strong>DR. SILVIA E. BUNTINX DIOS</strong>
 						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL
 						<br>Y BIOQUÍMICA. FMVZ- UNAM</p>`,
 					cols: 2,
@@ -1144,12 +1143,12 @@ export const en = {
 				{
 					contents: `<p>MESA REDONDA: SIETE AÑOS DE NAEQUINA.
 						<br>
-						<br>CONDUCE DRA. SILVIA E. BUNTINX DIOS. FMVZ-UNAM</strong>
-						<br><strong>DRA. MARIA MASRI DABA</strong>
+						<br>CONDUCE DR. SILVIA E. BUNTINX DIOS. FMVZ-UNAM</strong>
+						<br><strong>DR. MARIA MASRI DABA</strong>
 						<br>DEPTO. MEDICINA, CIRUGÍA Y ZOOTECNIA PARA ÉQUIDOS. FMVZ, UNAM
 						<br><strong>DR. BERNARDO AGUADO MEDINA</strong>
 						<br>AGRIBRANDS PURINA MÉXICO
-						<br><strong>DRA. ANA CELIA GÓMEZ CAMPOS</strong>
+						<br><strong>DR. ANA CELIA GÓMEZ CAMPOS</strong>
 						<br>GRUPO NUTEC
 						<br><strong>DR. BERNARDO MONROY HERNÁNDEZ</strong>
 						<br>PLATINUM MÉXICO
