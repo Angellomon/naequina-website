@@ -432,7 +432,7 @@ export const es = {
 			]
 		},
 		{
-			date: ['VIERNES 26', 'DE ABRIL'],
+			date: `<p><strong>VIERNES 26</strong> DE ABRIL</p>`,
 			events: [
 				{
 					contents: `<p><strong>PREGUNTAS Y RESPUESTAS</strong>
@@ -492,7 +492,7 @@ export const es = {
 						<br><strong>SESIÓN 5: BIENESTAR ANIMAL, LA BUENA ALIMENTACIÓN</strong>
 						<br>
 						<br>MODERADORA: <strong>DRA. MARÍA FERNANDA VÁZQUEZ CARRILLO</strong>
-						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL Y BIOQUÍMICA. FMVZ- UNAM</p>`,
+						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL Y BIOQUÍMICA. FMVZ-UNAM</p>`,
 					cols: 2,
 					extraContent: '<p>NUTRICIÓN EVOLUTIVA DEL CABALLO</p>',
 					startHour: '11:45',
@@ -538,7 +538,7 @@ export const es = {
 						<br>SESIÓN 6: A SIETE AÑOS DEL NAEQUINA
 						<br>
 						<br>MODERADORA: <strong>DRA. AURORA H. RAMÍREZ PÉREZ</strong>
-						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL Y BIOQUÍMICA. FMVZ- UNAM.</p>`,
+						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL Y BIOQUÍMICA. FMVZ-UNAM.</p>`,
 					cols: 1,
 					extraContent: '',
 					startHour: '15:30',
@@ -547,7 +547,7 @@ export const es = {
 				{
 					contents: `<p><strong>DRA. SILVIA E. BUNTINX DIOS</strong>
 						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL
-						<br>Y BIOQUÍMICA. FMVZ- UNAM</p>`,
+						<br>Y BIOQUÍMICA. FMVZ-UNAM</p>`,
 					cols: 2,
 					extraContent: `<p>RELACIÓN EQUINO – ALIMENTO</p>`,
 					startHour: '16:15',
@@ -838,7 +838,7 @@ export const en = {
 		title: 'SPEAKERS'
 	},
 	programsText: 'PROGRAM',
-	conferenciaText: 'CONFERENCIA',
+	conferenciaText: 'CONFERENCE',
 	programs: [
 		{
 			date: `<p>Thursday<strong>, April 25<sup>th<sup></strong></p>`,
@@ -879,7 +879,7 @@ export const en = {
 					extraContent: ``
 				},
 				{
-					contents: `<p>PALABRAS DE LA <strong>DR. GABRIELA GIOCONDA REZA BORJA</strong>
+					contents: `<p>REMARKS BY <strong>DR. GABRIELA GIOCONDA REZA BORJA</strong>
 						<br>RECTOR OF UNIVERSIDAD DEL VALLE DE MÉXICO, SOUTH CAMPUS, CDMX.</p>`,
 					cols: 1,
 					startHour: '09:20',
@@ -920,38 +920,38 @@ export const en = {
 					endHour: '11:25'
 				},
 				{
-					contents: `<p><strong>RECESO</strong></p>`,
+					contents: `<p><strong>BREAK</strong></p>`,
 					cols: 1,
 					startHour: '11:25',
 					endHour: '12:10'
 				},
 				{
 					contents: `<p><strong>DR. PAMELA THOMSON</strong>
-						<br>LABORATORIO DE MICROBIOLOGÍA CLÍNICA Y
-						<br>MICROBIOMA, ESCUELA DE MEDICINA
-						<br>VETERINARIA, FACULTAD DE CIENCIAS DE LA VIDA,
-						<br>UNIVERSIDAD ANDRÉS BELLO, SANTIAGO, CHILE</p>`,
+						<br>CLINICAL MICROBIOLOGY AND MICROBIOME
+						<br>LABORATORY, SCHOOL OF VETERINARY
+						<br>MEDICINE, FACULTY OF LIFE SCIENCES,
+						<br>UNIVERSIDAD ANDRES BELLO, SANTIAGO, CHILE</p>`,
 					cols: 2,
-					extraContent: `<p>CAMBIOS EN EL MICROBIOMA: ¿CAUSA O CONSECUENCIA DE LOS CÓLICOS?</p>`,
+					extraContent: `<p>CHANGES IN THE GUT MICROBIOME: CAUSE OR CONSEQUENCE OF COLIC?</p>`,
 					startHour: '12:10',
 					endHour: '12:55'
 				},
 				{
 					contents: `<p><strong>DR. GULSAH KAYA KARASU</strong>
-						<br>UNIVERSIDAD DE CIENCIAS APLICADAS VAN
-						<br>HALL LARENSTEIN. VELP, PAÍSES BAJOS</p>`,
+						<br>VAN HALL LARENSTEIN UNIVERSITY OF
+						<br>APPLIED SCIENCES. VELP, NETHERLANDS</p>`,
 					cols: 2,
-					extraContent: `<p>TRANSICIONES DIETÉTICAS HACIA UNA ALIMENTACIÓN SOSTENIBLE PARA CABALLOS</p>`,
+					extraContent: `<p>DIETARY TRANSITIONS TOWARDS SUSTAINABLE HORSE NUTRITION</p>`,
 					startHour: '12:55',
 					endHour: '13:15'
 				},
 				{
-					contents: `<p><strong>PREGUNTAS Y RESPUESTAS</strong>
+					contents: `<p><strong>QUESTIONS & ANSWERS</strong>
 						<br>
-						<br>SESIÓN 2: ALIMENTOS Y NECESIDADES DE NUTRIENTES
+						<br>SESSION 2: FEEDING AND NUTRIENT REQUIREMENTS
 						<br>
 						<br>MODERATOR: <strong>DR. MYRIAM BOETA ACOSTA</strong>
-						<br>DEPARTAMENTO DE REPRODUCCIÓN. FMVZ-UNAM</p>`,
+						<br>REPRODUCTION DEPT. FMVZ-UNAM.</p>`,
 					cols: 1,
 					extraContent: '',
 					startHour: '13:15',
@@ -959,9 +959,9 @@ export const en = {
 				},
 				{
 					contents: `<p><strong>DR. MERIEL JEAN MOORE-COLYER</strong>
-						<br>CONSULTORA INDEPENDIENTE. REINO UNIDO</p>`,
+						<br>INDEPENDENT CONSULTANT. UNITED KINGDOM</p>`,
 					cols: 2,
-					extraContent: `<p>FORRAJE: DEL HENOBIOMA A LA SALUD DEL CABALLO</p>`,
+					extraContent: `<p>FORAGE: FROM THE HAYBIOME TO HORSE HEALTH</p>`,
 					startHour: '14:00',
 					endHour: '14:45'
 				},
@@ -969,21 +969,21 @@ export const en = {
 					contents: `<p><strong>DR. ELÍAS VELÁZQUEZ CANTÓN</strong>
 						<br>GRUPO NUTEC</p>`,
 					cols: 2,
-					extraContent: `<p>EL AGUA ES UN NUTRIENTE ESENCIAL</p>`,
+					extraContent: `<p>WATER IS AN ESSENTIAL NUTRIENT</p>`,
 					startHour: '14:45',
 					endHour: '15:05'
 				},
 				{
-					contents: `<p><strong>PREGUNTAS Y RESPUESTAS</strong></p>`,
+					contents: `<p><strong>QUESTIONS & ANSWERS</strong></p>`,
 					cols: 1,
 					extraContent: ``,
 					startHour: '15:05',
 					endHour: '16:00'
 				},
 				{
-					contents: `<p><strong>PREGUNTAS Y RESPUESTAS
+					contents: `<p><strong>BREAK
 						<br>
-						<br>SESIÓN 3: ALIMENTACIÓN PARA LA VIDA: LA YEGUA Y SU POTRO</strong>
+						<br>SESSION 3: FEEDING FOR LIFE</strong>
 						<br>
 						<br>MODERATOR: <strong>DR. ANA CELIA GÓMEZ CAMPOS</strong>
 						<br>GRUPO NUTEC</p>`,
@@ -994,10 +994,10 @@ export const en = {
 				},
 				{
 					contents: `<p><strong>DR. RAMIRO CALDERÓN VILLA</strong>
-						<br>DEPTO. MEDICINA CIRUGÍA Y ZOOTECNIA
-						<br>DE ÉQUIDOS. FMVZ-UNAM</p>`,
+						<br>EQUINE MEDICINE, SURGERY, AND ANIMAL
+						<br>HUSBANDRY DEPT.</p>`,
 					cols: 2,
-					extraContent: `<p>ALIMENTACIÓN Y DESÓRDENES DIGESTIVOS</p>`,
+					extraContent: `<p>FEEDING AND DIGESTIVE DISORDERS</p>`,
 					startHour: '16:50',
 					endHour: '17:40'
 				},
@@ -1005,19 +1005,18 @@ export const en = {
 					contents: `<p><strong>DR PETER HUNTINGTON</strong>
 						<br>KENTUCKY EQUINE RESEARCH, AUSTRALIA</p>`,
 					cols: 2,
-					extraContent: `<p>LA ALIMENTACIÓN DE LA YEGUA GESTANTE Y LACTANTE</p>`,
+					extraContent: `<p>FEEDING OF THE PREGNANT AND LACTATING MARE</p>`,
 					startHour: '17:40',
 					endHour: '18:00'
 				}
 			]
 		},
 		{
-			date: ['VIERNES 26', 'DE ABRIL'],
+			date: `<p>Friday<strong>, April 26<sup>th<sup></strong></p>`,
 			events: [
 				{
-					contents: `<p><strong>PREGUNTAS Y RESPUESTAS</strong>
-						<br>
-						<br><strong>SESIÓN 4: ALIMENTACIÓN DEL POTRO</strong>
+					contents: `<p>
+						<br><strong>SESSION 4: FOAL FEEDING</strong>
 						<br>
 						<br>MODERATOR: <strong>DR. GABRIELA QUIJANO MONTOYA</strong>
 						<br>REPRODUCCIÓN EQUINA VILLARAÑA</p>`,
@@ -1028,28 +1027,28 @@ export const en = {
 				},
 				{
 					contents: `<p><strong>DR. CHRIS ROGERS</strong>
-							<br>ESCUELA DE VETERINARIA, UNIVERSIDAD
-							<br>DE MASSEY, NUEVA ZELANDA</p>`,
+							<br>VETERINARY SCHOOL, MASSEY UNIVERSITY,
+							<br>NEW ZEALAND</p>`,
 					cols: 2,
 					startHour: '09:00',
 					endHour: '09:45',
-					extraContent: `<p>RESILIENCIA DE LA MICROBIOTA FECAL EN CABALLOS PURA SANGRE ESTABULADOS DESPUÉS DE UNA TRANSICIÓN ALIMENTARIA ABRUPTA DE PASTOS RECIÉN CORTADOS A TRES DIETAS A BASE DE FORRAJES</p>`
+					extraContent: `<p>RESILIENCE OF FECAL MICROBIOTA IN STABLED THOROUGHBRED HORSES FOLLOWING ABRUPT DIETARY TRANSITION BETWEEN FRESHLY CUT PASTURE AND THREE FORAGE BASED DIETS</p>`
 				},
 				{
 					contents: `<p><strong>DR. SANTIAGO GARCÍA PASQUEL</strong></p>`,
 					cols: 2,
 					startHour: '09:45',
 					endHour: '10:30',
-					extraContent: `<p>MADURACIÓN DEL SISTEMA DIGESTIVO DEL NEONATO</p>`
+					extraContent: `<p>MATURATION OF THE NEONATAL DIGESTIVE SYSTEM</p>`
 				},
 				{
 					contents: `<p><strong>DR. ADRIANA YOLANDA DÍAZ ARCHUNDIA</strong>
-						<br>FACULTAD DE MEDICINA VETERINARIA Y
-						<br>ZOOTECNIA, UAEMEX</p>`,
+						<br>FACULTY OF VETERINARY MEDICINE AND
+						<br>ANIMAL HUSBANDRY, UAEMEX</p>`,
 					cols: 2,
 					startHour: '10:30',
 					endHour: '11:15',
-					extraContent: `PROBLEMAS NUTRICIONALES EN LOS POTROS DESTETADOS Y HASTA EL AÑO DE EDAD`
+					extraContent: `<p>NUTRITIONAL PROBLEMS IN THE FOAL FROM WEANING TO THE FIRST YEAR OF LIFE</p>`
 				},
 				{
 					contents: `<p><strong>DR. KATHLEEN CRANDELL</strong>
@@ -1057,22 +1056,22 @@ export const en = {
 					cols: 2,
 					startHour: '11:15',
 					endHour: '11:35',
-					extraContent: `NECESIDADES NUTRIMENTALES Y PRÁCTICAS DE ALIMENTACIÓN PARA UN DESTETE Y CRECIMIENTO EXITOSOS`
+					extraContent: `NUTRIENT REQUIREMENTS AND FEEDING PRACTICES FOR A SUCCESSFUL WEANING AND GROWTH`
 				},
 				{
-					contents: `<p><strong>PREGUNTAS Y RESPUESTAS</strong></p>`,
+					contents: `<p><strong>QUESTIONS & ANSWERS</strong></p>`,
 					cols: 1,
 					startHour: '11:35',
 					endHour: '11:45',
 					extraContent: ``
 				},
 				{
-					contents: `<p><strong>RECESO</strong>
+					contents: `<p><strong>BREAK</strong>
 						<br>
-						<br><strong>SESIÓN 5: BIENESTAR ANIMAL, LA BUENA ALIMENTACIÓN</strong>
+						<br><strong>SESSION 5: ANIMAL WELFARE: GOOD FEEDING PRACTICES</strong>
 						<br>
 						<br>MODERATOR: <strong>DR. MARÍA FERNANDA VÁZQUEZ CARRILLO</strong>
-						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL Y BIOQUÍMICA. FMVZ- UNAM</p>`,
+						<br>ANIMAL NUTRITION AND BIOCHEMISTRY DEPT. FMVZ-UNAM.</p>`,
 					cols: 2,
 					extraContent: '<p>NUTRICIÓN EVOLUTIVA DEL CABALLO</p>',
 					startHour: '11:45',
@@ -1080,45 +1079,45 @@ export const en = {
 				},
 				{
 					contents: `<p><strong>DR. TAMARA TADICH</strong>
-						<br>INSTITUTO DE CIENCIA ANIMAL.
-						<br>UNIVERSIDAD AUSTRAL DE CHILE.</p>`,
+						<br>ANIMAL SCIENCE INSTITUTE, UNIVERSIDAD
+						<br>AUSTRAL DE CHILE.</p>`,
 					cols: 2,
-					extraContent: `<p>CÓMO VALORAR EL BIENESTAR EN LOS CABALLOS, CONFINAMIENTO VS PASTOREO</p>`,
+					extraContent: `<p>HOW TO MEASURE WELFARE IN HORSES: CONFINEMENT VS GRAZING</p>`,
 					startHour: '12:30',
 					endHour: '13:15'
 				},
 				{
 					contents: `<p><strong>DR. LUCÍA PÉREZ MANRIQUE</strong>
-						<br>DEPTO. ETOLOGÍA, FAUNA SILVESTRE Y
-						<br>ANIMALES DE LABORATORIO</p>`,
+						<br>DETHOLOGY, WILDLIFE, AND LABORATORY
+						<br>ANIMALS DEPT.</p>`,
 					cols: 2,
-					extraContent: `<p>EFECTO DE LA ALIMENTACIÓN EN EL BIENESTAR DEL CABALLO</p>`,
+					extraContent: `<p>EFFECT OF FEEDING ON HORSE WELFARE</p>`,
 					startHour: '13:15',
 					endHour: '14:00'
 				},
 				{
 					contents: `<p><strong>DR. MARÍA ESTHER ORTEGA CERRILLA</strong>
-						<br>COLEGIO DE POSTGRADUADOS,
-						<br>MONTECILLO MÉXICO</p>`,
+						<br>COLLEGE OF POSTGRADUATE STUDIES,
+						<br>MONTECILLO MEXICO</p>`,
 					cols: 2,
-					extraContent: `<p>USO DE ACEITES ESENCIALES EN CABALLOS</p>`,
+					extraContent: `<p>USE OF ESSENTIAL OILS IN HORSES</p>`,
 					startHour: '14:00',
 					endHour: '14:20'
 				},
 				{
-					contents: `<p><strong>PREGUNTAS Y RESPUESTAS</strong></p>`,
+					contents: `<p><strong>QUESTIONS & ANSWERS</strong></p>`,
 					cols: 1,
 					extraContent: ``,
 					startHour: '14:20',
 					endHour: '15:30'
 				},
 				{
-					contents: `<p><strong>RECESO</strong>
+					contents: `<p><strong>BREAK</strong>
 						<br>
-						<br>SESIÓN 6: A SIETE AÑOS DEL NAEQUINA
+						<br>SESSION 6: SEVEN YEARS AFTER NAEQUINA
 						<br>
 						<br>MODERATOR: <strong>DR. AURORA H. RAMÍREZ PÉREZ</strong>
-						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL Y BIOQUÍMICA. FMVZ- UNAM.</p>`,
+						<br>ANIMAL NUTRITION AND BIOCHEMISTRY DEPT. FMVZ-UNAM.</p>`,
 					cols: 1,
 					extraContent: '',
 					startHour: '15:30',
@@ -1126,36 +1125,36 @@ export const en = {
 				},
 				{
 					contents: `<p><strong>DR. SILVIA E. BUNTINX DIOS</strong>
-						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL
-						<br>Y BIOQUÍMICA. FMVZ- UNAM</p>`,
+						<br>ANIMAL NUTRITION AND BIOCHEMISTRY
+						<br>DEPT. FMVZ- UNAM.</p>`,
 					cols: 2,
-					extraContent: `<p>RELACIÓN EQUINO – ALIMENTO</p>`,
+					extraContent: `<p>EQUINE – FEED RELATIONSHIP</p>`,
 					startHour: '16:15',
 					endHour: '16:20'
 				},
 				{
-					contents: `<p><strong>PREGUNTAS Y RESPUESTAS</strong></p>`,
+					contents: `<p><strong>QUESTIONS & ANSWERS</strong></p>`,
 					cols: 1,
 					extraContent: ``,
 					startHour: '16:15',
 					endHour: '16:20'
 				},
 				{
-					contents: `<p>MESA REDONDA: SIETE AÑOS DE NAEQUINA.
-						<br>
-						<br>CONDUCE DR. SILVIA E. BUNTINX DIOS. FMVZ-UNAM</strong>
+					contents: `<p>ROUND-TABLE DISCUSSION: SEVEN YEARS AFTER NAEQUINA
+					<br><strong>MODERATOR: DR. SILVIA E. BUNTINX DIOS. FMVZ-UNAM</strong>
+					<br>
 						<br><strong>DR. MARIA MASRI DABA</strong>
-						<br>DEPTO. MEDICINA, CIRUGÍA Y ZOOTECNIA PARA ÉQUIDOS. FMVZ, UNAM
+						<br>EQUINE MEDICINE, SURGERY AND ANIMAL HUSBANDRY DEPT. FMVZ, UNAM
 						<br><strong>DR. BERNARDO AGUADO MEDINA</strong>
-						<br>AGRIBRANDS PURINA MÉXICO
+						<br>AGRIBRANDS PURINA MEXICO
 						<br><strong>DR. ANA CELIA GÓMEZ CAMPOS</strong>
 						<br>GRUPO NUTEC
 						<br><strong>DR. BERNARDO MONROY HERNÁNDEZ</strong>
 						<br>PLATINUM MÉXICO
 						<br><strong>DR. ALFREDO JULIÁN PAREDES</strong>
-						<br>PRÁCTICA PRIVADA
+						<br>PRIVATE PRACTICE
 						<br>
-						<br><strong>CLAUSURA</strong></p>`,
+						<br><strong>CLOSING</strong></p>`,
 					cols: 1,
 					extraContent: '',
 					startHour: '16:20',
