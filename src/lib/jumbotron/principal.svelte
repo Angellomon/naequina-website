@@ -7,6 +7,7 @@
 	import Spacer from '$lib/spacer.svelte';
 	import EventContent from './event-content.svelte';
 	import Speakers from '$lib/speakers.svelte';
+	import Programs from '$lib/programs.svelte';
 </script>
 
 <Heading />
@@ -14,6 +15,8 @@
 <EventContent />
 
 <Speakers />
+
+<Programs />
 
 <div class="w-full h-10 bg-black"></div>
 

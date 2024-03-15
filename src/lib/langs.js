@@ -1,3 +1,7 @@
+const programsStyle = `<style>strong {
+	font-family: 'Montserrat Bold' !important;
+}</style>`;
+
 export const es = {
 	lang: 'es',
 	flagUrl: '/img/BANDERA-EUA.png',
@@ -260,15 +264,16 @@ export const es = {
 				{
 					contents: `<p>PRESENTADOR: <strong>IA OSCAR MARTÍNEZ GUAJARDO</strong>
 						<br>GRUPO NUTEC
-						<br></p>`,
+						<br></p>
+						${programsStyle}`, // * defines the style of ALL elements (do not remove)
 					cols: 1,
 					startHour: '08:50',
 					endHour: '08:55',
 					extraContent: ``
 				},
 				{
-					contents: `'<p>PALABRAS DEL <strong>DR. GONZALO VILLAR PATIÑO</strong>
-							<br>DIRECTOR DE INVESTIGACIÓN, GRUPO NUTEC.</p>'`,
+					contents: `<p>PALABRAS DEL <strong>DR. GONZALO VILLAR PATIÑO</strong>
+							<br>DIRECTOR DE INVESTIGACIÓN, GRUPO NUTEC.</p>`,
 					cols: 1,
 					startHour: '08:55',
 					endHour: '09:00',
@@ -441,9 +446,9 @@ export const es = {
 					extraContent: ``
 				},
 				{
-					contents: `'<p><strong>DR. CHRIS ROGERS</strong>
+					contents: `<p><strong>DR. CHRIS ROGERS</strong>
 							<br>ESCUELA DE VETERINARIA, UNIVERSIDAD
-							<br>DE MASSEY, NUEVA ZELANDA</p>'`,
+							<br>DE MASSEY, NUEVA ZELANDA</p>`,
 					cols: 2,
 					startHour: '09:00',
 					endHour: '09:45',
@@ -577,7 +582,10 @@ export const es = {
 				}
 			]
 		}
-	]
+	],
+	programsStyle: `<style>strong {
+		font-family: 'Montserrat Bold' !important;
+	}</style>`
 };
 
 export const en = {
@@ -836,15 +844,16 @@ export const en = {
 				{
 					contents: `<p>PRESENTADOR: <strong>IA OSCAR MARTÍNEZ GUAJARDO</strong>
 						<br>GRUPO NUTEC
-						<br></p>`,
+						<br></p>
+						${programsStyle}`,
 					cols: 1,
 					startHour: '08:50',
 					endHour: '08:55',
 					extraContent: ``
 				},
 				{
-					contents: `'<p>PALABRAS DEL <strong>DR. GONZALO VILLAR PATIÑO</strong>
-							<br>DIRECTOR DE INVESTIGACIÓN, GRUPO NUTEC.</p>'`,
+					contents: `<p>PALABRAS DEL <strong>DR. GONZALO VILLAR PATIÑO</strong>
+							<br>DIRECTOR DE INVESTIGACIÓN, GRUPO NUTEC.</p>`,
 					cols: 1,
 					startHour: '08:55',
 					endHour: '09:00',
@@ -1017,9 +1026,9 @@ export const en = {
 					extraContent: ``
 				},
 				{
-					contents: `'<p><strong>DR. CHRIS ROGERS</strong>
+					contents: `<p><strong>DR. CHRIS ROGERS</strong>
 							<br>ESCUELA DE VETERINARIA, UNIVERSIDAD
-							<br>DE MASSEY, NUEVA ZELANDA</p>'`,
+							<br>DE MASSEY, NUEVA ZELANDA</p>`,
 					cols: 2,
 					startHour: '09:00',
 					endHour: '09:45',
@@ -1153,5 +1162,8 @@ export const en = {
 				}
 			]
 		}
-	]
+	],
+	programsStyle: `<style>strong {
+		font-family: 'Montserrat Bold' !important;
+	}</style>`
 };
