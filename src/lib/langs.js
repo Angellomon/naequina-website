@@ -28,6 +28,7 @@ const cvStyle = `
 `;
 
 export const es = {
+	availableTicketsText: 'lugares disponibles',
 	eventBriteBtnText: 'Registro',
 	lang: 'es',
 	flagUrl: '/img/BANDERA-EUA.png',
@@ -1325,6 +1326,7 @@ export const es = {
 };
 
 export const en = {
+	availableTicketsText: 'places available',
 	eventBriteBtnText: 'Registration',
 	lang: 'en',
 	switchText: 'Cambiar a Español',
