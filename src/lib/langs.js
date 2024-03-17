@@ -7,6 +7,23 @@ const cvStyle = `
 		ul {
 			list-style: square;
 		}
+
+		a {
+			color: rgb(255 34 34);
+			&:hover {
+			color: white;
+
+			}
+		}
+
+		p {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+
+		strong {
+			font-family: "Montserrat Bold"!important;
+		}
 	</style>
 `;
 
@@ -201,16 +218,16 @@ export const es = {
 			description: 'UAEMEX',
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
-			<p>Datos Académicos</p>
+			<p><strong>Datos Académicos</strong></p>
 			<ul>
 				<li>Certificación Profesional CONCERVET Área Equinos</li>
 				<li>Maestría en Ciencias Agropecuarias y Recursos Naturales. Línea de Investigación Salud Animal, Área: Equinos FMVZ-UAEM </li>
 				<li>Especialidad en Medicina y Cirugía en Équidos Periodo 2008-2009 FMVZ-UNAM</li>
 				<li>Licenciatura: Médico Veterinario Zootecnista Periodo1997-2004FMVZ-UAEM</li>
-				<li></li>
+				
 			</ul>
 			
-			<p>Experiencia Laboral</p>
+			<p><strong>Experiencia Laboral</strong></p>
 			<ul>
 				<li>Clínica Privada Medicina en Equinos Periodo 2004 - a la fecha</li>
 				<li>Profesor de tiempo completo (PTC-B) FMVZ’UAEM Periodo 2011- a la fecha</li>
@@ -227,7 +244,7 @@ export const es = {
 				<li>Responsable del Área Clínica Equina Periodo 2004-2008 Rancho la Trinidad, Escuela de monta Instructora de Equitación e Instructora de Equinoterapia Periodo 1997-2008 Rancho la Trinidad, Escuela de monta</li>
 			</ul>
 
-			<p>Publicaciones</p>
+			<p><strong>Publicaciones</strong></p>
 
 			<p>Effects of Jejunal Manipulation During Surgical Laparotomy Techniques and Its
 			Evaluation Using Physical, Clinical, and Echographic Parameters In Horses. J
@@ -292,17 +309,17 @@ export const es = {
 			description: 'Agribrands Purina México',
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
-			<p>PERFIL Y FUNCIONES</p>
+			<p><strong>PERFIL Y FUNCIONES</strong></p>
 			<ul>
 				<li>Médico Veterinario Zootecnista con 16 años de experiencia en industria de alimento balanceado, con enfoque en innovación y desarrollo de soluciones nutricionales para equinos en Agribrands Purina México.</li>
 			</ul>
 
-			<p>EDUCACIÓN</p>
+			<p><strong>EDUCACIÓN</strong></p>
 			<ul>
 				<li>Jul 01 2002- Jul 01 2007 Medicina Veterinaria y Zootecnia. Universidad La Salle Bajío.León Guanajuato México.</li>
 			</ul>
 
-			<p>EXPERIENCIA</p>
+			<p><strong>EXPERIENCIA</strong></p>
 			<ul>
 				<li>May 2020- Presente Gerente de Portafolio Equinos Norte. Agribrands Purina México (Cargill) Monterrey Nuevo León.</li>
 				<li>Ene 2019-May 2020 Líder de Especie Estratégica Equinos. Norte (Coordinación de Servicios técnicos). Agribrands Purina México (Cargill) Monterrey Nuevo León.</li>
@@ -328,7 +345,7 @@ export const es = {
 				<li>Participación como colaborador en publicaciones científicas en temas de parasitología y suplementación de equinos.</li>
 				<li>Presentado trabajos en congresos internacionales.</li>
 			</ul>
-			<p>Experiencia Profesional</p>
+			<p><strong>Experiencia Profesional</strong></p>
 			<ul>
 				<li>Gerente especialista de la línea de caballos en México y Latinoamérica para Cargill Purina durante 14 años (2005-2019).</li>
 				<li>Gerente nacional de ventas del segmento equino para Boehringer-Ingelheim por 2 años (2019-2021).</li>
@@ -463,9 +480,9 @@ export const es = {
 					<br>Correo electrónico: <a href="mailto:meoc@colpos.mx">meoc@colpos.mx</a> <a href="mailto:faikma@yahoo.com.mx">faikma@yahoo.com.mx</a></li>
 			</ul>
 
-			<p>SISTEMA NACIONAL DE INVESTIGADORES: Investigador Nacional Nivel II </p>
+			<p><strong>SISTEMA NACIONAL DE INVESTIGADORES: Investigador Nacional Nivel II</strong></p>
 
-			<p>FORMACION ACADÉMICA: </p>
+			<p><strong>FORMACION ACADÉMICA:</strong></p>
 
 			<ul>
 				<li>Médico Veterinario Zootecnista: Facultad de Medicina Veterinaria y Zootecnia, UNAM.</li>
@@ -478,7 +495,7 @@ export const es = {
 				<li>ARTÍCULOS PUBLICADOS EN REVISTAS INDIZADAS: 75</li>
 			</ul>
 
-			<p>ARTÍCULOS</p>
+			<p><strong>ARTÍCULOS</strong></p>
 
 			<ul>
 				<li>JCR (2019-2021): Larios, C.S., Ramírez, V.R., Aranda, O.G., Ortega, C.M.E.,García. O.J.C. 2019.Indicadores de estrés en bovinos por el uso de prácticas de manejo en el embarque, transporte y desembarque. Rev. Mex. Cienc. Pecu. 10:885-902.</li>
@@ -487,7 +504,7 @@ export const es = {
 				<li>Kawas, J.R., García, M.J.F., Fimbres, D.H., Ortega, C.M.E. 2020. Effects ofrumenprotected choline on growth performance, carcass characteristics and bloodlipid metabolites of feedlot lambs. Animals 10, 1580; doi:10.3390/ani10091580</li>
 				</ul>
 				
-			<p>ARTÍCULOS EN CONACYT (2019-2020)</p>
+			<p><strong>ARTÍCULOS EN CONACYT (2019-2020)</strong></p>
 				
 			<ul>
 				<li>Rosas, V.U., Ortega, C.M.E., Ayala, R.J.M., Aranda, O.G., Sánchez, T.E.M.T. 2019. Producción de ganado productor de carne con bienestar animal. Agroproductividad 12(10):41-46.</li>
@@ -498,18 +515,17 @@ export const es = {
 				<li>Castro de J.J.,Ortega, C.M.E.,Herrera, H.J.G., Hernández, C.A.,Ayala, R.J.M.2021. Animal welfare during transport and slaughter of beef cattle. Agroproductividad (Aceptado para su publicación) </li>
 			</ul>
 
-			<p>RESÚMENES PUBLICADOSEN MEMORIAS NACIONALES E INTERNACIONALES: 145 </p>
+			<p><strong>RESÚMENES PUBLICADOSEN MEMORIAS NACIONALES E INTERNACIONALES: 145</strong></p>
 
-			<p>TESIS DIRIGIDAS:</p>
+			<p><strong>TESIS DIRIGIDAS:</strong></p>
 
 			<ul>
 				<li>15 Doctorado</li>
 				<li>27 Maestría</li>
 				<li>24 Licenciatura</li>
-				<li></li>
 			</ul>
 
-			<p>DISTINCIONES:</p>
+			<p><strong>DISTINCIONES:</strong></p>
 
 			<ul>
 				<li>Beca otorgada por el Committee of Vice-Chancelors and Principals of theUniversities of the United Kingdom (Overseas Research Student Award) para realizar estudios de doctorado (1988-1990).</li>
@@ -517,7 +533,7 @@ export const es = {
 				<li>Reconocimiento como Registered Nutritionist por The Nutrition Society deInglaterra, de 2000 a la fecha.Miembro de la Academia Veterinaria Mexicana, 2002 a la fecha.</li>
 			</ul>
 
-			<p>CONFERENCIAS POR INVITACION: 60</p>
+			<p><strong>CONFERENCIAS POR INVITACION: 60</strong></p>
 			`
 		},
 		{
@@ -527,7 +543,7 @@ export const es = {
 			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
-			<p>Extracto</p>
+			<p><strong>Extracto</strong></p>
 
 			<ul>
 				<li>MVZ en FMVZ, UNAM México</li>
@@ -539,13 +555,13 @@ export const es = {
 				<li>Profesor FMVZ, UNAMExperiencia</li>
 			</ul>
 
-			<p>Experiencia</p>
+			<p><strong>Experiencia</strong></p>
 			<ul>
 				<li>Asesor de la Clinica del Hipodromo: Hipodromo de las Americas noviembre de 2013-actualidad (4 años 4 meses) </li>
 				<li>Profesor FMVZ, UNAM 1991-actualidad (27 años) Nombramiento: Profesor Titular C Tiempo Completo Definitivo.</li>
 			</ul>
 
-			<p>Educación</p>
+			<p><strong>Educación</strong></p>
 			<ul>
 				<li>University of Florida, LSU</li>
 				<li>INTERNADO, EQUINOSINTERNADO, EQUINOS 1983-1985</li>
@@ -580,15 +596,15 @@ export const es = {
 			description: 'Consultoral Independiente en el Reino Unido',
 			flagUrl: '/img/BANDERA-UK.png',
 			cv: `${cvStyle}
-			<p>Dr MERIEL MOORE-COLYER BSc.PhD.R.</p>
+			<p><strong>Dr MERIEL MOORE-COLYER BSc.PhD.R.</strong></p>
 
-			<p>PERSONAL DETAILS</p>
+			<p><strong>PERSONAL DETAILS</strong></p>
 			<p>
-				Full name: Meriel Jean Scott Moore-Colyer
-				<br>Email: meriel.moore-colyer@rau.ac.uk
+				Full name: <u>Meriel Jean Scott Moore-Colyer</u>
+				<br>Email: <a href="mailto:meriel.moore-colyer@rau.ac.uk">meriel.moore-colyer@rau.ac.uk</a>
 			</p>
 
-			<p>DEGREES AND PROFESSIONAL QUALIFICATIONS</p>
+			<p><strong>DEGREES AND PROFESSIONAL QUALIFICATIONS</strong></p>
 			<p>
 				2015 Professor of Equine Science (personal chair)
 				<br>2013 R. Anim. Sci (Institute of Biology)
@@ -600,7 +616,7 @@ export const es = {
 				<br>1980 - 1984 BSc (Hons) in Agriculture University College of Wales Aberystwyth
 			</p>
 
-			<p>EMPLOYMENT </p>
+			<p><strong>EMPLOYMENT</strong></p>
 			<ul>
 				<li>2016 Director of Research and Knowledge Exchange, Royal Agricultural University.</li>
 				<li>2014-2016 Dean of School of Equine Management and Science Royal Agricultural University.</li>
@@ -612,7 +628,7 @@ export const es = {
 				<li>1989-1993 Lecturer in Equine Science (Part-time) University of Wales Aberystwyth.</li>
 			</ul>
 
-			<p>MAIN RESEARCH AREAS </p>
+			<p><strong>MAIN RESEARCH AREAS</strong></p>
 			<ul>
 				<li>Novel feeds and feeding systems for young stock</li>
 				<li>Respiratory allergens, identification and systems for treating forage</li>
@@ -622,7 +638,7 @@ export const es = {
 				<li>Energy requirements of exercising horses </li>
 			</ul>
 
-			<p class="uppercase">Membership of National academic societies</p>
+			<p class="uppercase"><strong>Membership of National academic societies</strong></p>
 			<ul>
 				<li>Member BSAS</li>
 				<li>Organizing committee for Emerging Equine Science (2003) and Applying Equine Science Conferences (2005)</li>
@@ -636,13 +652,13 @@ export const es = {
 			conference on Exercise Physiology, 2011. European Society of Veterinary and Clinical
 			Nutrition 2017. European Workshop for Equine Nutrition 2017 onwards</p>
 
-			<p>TEACHING AND MANAGEMENT </p>
+			<p><strong>TEACHING AND MANAGEMENT</strong></p>
 			<ul>
 				<li>Undergraduate teaching: Wide range of experience delivering lectures and practical classes at HND and BSc levels. Subjects taught include Experimental Design and Analyses, Animal Science, Ruminant and Equine Nutrition, Equine Exercise Physiology, Nutritional Biochemistry (organic), Equine Anatomy and Equine Industry. BSc dissertation co-ordinator and supervisor.  </li>
 				<li>Post-graduate teaching: MSc teaching includes, Experimental Design and Analyses; Equine Nutrition; Equine Anatomy. Dissertation co-ordinator and supervisor. MScR and PhD supervisor. </li>
 			</ul>
 
-			<p>PRACTICAL SKILLS HOBBIES AND INTERESTS</p>
+			<p><strong>PRACTICAL SKILLS HOBBIES AND INTERESTS</strong></p>
 			<ul>
 			<li>British Horse Society Intermediate Instructor</li>
 			<li>Riding and competing in dressage - Small Tour level</li>
@@ -651,7 +667,7 @@ export const es = {
 			<li>Classical music </li>
 			</ul>
 
-			<p>LIST OF PUBLICATIONS</p>
+			<p><strong>LIST OF PUBLICATIONS</strong></p>
 			<ul>
 				<li>35. Auger, E.J. and Moore-Colyer, M.J.S. (2017) The effect of management regime on airborne respirable dust concentrations in 2 different types of horse stable design Journal of Equine Veterinary Science. 51:105-109</li>
 				<li>34. Kirsty Roberts, Andrew J. Hemmings, Meriel Moore-Colyer, Matthew O. Parker and Sebastian D. McBride (2016) Neural modulators of temperament: A multivariate approach to personality trait identification in the horse. Physiology & Behaviour: 167: 125–131</li>
@@ -695,7 +711,7 @@ export const es = {
 				<li>1. Moore-Colyer, M.J.S. (1996) The effects of soaking hay fodder for horses on dust and mineral content. Animal Science. 63: 337-342. (ISSN number 1357-7298)</li>
 			</ul>
 
-			<p>CONFERENCE PAPERS </p>
+			<p><strong>CONFERENCE PAPERS</strong></p>
 			<ul>
 				<li>Moore-Colyer, M.J.S., Longland, A.C., Hyslop, J.J. and Cuddeford, D. (1997) Degradation of four dietary fibre sources by ponies as measured by the mobile bag technique. Proceedings of Equine Nutrition and Physiology Society. Fort Worth Texas. May 1997</li>
 				<li>Longland, A.C., Moore-Colyer, M.J.S., Hyslop, J.J., Dhanoa, M.S. and Cuddeford, D. (1997) Comparison of the in sacco degradation of the non-starch polysaccharide and neutral detergent fibre fractions of four sources of dietary fibre by ponies. Proceedings of Equine Nutrition and Physiology Society. Fort Worth Texas. May 1997</li>
@@ -775,7 +791,7 @@ export const es = {
 			description: 'Universidad Andrés Bello, Santiago de Chile',
 			flagUrl: '/img/BANDERA-CHILE.png',
 			cv: `${cvStyle}
-			<p>Prof. PAMELA THOMSON MORALES.
+			<p><strong>Prof. PAMELA THOMSON MORALES.</strong>
 			<br>Médico Veterinario. Magíster en Ciencias Biológicas, Mención Microbiología. Doctora
 			en Ciencias Biomédicas. La Dra. Thomson se tituló de Médico Veterinario en el año
 			2002 y comenzó su especialización en Microbiología yMicología realizando un
@@ -801,20 +817,20 @@ export const es = {
 			colaborar con Sporotrichosis group of the Mycotic Diseases BranchTeams
 			of the Centers for Disease Control and Prevention (CDC) USA</p>
 
-			<p>ÁREASDEINVESTIGACIÓN
+			<p><strong>ÁREAS DE INVESTIGACIÓN</strong>
 			<br>Microbiología Clínica Veterinaria, Microbioma Animal, Resistencia a Antibióticos </p>
 
-			<p>PROYECTOS </p>
+			<p><strong>PROYECTOS</strong></p>
 			<ul>
 				<li>Fondecyt Iniciación # 11231174 2023 Metagenomic characterization of the antibioticresistome and microbiome from samples obtained in healthy dogs and cats. Investigadora Responsable</li>
 				<li>Evaluación del cambio en la composición, función y expresión génica del microbioma intestinal en perros, generados por el uso de diferentes grupos de antibióticos. Proyecto en ejecución: PAI #77190070. Investigadora Responsable.</li>
 				<li>Detección del estado de portación de esporotricosis en garras de felinos provenientes de la ciudad de Santiago, Valdivia y Punta Arenas (IR: Pamela Fondos Científicos Purina 2023.Investigadora Responsable. (Co investigador: alumna Leslie Camila del Río)</li>
 				<li>Caracterización genotípica de complejos clonales de Staphylococcusspp. resistente ameticilina aislados de perros, gatos y humanos. Proyecto en ejecución: Fondos Científicos Purina 2022. Investigadora Responsable</li>
 				<li>Detección de cepas de Staphylococcusspp. resistentes a la meticilina provenientes de perros, gatos y humanos. Proyecto finalizado: Fondos Científicos Purina 2021. Investigadora Responsable.</li>
-				<li>Evaluación del efecto de la sucralosa sobre la composición y función del microbioma intestinal en sujetos sanos. Proyecto finalizado: Fondecyt #3170609. Investigadora responsable <br>VER PUBLICACIONES CIENTÍFICAS Y PERFIL EN: <a href="https://researchers.unab.cl/es/persons/pamela-evelyn-thomson-morales>Portal de Investigadores Universidad Andrés Bello</a></li>
+				<li>Evaluación del efecto de la sucralosa sobre la composición y función del microbioma intestinal en sujetos sanos. Proyecto finalizado: Fondecyt #3170609. Investigadora responsable <br>VER PUBLICACIONES CIENTÍFICAS Y PERFIL EN: <a href="https://researchers.unab.cl/es/persons/pamela-evelyn-thomson-morales">Portal de Investigadores Universidad Andrés Bello</a></li>
 			</ul>
 
-			<p>PUBLICACIONES CIENTÍFICAS</p>
+			<p><strong>PUBLICACIONES CIENTÍFICAS</strong></p>
 			<ul>
 				<li>Thomson, P. ,Carreño, N. & Núñez, A., 2023, Main mites associated with dermato pathiespresent in dogs and other members of the Canidae family: Open Veterinary Journal. 13, 2, p.131-14212 p.</li>
 				<li>Thomson, P.,González, C.,Blank, O.,Ramírez, V.,Río, C.D.,Santibáñez, S.&Pena, P., feb.2023, Sporotrichosis Outbreak Due to Sporothrix brasiliensis in Domestic Cats inMagallanes, Chile: A One-Health-Approach Study: Journal of Fungi.9,2, 226.</li>
