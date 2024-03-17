@@ -62,9 +62,9 @@
 </svelte:head>
 <!-- Puedes personalizar este botón como quieras -->
 <!-- bg-gradient-to-r from-torch-red to-black hover:from-70% -->
-<div class="flex flex-row absolute bottom-9 left-5 sm:left-1/4 2xl:left-1/3">
+<div class="flex flex-row gap-3 absolute bottom-9 left-5 sm:left-1/4 2xl:left-1/3">
 	<button
-		class="font-bold bg-torch-red text-white px-5 py-2 hover:underline"
+		class="font-bold bg-torch-red text-xl sm:text-2xl text-white px-5 py-2 hover:underline"
 		id="eventbrite-widget-modal-trigger-861021718137"
 		type="button">{lang.eventBriteBtnText}</button
 	>

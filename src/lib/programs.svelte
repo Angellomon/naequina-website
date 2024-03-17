@@ -1,6 +1,7 @@
 <script>
 	import { getContext } from 'svelte';
 	import { en, es } from '$lib/langs';
+	import { scrollRef } from 'svelte-scrolling';
 
 	/** @type {(en | es)} */
 	const lang = getContext('lang');
@@ -10,7 +11,11 @@
 	<h2 class="text-center text-white text-4xl sm:text-5xl">{lang.programsText}</h2>
 </div>
 
-<div class="bg-black w-full flex flex-col justify-center items-center gap-4 pt-4 px-2">
+<div
+	id="programa"
+	use:scrollRef={'programa'}
+	class="bg-black w-full flex flex-col justify-center items-center gap-4 pt-4 px-2"
+>
 	{#each lang.programs as program}
 		<p class="text-center text-white text-4xl sm:text-5xl">
 			{@html program.date}

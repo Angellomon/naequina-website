@@ -1,5 +1,5 @@
 <script>
-	import { goto } from '$app/navigation';
+	import { scrollRef } from 'svelte-scrolling';
 	import { en, es } from '$lib/langs';
 	import { getContext } from 'svelte';
 	import Speaker from './speaker.svelte';
@@ -17,7 +17,7 @@
 	}
 </script>
 
-<div class="bg-black flex flex-col gap-3">
+<div id="ponentes" use:scrollRef={'ponentes'} class="bg-black flex flex-col gap-3">
 	<div
 		class="flex justify-center py-3 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 	>

@@ -1,6 +1,9 @@
 <script>
 	import { goto } from '$app/navigation';
 
+	import { es, en } from '$lib/langs';
+	import { getContext } from 'svelte';
+
 	/** @type {{
 	 *    id: string;
 	 *    name: string;
@@ -13,6 +16,9 @@
 	export let white = false;
 
 	let hovered = false;
+
+	/** @type {(es | en)} */
+	const lang = getContext('lang');
 
 	/** @param {string} id  */
 	function gotoSpeaker(id) {
@@ -52,7 +58,7 @@
 		/>
 	</div>
 
-	<div class="flex flex-col px-7 py-3 flex-1 min-w-48">
+	<div class="relative flex flex-col px-7 py-3 flex-1 min-w-48">
 		<h2 class="text-2xl max-w-44 leading-7 mb-2 text-white" class:hovered>
 			{#if speaker.pre}
 				{speaker.pre}. {speaker.name}
@@ -64,6 +70,10 @@
 		<p class="text-md max-w-[250px] leading-5 text-white">
 			{speaker.description}
 		</p>
+
+		<div class="absolute right-0 bottom-0 text-white px-3 py-2 bg-torch-red" class:hovered>
+			<strong>{lang.cvText}</strong>
+		</div>
 	</div>
 </div>
 

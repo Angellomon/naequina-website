@@ -9,6 +9,8 @@
 	const lang = getContext('lang');
 
 	export let contactoId = 'contacto';
+	export let programaId = 'programa';
+	export let ponentesId = 'ponentes';
 	export let langUrl = '/en';
 </script>
 
@@ -20,10 +22,20 @@
 	</a>
 
 	<div class="flex flex-row items-center absolute z-50 right-4 sm:right-10 top-1/3">
-		<!-- svelte-ignore a11y-missing-attribute -->
-		<a use:scrollTo={contactoId} class="text-white px-5 py-2 contact hover:underline"
-			>{lang.header.contactButton}</a
-		>
+		<div class="flex flex-col sm:flex-row">
+			<!-- svelte-ignore a11y-missing-attribute -->
+			<a use:scrollTo={contactoId} class="text-white px-5 py-2 contact hover:underline"
+				>{lang.header.contactButton}</a
+			>
+			<!-- svelte-ignore a11y-missing-attribute -->
+			<a use:scrollTo={programaId} class="text-white px-5 py-2 contact hover:underline"
+				>{lang.header.programsText}</a
+			>
+			<!-- svelte-ignore a11y-missing-attribute -->
+			<a use:scrollTo={ponentesId} class="text-white px-5 py-2 contact hover:underline"
+				>{lang.header.speakersText}</a
+			>
+		</div>
 
 		<a
 			use:tooltip={{

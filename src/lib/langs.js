@@ -28,13 +28,16 @@ const cvStyle = `
 `;
 
 export const es = {
+	cvText: 'VER CV',
 	availableTicketsText: 'lugares disponibles',
-	eventBriteBtnText: 'Registro',
+	eventBriteBtnText: 'CLIC PARA REGISTRARTE',
 	lang: 'es',
 	flagUrl: '/img/BANDERA-EUA.png',
 	switchText: 'Switch to English',
 	header: {
-		contactButton: 'CONTACTO'
+		contactButton: 'CONTACTO',
+		programsText: 'PROGRAMA',
+		speakersText: 'PONENTES'
 	},
 	jumbotron: {
 		eventDescription: [
@@ -472,16 +475,6 @@ export const es = {
 			description: 'Colegio de Postgraduados',
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
-			<ul>
-				<li>Nombre: María Esther Ortega Cerrilla</li>
-				<li>Nacionalidad: Mexicana</li>
-				<li>Puesto actual: Profesor Investigador Titular Programa de Ganadería
-					<br>Colegio de Postgraduados
-					<br>Carr. México-Texcoco km. 35.5 Montecillo, Edo. de México 56230
-					<br>Tel: <a href="tel:+525959520200">5959520200</a> ext.75047
-					<br>Correo electrónico: <a href="mailto:meoc@colpos.mx">meoc@colpos.mx</a> <a href="mailto:faikma@yahoo.com.mx">faikma@yahoo.com.mx</a></li>
-			</ul>
-
 			<p><strong>SISTEMA NACIONAL DE INVESTIGADORES: Investigador Nacional Nivel II</strong></p>
 
 			<p><strong>FORMACION ACADÉMICA:</strong></p>
@@ -599,12 +592,6 @@ export const es = {
 			flagUrl: '/img/BANDERA-UK.png',
 			cv: `${cvStyle}
 			<p><strong>Dr MERIEL MOORE-COLYER BSc.PhD.R.</strong></p>
-
-			<p><strong>PERSONAL DETAILS</strong></p>
-			<p>
-				Full name: <u>Meriel Jean Scott Moore-Colyer</u>
-				<br>Email: <a href="mailto:meriel.moore-colyer@rau.ac.uk">meriel.moore-colyer@rau.ac.uk</a>
-			</p>
 
 			<p><strong>DEGREES AND PROFESSIONAL QUALIFICATIONS</strong></p>
 			<p>
@@ -1326,13 +1313,16 @@ export const es = {
 };
 
 export const en = {
+	cvText: 'VIEW CV',
 	availableTicketsText: 'places available',
-	eventBriteBtnText: 'Registration',
+	eventBriteBtnText: 'CLICK TO REGISTER',
 	lang: 'en',
 	switchText: 'Cambiar a Español',
 	flagUrl: '/img/BANDERA-MEXICO.png',
 	header: {
-		contactButton: 'CONTACT'
+		contactButton: 'CONTACT',
+		programsText: 'PROGRAM',
+		speakersText: 'SPEAKERS'
 	},
 	jumbotron: {
 		eventDescription: ['THE MOST IMPORTANT', 'EQUINE ANIMAL NUTRITION', 'EVENT IN LATIN AMERICA'],

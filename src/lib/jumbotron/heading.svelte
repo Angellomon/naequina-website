@@ -19,7 +19,7 @@
 <div class="relative w-full">
 	<div class="relative py-28 bg-black flex flex-row md:min-h-[550px]">
 		<div
-			class="principal extra-large pl-20 sm:pl-36 md:pl-64 xl:pl-80 2xl:pl-[23rem] w-3/4 xl:w-3/5"
+			class="principal extra-large pl-20 sm:pl-36 md:pl-64 xl:pl-80 2xl:pl-[23rem] w-3/4 xl:w-3/5 mb-7"
 		>
 			<OnMount>
 				<div
