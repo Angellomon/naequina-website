@@ -4,6 +4,9 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
-		cors: false
+		cors: false,
+		proxy: {
+			'/available-tickets': 'https://naequina.com'
+		}
 	}
 });
