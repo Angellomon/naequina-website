@@ -1,5 +1,5 @@
 <script>
-	import { getContext, onMount } from 'svelte';
+	import { getContext, onDestroy, onMount } from 'svelte';
 	import { en, es } from '$lib/langs';
 
 	var exampleCallback = function () {
@@ -10,6 +10,9 @@
 	const lang = getContext('lang');
 
 	onMount(() => {
+		getTicketsAvailable();
+		updateId = setInterval(getTicketsAvailable, 5000);
+
 		window.EBWidgets.createWidget({
 			widgetType: 'checkout',
 			eventId: '861021718137',
@@ -17,6 +20,31 @@
 			modalTriggerElementId: 'eventbrite-widget-modal-trigger-861021718137',
 			onOrderComplete: exampleCallback
 		});
+	});
+
+	/** @type {number} */
+	let updateId;
+
+	/** @type {number | "-"} */
+	let availableTickets = '-';
+
+	async function getTicketsAvailable() {
+		try {
+			const res = await fetch('/available-tickets');
+
+			if (!res.ok) throw 'fetch error';
+
+			const data = await res.json();
+
+			availableTickets = +data.availableTickets;
+		} catch (err) {
+			console.log(err);
+			availableTickets = '-';
+		}
+	}
+
+	onDestroy(() => {
+		clearInterval(updateId);
 	});
 </script>
 
@@ -34,11 +62,14 @@
 </svelte:head>
 <!-- Puedes personalizar este botón como quieras -->
 <!-- bg-gradient-to-r from-torch-red to-black hover:from-70% -->
-<button
-	class="font-bold bg-torch-red absolute text-white px-5 py-2 bottom-9 left-5 sm:left-1/4 xl:left-1/3 hover:underline"
-	id="eventbrite-widget-modal-trigger-861021718137"
-	type="button">{lang.eventBriteBtnText}</button
->
+<div class="flex flex-row absolute bottom-9 left-5 sm:left-1/4 2xl:left-1/3">
+	<button
+		class="font-bold bg-torch-red text-white px-5 py-2 hover:underline"
+		id="eventbrite-widget-modal-trigger-861021718137"
+		type="button">{lang.eventBriteBtnText}</button
+	>
+	<p class="text-white px-3 py-2">{availableTickets} {lang.availableTicketsText}</p>
+</div>
 
 <style>
 	button {

@@ -47,6 +47,7 @@
 				</div>
 			</OnMount>
 		</div>
+
 		<EventbriteButton />
 	</div>
 	<div
