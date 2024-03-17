@@ -28,6 +28,7 @@ const cvStyle = `
 `;
 
 export const es = {
+	eventBriteBtnText: 'Registro',
 	lang: 'es',
 	flagUrl: '/img/BANDERA-EUA.png',
 	switchText: 'Switch to English',
@@ -1324,6 +1325,7 @@ export const es = {
 };
 
 export const en = {
+	eventBriteBtnText: 'Registration',
 	lang: 'en',
 	switchText: 'Cambiar a Español',
 	flagUrl: '/img/BANDERA-MEXICO.png',
