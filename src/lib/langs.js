@@ -151,8 +151,6 @@ export const es = {
 			description: 'Universidad de Guelph',
 			flagUrl: '/img/BANDERA-CANADA.png',
 			cv: `${cvStyle}
-			<p><strong>PhD. WENDY PEARSON </strong></p>
-
 			<p>La Dra. Wendy Pearson es Profesora Asociada del Departamento de Biociencia
 			Animal de la Universidad de Guelph, Canadá.Realizó estudios de pregrado en
 			Ciencia Animal, es Maestra en Ciencias en Toxicología Nutricional y Doctora en
@@ -186,7 +184,7 @@ export const es = {
 			description: 'Kentucky Equine Research, USA',
 			flagUrl: '/img/BANDERA-EUA.png',
 			cv: `${cvStyle}
-			<p>Dra. Kathleen Crandell, realizó sus estudios de Maestría en el área de Nutrición Equina y
+			<p>La Dra. Kathleen Crandell, realizó sus estudios de Maestría en el área de Nutrición Equina y
 			Fisiología del Ejercicio en el Instituto Politécnico de Virginia; sus estudios de Doctorado los
 			realizó en el área de Nutrición y Reproducción Equina en el Instituto Politécnico de Virginia.
 			Fue asesor en el centro de Extensión e Investigación de Agricultura en “Virginia Tech
@@ -228,19 +226,18 @@ export const es = {
 				<li>Certificación Profesional CONCERVET Área Equinos</li>
 				<li>Maestría en Ciencias Agropecuarias y Recursos Naturales. Línea de Investigación Salud Animal, Área: Equinos FMVZ-UAEM </li>
 				<li>Especialidad en Medicina y Cirugía en Équidos Periodo 2008-2009 FMVZ-UNAM</li>
-				<li>Licenciatura: Médico Veterinario Zootecnista Periodo1997-2004FMVZ-UAEM</li>
-				
+				<li>Licenciatura: Médico Veterinario Zootecnista Periodo 1997-2004 FMVZ-UAEM</li>
 			</ul>
 			
 			<p><strong>Experiencia Laboral</strong></p>
 			<ul>
-				<li>Clínica Privada Medicina en Equinos Periodo 2004 - a la fecha</li>
-				<li>Profesor de tiempo completo (PTC-B) FMVZ’UAEM Periodo 2011- a la fecha</li>
-				<li>Miembro del Comité Certificador Área de Equinos CONCERVET Periodo 2014- a la fecha</li>
-				<li>Responsable del Área de Cirugía de la FMVZ ́ UAEMex Periodo 2020- a la fecha</li>
-				<li>Clínico-Responsable del área de Medicina Interna en Equinos Hospital Veterinario Grandes Especies FMVZ UAEM Periodo 2011- 2020</li>
+				<li>Clínica Privada Medicina en Equinos Periodo 2004 a la fecha</li>
+				<li>Profesor de tiempo completo (PTC-B) FMVZ-UAEM Periodo 2011 a la fecha</li>
+				<li>Miembro del Comité Certificador Área de Equinos CONCERVET Periodo 2014 a la fecha</li>
+				<li>Responsable del Área de Cirugía de la FMVZ-UAEM Periodo 2020 a la fecha</li>
+				<li>Clínico-Responsable del área de Medicina Interna en Equinos Hospital Veterinario Grandes Especies FMVZ-UAEM Periodo 2011-2020</li>
 				<li>Delegado de la Asociación Mexicana de Médicos Veterinarios Especialistas en Equinos (AMMVEE), Delegación del Estado de México Abril 2012-2017</li>
-				<li>Médico Residente y Anestesista Unidad Médica Equina, Santo Tomas, Ajusto D.F. Periodo 2009-2011</li>
+				<li>Médico Residente y Anestesista Unidad Médica Equina, Santo Tomas, Ajusco D.F. Periodo 2009-2011</li>
 				<li>Diferentes Estancias en Medicina y Cirugía para Équidos</li>
 				<li>Hospital de Équidos FMVZ-UNAM Méx.</li>
 				<li>Hospital la Silla, Monterrey, N.L.</li>
@@ -252,8 +249,7 @@ export const es = {
 			<p><strong>Publicaciones</strong></p>
 
 			<p>Effects of Jejunal Manipulation During Surgical Laparotomy Techniques and Its
-			Evaluation Using Physical, Clinical, and Echographic Parameters In Horses. J
-			ournal of Equine Veterinary Science (JVES) November 2017 Volume 58,
+			Evaluation Using Physical, Clinical, and Echographic Parameters In Horses. Journal of Equine Veterinary Science (JVES) November 2017 Volume 58,
 			Pages 40-46</p>
 			`
 		},
@@ -320,16 +316,16 @@ export const es = {
 
 			<p><strong>EDUCACIÓN</strong></p>
 			<ul>
-				<li>Jul 01 2002- Jul 01 2007 Medicina Veterinaria y Zootecnia. Universidad La Salle Bajío.León Guanajuato México.</li>
+				<li>Jul 01 2002- Jul 01 2007 Medicina Veterinaria y Zootecnia. Universidad La Salle Bajío. León Guanajuato México.</li>
 			</ul>
 
 			<p><strong>EXPERIENCIA</strong></p>
 			<ul>
-				<li>May 2020- Presente Gerente de Portafolio Equinos Norte. Agribrands Purina México (Cargill) Monterrey Nuevo León.</li>
+				<li>May 2020-Presente Gerente de Portafolio Equinos Norte. Agribrands Purina México (Cargill) Monterrey Nuevo León.</li>
 				<li>Ene 2019-May 2020 Líder de Especie Estratégica Equinos. Norte (Coordinación de Servicios técnicos). Agribrands Purina México (Cargill) Monterrey Nuevo León.</li>
-				<li>Jun 2017- Ene 2019 Gerente especialista en equinos Norte y Centro. Agribrands Purina México (Cargill) Monterrey Nuevo León.</li>
-				<li>Jul 2008- Jun 2017 Gerente especialista en equinos Norte. Agribrands Purina México (Cargill) Monterrey Nuevo León.</li>
-				<li>Ago 2007- Jul 2008 Comercialización de alimento balanceado. </li>
+				<li>Jun 2017-Ene 2019 Gerente especialista en equinos Norte y Centro. Agribrands Purina México (Cargill) Monterrey Nuevo León.</li>
+				<li>Jul 2008-Jun 2017 Gerente especialista en equinos Norte. Agribrands Purina México (Cargill) Monterrey Nuevo León.</li>
+				<li>Ago 2007-Jul 2008 Comercialización de alimento balanceado. </li>
 				<li>Asesoría Nutricional especializada en equinos. León Guanajuato.</li>
 			</ul>
 			`
@@ -576,7 +572,7 @@ export const es = {
 				<li>Estudió en la Facultad de Medicina Veterinaria y Zootecnia de la UNAM, por la que obtuvo el grado de Médico Veterinario Zootecnista en el año 2000; para dos años más tarde obtener el grado de Maestro en Ciencias, con Opción en Nutrición Animal, por la Universidad Autónoma de Yucatán. En 2008 obtiene la Certificación en Equinos por el CONCERVET, certificándose de nuevo en 2014.</li>
 				<li>En octubre de 2002 se integró al Programa conformado por las fundaciones británicas The Donkey Sanctuary y World Horse Welfare, junto con la Universidad Nacional Autónoma de México, como Responsable del Proyecto "Equine Nutrition and Management", áreas en las que se ha mantenido como consultor. De hecho, dirigiendo dicho Programa, ha desarrollado proyectos para identificar condiciones que ponen en riesgo el bienestar equino, colaborando con instituciones nacionales e internacionales en la implementación de actividades en apoyo del desarrollo profesional y el avance de los estándares de práctica de médicos veterinarios trabajando con équidos. </li>
 				<li>Académico de la Facultad de Medicina Veterinaria y Zootecnia de la UNAM desde 2002, donde actualmente es Profesor Asociado C de Tiempo Completo y Jefe del Departamento de Medicina, Cirugía y Zootecnia para Équidos, impartiendo materias a nivel licenciatura y posgrado, además de ser asesor en servicio social, trabajo profesional, estancias de investigación, tesis de licenciatura, internado, especialidad y maestría de estudiantes tanto de la UNAM, como de otras universidades nacionales e internacionales.</li>
-				<li>Entre los eventos en los que ha participado como ponente e instructor destacan: el Congreso Anual AMMVEE (2003 a 2014), el Seminario Anual de The International League for the Protection of Horses (2005), la Reunión Anual de The American Association of Equine Practitioners (2009 y 2015), The International Colloquium on Working Equids (2006, 2010 y 2014), The Equitarian Workshop (2010 a 2014), The FAO - Brooke Expert Meeting on Welfare of Working Animals (2011), el Congreso de The World Equine Veterinary Association (2015) y la Reunión de la Asociación Latinoamericana de Producción Animal (2016); publicando artículos en memorias de congresos y revistas arbitradas en temas de bienestar, nutrición, odontología y enfermedades en équidos. </li>
+				<li>Entre los eventos en los que ha participado como ponente e instructor destacan: el Congreso Anual AMMVEE (2003 a 2014), el Seminario Anual de The International League for the Protection of Horses (2005), la Reunión Anual de The American Association of Equine Practitioners (2009 y 2015), The International Colloquium on Working Equids (2006, 2010 y 2014), The Equitarian Workshop (2010 a 2014), The FAO-Brooke Expert Meeting on Welfare of Working Animals (2011), el Congreso de The World Equine Veterinary Association (2015) y la Reunión de la Asociación Latinoamericana de Producción Animal (2016); publicando artículos en memorias de congresos y revistas arbitradas en temas de bienestar, nutrición, odontología y enfermedades en équidos. </li>
 				<li>Es así mismo miembro del Comité de Salud y Producción Equina del CONASA, miembro del Comité Técnico de Certificación en Equinos del CONCERVET y Presidente de la Asociación Mexicana de Médicos Veterinarios Especialistas en Equinos.</li>
 				<li>En su práctica privada se ha desempeñado en Nutrición Equina y Odontología Equina; prestando también servicios como consultor de empresas del ramo de la alimentación animal, así como de criaderos y cuadras particulares.</li>
 				<li>Involucrado en academia, práctica privada, extensión y educación continua, durante su carrera Mariano ha mantenido el equilibrio entre la teoría y la práctica para promover la calidad de vida y el desempeño eficiente de los équidos. Siempre convencido de la importancia de mantener las buenas prácticas tradicionales para procurar el bienestar animal, al tiempo que se incorporan los avances de la ciencia y la tecnología.</li>
@@ -596,12 +592,12 @@ export const es = {
 			<p>
 				2015 Professor of Equine Science (personal chair)
 				<br>2013 R. Anim. Sci (Institute of Biology)
-				<br>1995 - 2000 PhD Equine Nutrition (University of Edinburgh)
+				<br>1995-2000 PhD Equine Nutrition (University of Edinburgh)
 				<br>Title: Studies on the degradation kinetics of botanically diverse fibrous feeds and their apparent digestibility and rate of passage when fed to ponies.
 				<br><br>1996 Home Office Licence Modules 1,2,3,4, and 5.
 				<br>1994 BTEC Training and Assessor qualifications, D32 and D33
 				<br>1984 British Horse Society Intermediate Instructor
-				<br>1980 - 1984 BSc (Hons) in Agriculture University College of Wales Aberystwyth
+				<br>1980-1984 BSc (Hons) in Agriculture University College of Wales Aberystwyth
 			</p>
 
 			<p><strong>EMPLOYMENT</strong></p>
@@ -649,7 +645,7 @@ export const es = {
 			<p><strong>PRACTICAL SKILLS HOBBIES AND INTERESTS</strong></p>
 			<ul>
 			<li>British Horse Society Intermediate Instructor</li>
-			<li>Riding and competing in dressage - Small Tour level</li>
+			<li>Riding and competing in dressage-Small Tour level</li>
 			<li>PADI and SSI Advanced Scuba diver</li>
 			<li>Reading</li>
 			<li>Classical music </li>
@@ -1271,7 +1267,7 @@ export const es = {
 						<br>DEPARTAMENTO DE NUTRICIÓN ANIMAL
 						<br>Y BIOQUÍMICA. FMVZ-UNAM</p>`,
 					cols: 2,
-					extraContent: `<p>RELACIÓN EQUINO - ALIMENTO</p>`,
+					extraContent: `<p>RELACIÓN EQUINO-ALIMENTO</p>`,
 					startHour: '16:15',
 					endHour: '16:20'
 				},
@@ -1855,7 +1851,7 @@ export const en = {
 						<br>ANIMAL NUTRITION AND BIOCHEMISTRY
 						<br>DEPT. FMVZ- UNAM.</p>`,
 					cols: 2,
-					extraContent: `<p>EQUINE - FEED RELATIONSHIP</p>`,
+					extraContent: `<p>EQUINE-FEED RELATIONSHIP</p>`,
 					startHour: '16:15',
 					endHour: '16:20'
 				},
