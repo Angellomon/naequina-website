@@ -10,13 +10,14 @@
 	import Events_2Days from './events-2-days.svelte';
 	import AnnouncementRegistration from './announcement-registration.svelte';
 	import { fly } from 'svelte/transition';
+	import EventbriteButton from '$lib/eventbrite-button.svelte';
 
 	/** @type {(es | en)} */
 	const lang = getContext('lang');
 </script>
 
 <div class="relative w-full">
-	<div class="py-28 bg-black flex flex-row md:min-h-[550px]">
+	<div class="relative py-28 bg-black flex flex-row md:min-h-[550px]">
 		<div
 			class="principal extra-large pl-20 sm:pl-36 md:pl-64 xl:pl-80 2xl:pl-[23rem] w-3/4 xl:w-3/5"
 		>
@@ -46,6 +47,7 @@
 				</div>
 			</OnMount>
 		</div>
+		<EventbriteButton />
 	</div>
 	<div
 		class="extra-large 2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
