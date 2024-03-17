@@ -533,8 +533,6 @@ export const es = {
 			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
-			<p><strong>Extracto</strong></p>
-
 			<ul>
 				<li>MVZ en FMVZ, UNAM México</li>
 				<li>MSc Gastroenterología en U of Fl</li>
@@ -542,19 +540,19 @@ export const es = {
 				<li>MSc Fisiología del ejercicio LSU</li>
 				<li>Board ACVIM</li>
 				<li>PhD Ingeniería de Tejidos y Cartílago</li>
-				<li>Profesor FMVZ, UNAMExperiencia</li>
+				<li>Profesor FMVZ, UNAM</li>
 			</ul>
 
 			<p><strong>Experiencia</strong></p>
 			<ul>
-				<li>Asesor de la Clinica del Hipodromo: Hipodromo de las Americas noviembre de 2013-actualidad (4 años 4 meses) </li>
+				<li>Asesor de la Clínica del Hipodromo: Hipódromo de las Américas noviembre de 2013-actualidad (4 años 4 meses).</li>
 				<li>Profesor FMVZ, UNAM 1991-actualidad (27 años) Nombramiento: Profesor Titular C Tiempo Completo Definitivo.</li>
 			</ul>
 
 			<p><strong>Educación</strong></p>
 			<ul>
 				<li>University of Florida, LSU</li>
-				<li>INTERNADO, EQUINOSINTERNADO, EQUINOS 1983-1985</li>
+				<li>INTERNADO, EQUINOS INTERNADO, EQUINOS 1983-1985</li>
 				<li>FACULTAD DE MEDICINA VETERINARIA Y ZOOTECNIA, CU, UNAM MVZ</li>
 				<li>MEDICINA INTERNA, MEDICINA REGENERATIVA, INTERÉS ESPECIAL EN MEDICINA DEPORTIVA MVZ, 1978-1982</li>
 			</ul>
@@ -583,18 +581,16 @@ export const es = {
 			id: 'meriel-moore-colyer',
 			name: 'MERIEL MOORE-COLYER',
 			pre: 'DRA',
-			description: 'Consultoral Independiente en el Reino Unido',
+			description: 'Consultora Independiente en el Reino Unido',
 			flagUrl: '/img/BANDERA-UK.png',
 			cv: `${cvStyle}
-			<p><strong>Dr MERIEL MOORE-COLYER BSc.PhD.R.</strong></p>
-
 			<p><strong>DEGREES AND PROFESSIONAL QUALIFICATIONS</strong></p>
 			<p>
 				2015 Professor of Equine Science (personal chair)
 				<br>2013 R. Anim. Sci (Institute of Biology)
 				<br>1995-2000 PhD Equine Nutrition (University of Edinburgh)
 				<br>Title: Studies on the degradation kinetics of botanically diverse fibrous feeds and their apparent digestibility and rate of passage when fed to ponies.
-				<br><br>1996 Home Office Licence Modules 1,2,3,4, and 5.
+				<br><br>1996 Home Office Licence Modules 1, 2, 3, 4, and 5.
 				<br>1994 BTEC Training and Assessor qualifications, D32 and D33
 				<br>1984 British Horse Society Intermediate Instructor
 				<br>1980-1984 BSc (Hons) in Agriculture University College of Wales Aberystwyth
@@ -622,7 +618,7 @@ export const es = {
 				<li>Energy requirements of exercising horses </li>
 			</ul>
 
-			<p class="uppercase"><strong>Membership of National academic societies</strong></p>
+			<p class="uppercase"><strong>Membership of National Academic Societies</strong></p>
 			<ul>
 				<li>Member BSAS</li>
 				<li>Organizing committee for Emerging Equine Science (2003) and Applying Equine Science Conferences (2005)</li>
@@ -778,15 +774,15 @@ export const es = {
 			<p><strong>Prof. PAMELA THOMSON MORALES.</strong>
 			<br>Médico Veterinario. Magíster en Ciencias Biológicas, Mención Microbiología. Doctora
 			en Ciencias Biomédicas. La Dra. Thomson se tituló de Médico Veterinario en el año
-			2002 y comenzó su especialización en Microbiología yMicología realizando un
+			2002 y comenzó su especialización en Microbiología y Micología realizando un
 			Magister en la Universidad de Chile, luego se trasladó a España para continuar con un
-			Doctorado en Biomedicina, en la Universitat Rovirai Virgili. Extendió sus actividades de
+			Doctorado en Biomedicina, en la Universitat Rovira i Virgili. Extendió sus actividades de
 			investigación realizando un post doctorado en la Universidad Católica de Chile,
 			enfocando su trabajo en el microbioma intestinal humano. Perfeccionó estos
 			conocimientos con una pasantía en Valencia en la fundación para el Fomento de la
 			Investigación Sanitaria y Biomédica (FISABIO). Desde el año 2020, se incorporó a la
 			Universidad Andrés Bello, donde participa como docente en asignaturas de pregrado
-			como Agresión y Defensa Orgánica, Zoonosis y Seminario deTítulo. Coordina
+			como Agresión y Defensa Orgánica, Zoonosis y Seminario de Título. Coordina
 			asignaturas de Microbiología Clínica, Inocuidad Alimentaria e Impacto en Una Salud
 			en Medicina Veterinaria. Participa como docente de post grado, formando parte del
 			cuerpo académico del Doctorado de Medicina de la Conservación. Es la fundadora y
@@ -795,10 +791,10 @@ export const es = {
 			investigación y diagnóstico microbiológico, trabajando directamente con el hospital
 			clínico veterinario.Es miembro de la Sociedad de Microbiología de Chile,
 			miembro de la Sociedad Internacional de Microbiota. Editora en Frontiers
-			Veterinary Science, en la sección Animal Nutrition andMetabolism y
+			Veterinary Science, en la sección Animal Nutrition and Metabolism y
 			Editora en Frontiers in Microbiology, en la sección Microorganisms in
 			Vertebrate Digestive Systems, entre otras. Recientemente comenzó a
-			colaborar con Sporotrichosis group of the Mycotic Diseases BranchTeams
+			colaborar con Sporotrichosis group of the Mycotic Diseases Branch Teams
 			of the Centers for Disease Control and Prevention (CDC) USA</p>
 
 			<p><strong>ÁREAS DE INVESTIGACIÓN</strong>
@@ -806,19 +802,53 @@ export const es = {
 
 			<p><strong>PROYECTOS</strong></p>
 			<ul>
-				<li>Fondecyt Iniciación # 11231174 2023 Metagenomic characterization of the antibioticresistome and microbiome from samples obtained in healthy dogs and cats. Investigadora Responsable</li>
+				<li>Fondecyt Iniciación #11231174 2023 Metagenomic characterization of the antibiotic resistome and microbiome from samples obtained in healthy dogs and cats. Investigadora Responsable</li>
 				<li>Evaluación del cambio en la composición, función y expresión génica del microbioma intestinal en perros, generados por el uso de diferentes grupos de antibióticos. Proyecto en ejecución: PAI #77190070. Investigadora Responsable.</li>
 				<li>Detección del estado de portación de esporotricosis en garras de felinos provenientes de la ciudad de Santiago, Valdivia y Punta Arenas (IR: Pamela Fondos Científicos Purina 2023.Investigadora Responsable. (Co investigador: alumna Leslie Camila del Río)</li>
-				<li>Caracterización genotípica de complejos clonales de Staphylococcusspp. resistente ameticilina aislados de perros, gatos y humanos. Proyecto en ejecución: Fondos Científicos Purina 2022. Investigadora Responsable</li>
-				<li>Detección de cepas de Staphylococcusspp. resistentes a la meticilina provenientes de perros, gatos y humanos. Proyecto finalizado: Fondos Científicos Purina 2021. Investigadora Responsable.</li>
+				<li>Caracterización genotípica de complejos clonales de Staphylococcuss pp. resistente a meticilina aislados de perros, gatos y humanos. Proyecto en ejecución: Fondos Científicos Purina 2022. Investigadora Responsable</li>
+				<li>Detección de cepas de Staphylococcuss pp. resistentes a la meticilina provenientes de perros, gatos y humanos. Proyecto finalizado: Fondos Científicos Purina 2021. Investigadora Responsable.</li>
 				<li>Evaluación del efecto de la sucralosa sobre la composición y función del microbioma intestinal en sujetos sanos. Proyecto finalizado: Fondecyt #3170609. Investigadora responsable <br>VER PUBLICACIONES CIENTÍFICAS Y PERFIL EN: <a href="https://researchers.unab.cl/es/persons/pamela-evelyn-thomson-morales">Portal de Investigadores Universidad Andrés Bello</a></li>
 			</ul>
 
 			<p><strong>PUBLICACIONES CIENTÍFICAS</strong></p>
 			<ul>
 				<li>Thomson, P. ,Carreño, N. & Núñez, A., 2023, Main mites associated with dermato pathiespresent in dogs and other members of the Canidae family: Open Veterinary Journal. 13, 2, p.131-14212 p.</li>
-				<li>Thomson, P.,González, C.,Blank, O.,Ramírez, V.,Río, C.D.,Santibáñez, S.&Pena, P., feb.2023, Sporotrichosis Outbreak Due to Sporothrix brasiliensis in Domestic Cats inMagallanes, Chile: A One-Health-Approach Study: Journal of Fungi.9,2, 226.</li>
-				<li>Núñez, A. H.,Hidalgo, F. G.,Morales, P. C.,Silva, V. E.,Thomson, P. E.&Castro, R.A.,2022, Antifungal susceptibility of Malassezia pachydermatis isolated from the externalauditive conduct from dogs, in central Chile: Open Veterinary Journal. 12, 1, p.99-1046 p. </li>
+				<li>Thomson, P.,González, C.,Blank, O.,Ramírez, V.,Río, C.D.,Santibáñez, S.&Pena, P., feb.2023, Sporotrichosis Outbreak Due to Sporothrix brasiliensis in Domestic Cats in Magallanes, Chile: A One-Health-Approach Study: Journal of Fungi.9,2, 226.</li>
+				<li>Núñez, A. H.,Hidalgo, F. G.,Morales, P. C.,Silva, V. E.,Thomson, P. E.&Castro, R.A.,2022, Antifungal susceptibility of Malassezia pachydermatis isolated from the external auditive conduct from dogs, in central Chile: Open Veterinary Journal. 12, 1, p.99-1046 p. </li>
+				<li>Lara, F.,Castro, R. & Thomson, P.,2022, Changes in the gut microbiome and colic inhorses: Are they causes or consequences? : Open Veterinary Journal. 12, 2, p.242-2498p.</li>
+				<li>Thomson P, Santibáñez R, Rodríguez-Salas C, Flores- Yañez C, Garrido D. Differences in the composition and predicted functions of the intestinal microbiome of obese and normal weight adult dogs. PeerJ. 2022 16;10: e12695.</li>
+				<li>Lara F, Castro R, Thomson P.Changes in the gut microbiome and colic in horses: Are they causes or consequences? Open Vet J. 2022;12(2):242-249.</li>
+				<li>Thomson P, García P, Miles J, Isla D, Yáñez C, Santibáñez R, Núñez A, Flores-Yáñez C, DelRío C, Cuadra F. Isolation and Identification of Staphylococcus Species Obtained fromHealthy Companion Animals and Humans. Vet Sci. 2022; 13;9(2):79.</li>
+				<li>Santibáñez R, Lara F, Barros TM, Mardones E, Cuadra F, Thomson P. Ocular Microbiome in aGroup of Clinically Healthy Horses. Animals (Basel). 2022 7;12(8):943.</li>
+				<li>Núñez F P, Quera R, Bay C, Thomson P. Fecal microbiota transplant, its usefulness beyondClostridioides difficile in gastrointestinal diseases. Gastroenterol Hepatol. 2022;45(3):223-230.</li>
+				<li>Núñez AH, Hidalgo FG, Morales PC, Silva VE, Thomson P E, Castro RA. Antifungalsusceptibility of Malassezia pachydermatis isolated from the external auditive conduct from dogs, in central Chile. Open Vet J. 2022;12(1):99-104.</li>
+				<li>Santibáñez R, Rodríguez-Salas C, Flores-Yáñez C, Garrido D, Thomson P. Assessment ofChanges in the Oral Microbiome That Occur in Dogs with Periodontal Disease. Vet Sci. 202127;8(12):291</li>
+				<li>Thomson P, Núñez P, Quera R,Bay C. Gastrointestinal microbiome, what is behind faecalmicrobiota transplantation? New Microbes New Infect. 2021 13; 42:100898.</li>
+				<li>Thomson P, Lara P, Maier L, Ledesma P, López O, Moreira R. Detección de Helicobacter sppen la mucosa gástrica de felinos domésticos clínicamente sanos mediante la prueba rápida de ureasa e histopatología. RIVEP 2020 31, 4, e19039.</li>
+				<li>Medina DA, Li T, Thomson P, Artacho A, Pérez-Brocal V, Moya A. Cross-Regional View ofFunctional and Taxonomic Microbiota Composition in Obesity and Postobesity. TreatmentShows Country Specific Microbial Contribution. Front Microbiol. 2019. 17; 10:2346.</li>
+				<li>Thomson P, Santibáñez R, Aguirre C, Galgani J, Garrido D. Short-Term Impact of Sucralose Consumption on the Metabolic Response and Gut Microbiome of Healthy Adults. 2019 Br J Nutr. 28;122(8):856-862</li>
+				<li>Ruiz A, Medina DA, Maier L, Thomson P. Dermatophytosis in domestic cats (Felis catus)positive to retrovirus. Rev RIVEP. 2019. 30; 2: 902-907.</li>
+				<li>Pérez- Cantero A, Thomson P, Paredes K, Guarro J, CapillaJ. Antifungal susceptibility of Saccharomyces cerevisiae and therapy in a murine model of disseminated infection. RevIberoam Micol. 2019; 36 (1):37-40 </li>
+
+				<li>Thomson P, Medina D. A., Ortuzar V, Gotteland M, Garrido G. Anti-inflammatory effect ofmicrobial consortia during the consumption of dietary polysaccharides. Food Research Inter.2018; 109: 14-23.</li>
+				<li>Thomson P. Monsalves P, Maier L, Rojas M. Dermatophyte colonization in rabbits kept in petstores of Santiago of Chile. Rev. MVZ Córdoba. 2017; 22 (3):6334-6338.</li>
+				<li>Medina DA, Pinto F, Ovalle A, Thomson P,Garrido D. Prebiotics Mediate MicrobialInteractions in a Consortium of the Infant Gut Microbiome. Int J Mol Sci. 2017; 4;18 (10).</li>
+				<li>Thomson P, Medina DA, Garrido D. Human milk oligosaccharides and infant gutBifidobacteria: Molecular strategies for their utilization. Food Microbiol (2018), doi:10.1016/j.fm.2017.09.001</li>
+				<li>Thomson P, López-Fernández L, Guarro J, Capilla J. Virulence and antifungal therapy ofmurine disseminated infection by Rhodotorula mucilaginosa. Diagn Microbiol Infect Dis. 2017;89(1):47-51.</li>
+				<li>Thomson P, Mayayo E, López-Fernández L, Guarro J, Capilla J. Combined antifungaltherapy against systemic murine infections by rare Cryptococcus species. Mycoses. 2017;60(2):112-117.</li>
+				<li>Siqueira JPZ, SuttonDA, García D, Thomson P, Wiederhold N, Guarro J. Species diversity of Aspergillus section versicolores in clinical samples and antifungal susceptibility. Fungal Biol.2016;120 (11):1458-1467</li>
+				<li>Thomson P,Guarro J, Mayayo E, Capilla J. Efficacy of posaconazole in a murine model of systemic infection by Saprochaete capitate. Antimicrob Agents Chemother. 2015; 59: 7477-7482.</li>
+				<li>Thomson P, Monsalves P, Maier L, Silva V. Dermatophyte colonization on guinea pigs (Caviaporcellus) kept in pet stores. First report from Santiago, Chile. Rev Iberoam Micol. 2015; 32:103-105.</li>
+				<li>Thomson P, Martínez M. Clostridium difficile: un patógeno emergente en MedicinaVeterinaria. REDVET. 2012; 13: 3 11</li>
+				<li>Thomson P, Anticevic S, Rodríguez H, Silva V. Actividad antifúngica y perfil de seguridad del producto natural derivado del aceite de maravilla ozonizado (AMO3) en dermatofitos. Rev. Chil. Infectol. 2011; 28: 512-519.</li>
+				<li>Thomson P, Miranda Gabriel, Silva Víctor. Linfadenitis canina producida por Cryptococcusneoformans. Primer caso en Chile. Rev Iberoam Micol. 2006; 23: 238-240.–Silva V, Thomson P, Maier L, Anticevic S. Infección y colonización por dermatofitos encánidos del área Sur de Santiago, Chile. Rev Iberoam Micol. 2003; 20: 145-148 </li>
+
+			</ul>
+
+			<p><strong>CAPÍTULOS DE LIBRO</strong></p>
+			<ul>
+				<li>Pamela Thomson, Daniel Garrido. Chapter 5: Human milk oligosaccharides and healthpromotion through the gut microbiome. EN: Dairy in Human Health and Disease across theLifespan. Editors Ronald Ross Watson, Robert J Collier, Victor Preedy. USA. 2017.</li>
+				<li>Pamela Thomson. Micosis subcutáneas y profundas. EN: Tópicos de dermatología en pequeños animales. Autores: Liliana Maier y María Calderón. Ediciones Universidad Santo</li>
 			</ul>
 			`
 		},
@@ -835,41 +865,8 @@ export const es = {
 				<li>Dr. Huntington is an external lecturer and examiner at the University of Melbourne Veterinary Science program and holds numerous other appointments in the horse industry. He is a past president and editor of the Australian Equine VeterinaryAssociation and has been a Trustee of the Australian Horse Industry Council for a number of years. In 1993 he joined Rhone-Poulenc Animal Nutrition (RPAN) as Director of EquineNutrition to spearhead their horse nutrition division. This commenced arelationship with Kentucky Equine Research, who provided consultancy services to RPAN. In 1999, Kentucky Equine Research established an Australasian operation with Dr. Huntington as Director of Equine Nutrition. </li>
 				<li>Dr. Huntington travels widely to consult with horse owners and managers on equine nutrition and to lecture on the subject. Dr. Huntington is the author of the popular book Horse Sense-The Guide to Horse Care in Australia and New Zealand 2nd edition published in 2005 and is a respected author of many articles and papers on a variety of topics relating to equine nutrition.</li>
 				<li>Contact: <a href="mailto:phuntington@ker.com">phuntington@ker.com</a> <a href="tel:+61418108946">+61418108946</a> </li>
-
-				<li>Lara, F.,Castro, R. & Thomson, P.,2022, Changes in the gut microbiome and colic inhorses: Are they causes or consequences? : Open Veterinary Journal. 12, 2, p.242-2498p.</li>
-				<li>Thomson P, Santibáñez R, Rodríguez-Salas C, Flores- Yañez C, Garrido D. Differences in the composition and predicted functions of the intestinal microbiome of obese and normal weight adult dogs. PeerJ. 2022 16;10: e12695.</li>
-				<li>Lara F, Castro R,ThomsonP.Changes in the gut microbiome and colic in horses: Are they causes or consequences? Open Vet J. 2022;12(2):242-249.</li>
-				<li>Thomson P, García P, Miles J, Isla D, Yáñez C, Santibáñez R, Núñez A, Flores-Yáñez C, DelRío C, Cuadra F. Isolation and Identification of Staphylococcus Species Obtained fromHealthy Companion Animals and Humans. Vet Sci. 2022; 13;9(2):79.</li>
-				<li>Santibáñez R, Lara F, Barros TM, Mardones E, Cuadra F,ThomsonP. Ocular Microbiome in aGroup of Clinically Healthy Horses. Animals (Basel). 2022 7;12(8):943.</li>
-				<li>Núñez F P, Quera R, Bay C,ThomsonP. Fecal microbiota transplant, its usefulness beyondClostridioides difficile in gastrointestinal diseases. Gastroenterol Hepatol. 2022;45(3):223-230.</li>
-				<li>Núñez AH, Hidalgo FG, Morales PC, Silva VE,ThomsonPE, Castro RA. Antifungalsusceptibility of Malassezia pachydermatis isolated from the external auditive conduct from dogs, in central Chile. Open Vet J. 2022;12(1):99-104.</li>
-				<li>Santibáñez R, Rodríguez-Salas C, Flores-Yáñez C, Garrido D,ThomsonP. Assessment ofChanges in the Oral Microbiome That Occur in Dogs with Periodontal Disease. Vet Sci. 202127;8(12):291</li>
-				<li>Thomson P, Núñez P, Quera R,Bay C. Gastrointestinal microbiome, what is behind faecalmicrobiota transplantation? New Microbes New Infect. 2021 13; 42:100898.</li>
-				<li>ThomsonP, Lara P, Maier L, Ledesma P, López O, Moreira R. Detección de Helicobacter sppen la mucosa gástrica de felinos domésticos clínicamente sanos mediante la prueba rápida de ureasa e histopatología. RIVEP 2020 31, 4, e19039.</li>
-				<li>Medina DA, Li T,ThomsonP, Artacho A, Pérez-Brocal V, Moya A. Cross-Regional View ofFunctional and Taxonomic Microbiota Composition in Obesity and Postobesity. TreatmentShows Country Specific Microbial Contribution. Front Microbiol. 2019. 17; 10:2346.</li>
-				<li>ThomsonP, Santibáñez R, Aguirre C, Galgani J, Garrido D. Short-Term Impact of Sucralose Consumption on the Metabolic Response and Gut Microbiome of Healthy Adults. 2019 Br J Nutr. 28;122(8):856-862</li>
-				<li>Ruiz A, Medina DA, Maier L,ThomsonP.Dermatophytosis in domestic cats (Felis catus)positive to retrovirus. Rev RIVEP. 2019. 30; 2: 902-907.</li>
-				<li>Pérez- Cantero A,ThomsonP, Paredes K, Guarro J, CapillaJ. Antifungal susceptibility of Saccharomyces cerevisiae and therapy in a murine model of disseminated infection. RevIberoam Micol. 2019; 36 (1):37-40 </li>
-
-				<li>Thomson P, Medina D. A., Ortuzar V, Gotteland M, Garrido G. Anti-inflammatory effect ofmicrobial consortia during the consumption of dietary polysaccharides. Food Research Inter.2018; 109: 14-23.</li>
-				<li>ThomsonP. Monsalves P, Maier L, Rojas M. Dermatophyte colonization in rabbits kept in petstores of Santiago of Chile. Rev. MVZ Córdoba. 2017; 22 (3):6334-6338.</li>
-				<li>Medina DA, Pinto F, Ovalle A,Thomson P,Garrido D. Prebiotics Mediate MicrobialInteractions in a Consortium of the Infant Gut Microbiome. Int J Mol Sci. 2017; 4;18 (10).</li>
-				<li>ThomsonP, Medina DA, Garrido D. Human milk oligosaccharides and infant gutBifidobacteria: Molecular strategies for their utilization. Food Microbiol (2018), doi:10.1016/j.fm.2017.09.001</li>
-				<li>ThomsonP, López-Fernández L, Guarro J, Capilla J. Virulence and antifungal therapy ofmurine disseminated infection by Rhodotorula mucilaginosa. Diagn Microbiol Infect Dis. 2017;89(1):47-51.</li>
-				<li>Thomson P, Mayayo E, López-Fernández L, Guarro J, Capilla J. Combined antifungaltherapy against systemic murine infections by rare Cryptococcus species. Mycoses. 2017;60(2):112-117.</li>
-				<li>Siqueira JPZ, SuttonDA, García D, ThomsonP, Wiederhold N, Guarro J. Species diversity of Aspergillus section versicolores in clinical samples and antifungal susceptibility. Fungal Biol.2016;120 (11):1458-1467</li>
-				<li>ThomsonP,Guarro J, Mayayo E, Capilla J. Efficacy of posaconazole in a murine model of systemic infection by Saprochaete capitate. Antimicrob Agents Chemother. 2015; 59: 7477-7482.</li>
-				<li>ThomsonP, Monsalves P, Maier L, Silva V. Dermatophyte colonization on guinea pigs (Caviaporcellus) kept in pet stores. First report from Santiago, Chile. Rev Iberoam Micol. 2015; 32:103-105.</li>
-				<li>ThomsonP, Martínez M. Clostridium difficile: un patógeno emergente en MedicinaVeterinaria. REDVET. 2012; 13: 3 11</li>
-				<li>ThomsonP, Anticevic S, Rodríguez H, Silva V. Actividad antifúngica y perfil de seguridad del producto natural derivado del aceite de maravilla ozonizado (AMO3) en dermatofitos. Rev. Chil. Infectol. 2011; 28: 512-519.</li>
-				<li>ThomsonP, Miranda Gabriel, Silva Víctor. Linfadenitis canina producida por Cryptococcusneoformans. Primer caso en Chile. Rev Iberoam Micol. 2006; 23: 238-240.–Silva V, ThomsonP, Maier L, Anticevic S. Infección y colonización por dermatofitos encánidos del área Sur de Santiago, Chile. Rev Iberoam Micol. 2003; 20: 145-148 </li>
 			</ul>
-
-			<p><strong>CAPÍTULOS DE LIBRO</strong></p>
-			<ul>
-				<li>Pamela Thomson, Daniel Garrido. Chapter 5: Human milk oligosaccharides and healthpromotion through the gut microbiome. EN: Dairy in Human Health and Disease across theLifespan. Editors Ronald Ross Watson, Robert J Collier, Victor Preedy. USA. 2017.</li>
-				<li>Pamela Thomson. Micosis subcutáneas y profundas. EN: Tópicos de dermatología en pequeños animales. Autores: Liliana Maier y María Calderón. Ediciones Universidad Santo</li>
-			</ul>
+			
 			`
 		},
 		{
