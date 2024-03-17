@@ -16,7 +16,7 @@
 
 	/** @param {string} id  */
 	function gotoSpeaker(id) {
-		goto('/' + id);
+		goto('/speakers/' + id, {});
 	}
 </script>
 

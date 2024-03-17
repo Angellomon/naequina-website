@@ -15,14 +15,9 @@
 	for (let i = 0; i <= speakersSlice.length; i += 2) {
 		speakersPairs.push([speakersSlice[i], speakersSlice[i + 1]]);
 	}
-
-	/** @param {string} id  */
-	function gotoSpeaker(id) {
-		goto('/' + id);
-	}
 </script>
 
-<div class="bg-black flex flex-col gap-3 hover:cursor-pointer">
+<div class="bg-black flex flex-col gap-3">
 	<div
 		class="flex justify-center py-3 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
 	>

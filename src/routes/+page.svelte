@@ -4,8 +4,24 @@
 	import Footer from '$lib/footer.svelte';
 	import Header from '$lib/header.svelte';
 	import { setContext } from 'svelte';
+	import { onNavigate } from '$app/navigation';
+
+	export let data;
 
 	setContext('lang', es);
+
+	onNavigate((navigation) => {
+		// @ts-ignore
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			// @ts-ignore
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <svelte:head>
@@ -61,8 +77,10 @@
 	</script>
 </svelte:head>
 
-<Header />
+{#key data.url}
+	<Header />
 
-<Jumbotron />
+	<Jumbotron />
 
-<Footer />
+	<Footer />
+{/key}

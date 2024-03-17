@@ -31,7 +31,7 @@ export function entries() {
 	];
 }
 
-export let load = ({ params }) => {
+export let load = ({ params, url }) => {
 	const speaker = speakers.find((s) => s.id === params.speakerId);
 
 	if (!speaker) {
@@ -39,6 +39,7 @@ export let load = ({ params }) => {
 	}
 
 	return {
-		speaker
+		speaker,
+		url: url.pathname
 	};
 };

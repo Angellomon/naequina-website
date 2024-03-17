@@ -4,8 +4,22 @@
 	import Footer from '$lib/footer.svelte';
 	import Header from '$lib/header.svelte';
 	import { setContext } from 'svelte';
+	import { onNavigate } from '$app/navigation';
 
 	setContext('lang', en);
+
+	onNavigate((navigation) => {
+		// @ts-ignore
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			// @ts-ignore
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <svelte:head>
