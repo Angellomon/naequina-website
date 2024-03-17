@@ -447,19 +447,19 @@ export const es = {
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
 			<ul>
-				<li>2005- titulación licenciatura MVZ x FMVZ UNAM.</li>
-				<li>2008- titulación con honores de M en C de la salud y producción animal x FMVZ UNAM.</li>
+				<li>2005- titulación licenciatura MVZ x FMVZ-UNAM.</li>
+				<li>2008- titulación con honores de M en C de la salud y producción animal x FMVZ-UNAM.</li>
 				<li>2005-2015 prof. Imagenologia vet en FMVZ-UNAM.</li>
-				<li>2003-2005 y 2008-2013 honorario y residente en dmcze- FMVZ UNAM.</li>
-				<li>2008-2009 internado en Etología clínica en FMVZ UNAM.</li>
-				<li>2009-fecha clínico académico en hospital de fauna silvestre y etiología clínica en FMVZ UNAM.</li>
+				<li>2003-2005 y 2008-2013 honorario y residente en dmcze- FMVZ-UNAM.</li>
+				<li>2008-2009 internado en Etología clínica en FMVZ-UNAM.</li>
+				<li>2009-fecha clínico académico en hospital de fauna silvestre y etiología clínica en FMVZ-UNAM.</li>
 				<li>2014-fecha estudiante de doctorado en ciencias de la salud y producción animal en colaboración con instituciones de Ins Biomédicas (tema: ontogenia del temperamento en Caballos).</li>
 				<li>Temas de interés: etiología clínica y aplicada en pequeñas especies y caballos, bienestar animal.</li>
 				<li>Capítulos de libros: varios Artículos de divulgación: varios Artículos científicos: varios.</li>
 				<li>Ponente en pláticas/congresos: varios.</li>
 				<li>Módulos de diplomados: varios, temas: Etología clínica de pequeñas especies, bienestar animal (Caballos), odontología (Caballos).</li>
 				<li>Estancias en extranjero: Elgin Veterinaria Clínic (horsedivision), Cornell veterinary collage (behavior clinic).</li>
-				<li>Doctora en Ciencias de la Producción y de la Salud Animal por la FMVZUNAM.</li>
+				<li>Doctora en Ciencias de la Producción y de la Salud Animal por la FMVZ-UNAM.</li>
 			</ul>
 			`
 		},
@@ -946,7 +946,7 @@ export const es = {
 			id: 'silvia-elena-buntinx-dios',
 			name: 'SILVIA ELENA BUNTINX DIOS',
 			pre: 'DRA',
-			description: 'FMVZ UNAM',
+			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
 			<p>Dra. Silvia Elena Buntinx Dios es Médico Veterinario Zootecnista por la Facultad
@@ -1557,7 +1557,7 @@ export const en = {
 			id: 'silvia-elena-buntinx-dios',
 			name: 'SILVIA ELENA BUNTINX DIOS',
 			pre: 'DR',
-			description: 'FMVZ UNAM',
+			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
 		{
