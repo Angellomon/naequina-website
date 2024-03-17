@@ -837,7 +837,7 @@ export const es = {
 				<li>Thomson P, López-Fernández L, Guarro J, Capilla J. Virulence and antifungal therapy ofmurine disseminated infection by Rhodotorula mucilaginosa. Diagn Microbiol Infect Dis. 2017;89(1):47-51.</li>
 				<li>Thomson P, Mayayo E, López-Fernández L, Guarro J, Capilla J. Combined antifungaltherapy against systemic murine infections by rare Cryptococcus species. Mycoses. 2017;60(2):112-117.</li>
 				<li>Siqueira JPZ, SuttonDA, García D, Thomson P, Wiederhold N, Guarro J. Species diversity of Aspergillus section versicolores in clinical samples and antifungal susceptibility. Fungal Biol.2016;120 (11):1458-1467</li>
-				<li>Thomson P,Guarro J, Mayayo E, Capilla J. Efficacy of posaconazole in a murine model of systemic infection by Saprochaete capitate. Antimicrob Agents Chemother. 2015; 59: 7477-7482.</li>
+				<li>Thomson P, Guarro J, Mayayo E, Capilla J. Efficacy of posaconazole in a murine model of systemic infection by Saprochaete capitate. Antimicrob Agents Chemother. 2015; 59: 7477-7482.</li>
 				<li>Thomson P, Monsalves P, Maier L, Silva V. Dermatophyte colonization on guinea pigs (Caviaporcellus) kept in pet stores. First report from Santiago, Chile. Rev Iberoam Micol. 2015; 32:103-105.</li>
 				<li>Thomson P, Martínez M. Clostridium difficile: un patógeno emergente en MedicinaVeterinaria. REDVET. 2012; 13: 3 11</li>
 				<li>Thomson P, Anticevic S, Rodríguez H, Silva V. Actividad antifúngica y perfil de seguridad del producto natural derivado del aceite de maravilla ozonizado (AMO3) en dermatofitos. Rev. Chil. Infectol. 2011; 28: 512-519.</li>
@@ -860,13 +860,10 @@ export const es = {
 			flagUrl: '/img/BANDERA-AUS.png',
 			cv: `${cvStyle}
 			<ul>
-				<li>Peter Huntington BVSc(Hons), MANZCVSc.</li>
 				<li>Dr. Peter Huntington received a veterinary degree from the University of Melbourne in 1981 and then worked in equine practice in Berwick, Victoria. He joined the Department of Agriculture(Victoria) as the horse specialist veterinary officer. While with the Department of Agriculture, he conducted research and investigation into the nutrition of horses. </li>
-				<li>Dr. Huntington is an external lecturer and examiner at the University of Melbourne Veterinary Science program and holds numerous other appointments in the horse industry. He is a past president and editor of the Australian Equine VeterinaryAssociation and has been a Trustee of the Australian Horse Industry Council for a number of years. In 1993 he joined Rhone-Poulenc Animal Nutrition (RPAN) as Director of EquineNutrition to spearhead their horse nutrition division. This commenced arelationship with Kentucky Equine Research, who provided consultancy services to RPAN. In 1999, Kentucky Equine Research established an Australasian operation with Dr. Huntington as Director of Equine Nutrition. </li>
+				<li>Dr. Huntington is an external lecturer and examiner at the University of Melbourne Veterinary Science program and holds numerous other appointments in the horse industry. He is a past president and editor of the Australian Equine VeterinaryAssociation and has been a Trustee of the Australian Horse Industry Council for a number of years. In 1993 he joined Rhone-Poulenc Animal Nutrition (RPAN) as Director of EquineNutrition to spearhead their horse nutrition division. This commenced a relationship with Kentucky Equine Research, who provided consultancy services to RPAN. In 1999, Kentucky Equine Research established an Australasian operation with Dr. Huntington as Director of Equine Nutrition. </li>
 				<li>Dr. Huntington travels widely to consult with horse owners and managers on equine nutrition and to lecture on the subject. Dr. Huntington is the author of the popular book Horse Sense-The Guide to Horse Care in Australia and New Zealand 2nd edition published in 2005 and is a respected author of many articles and papers on a variety of topics relating to equine nutrition.</li>
-				<li>Contact: <a href="mailto:phuntington@ker.com">phuntington@ker.com</a> <a href="tel:+61418108946">+61418108946</a> </li>
 			</ul>
-			
 			`
 		},
 		{
@@ -877,14 +874,14 @@ export const es = {
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
 			<p>Ramiro Calderón Villa realizó sus estudios en la Facultad de Medicina Veterinaria y
-			Zootecnia (FMVZ) de la UNAM. Tiene42años de experiencia en las áreas de cirugía,
+			Zootecnia (FMVZ) de la UNAM. Tiene 42años de experiencia en las áreas de cirugía,
 			nutrición y comportamiento equino. Desde hace 37años, es docente en el
 			Departamento de Equinos de la FMVZ-UNAM y del cual fue jefe en el periodo 1996-2001.
 			Imparte las asignaturas del Ciclo Profesional de la licenciatura en MVZ de Práctica de
 			Medicina y Zootecnia para Équidos I y Práctica de Cirugía y Anestesia en Équidos. El Dr.
 			Ramiro Calderón Villa presidió la AsociaciónMexicana de Médicos Veterinarios
 			Especialistas en Equinos A.C. en el bienio 2012-2013. Participa como tutor de tesis de
-			licenciatura y especialidad. Ha organizado aproximadamente 400cursos relacionados
+			licenciatura y especialidad. Ha organizado aproximadamente 400 cursos relacionados
 			con las Ciencias Equinas, además de participar como ponente en foros nacionales e
 			internacionales</p>
 			`
