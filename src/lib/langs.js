@@ -2,6 +2,14 @@ const programsStyle = `<style>strong {
 	font-family: 'Montserrat Bold' !important;
 }</style>`;
 
+const cvStyle = `
+	<style lang="postcss">
+		ul {
+			list-style: square;
+		}
+	</style>
+`;
+
 export const es = {
 	lang: 'es',
 	flagUrl: '/img/BANDERA-EUA.png',
@@ -104,7 +112,7 @@ export const es = {
 			pre: 'DR',
 			description: 'Director Científico de Grupo Nutec',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 				<ul>
 					<li>Médico Veterinario Zootecnista por la UNAM (1968-1972). </li>
 					<li>Reconocida trayectoria en Latino América en nutrición animal.</li>
@@ -120,7 +128,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'Universidad de Guelph',
 			flagUrl: '/img/BANDERA-CANADA.png',
-			cv: `
+			cv: `${cvStyle}
 			<p><strong>PhD. WENDY PEARSON </strong></p>
 
 			<p>La Dra. Wendy Pearson es Profesora Asociada del Departamento de Biociencia
@@ -155,7 +163,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'Kentucky Equine Research, USA',
 			flagUrl: '/img/BANDERA-EUA.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Dra. Kathleen Crandell, realizó sus estudios de Maestría en el área de Nutrición Equina y
 			Fisiología del Ejercicio en el Instituto Politécnico de Virginia; sus estudios de Doctorado los
 			realizó en el área de Nutrición y Reproducción Equina en el Instituto Politécnico de Virginia.
@@ -192,7 +200,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'UAEMEX',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Datos Académicos</p>
 			<ul>
 				<li>Certificación Profesional CONCERVET Área Equinos</li>
@@ -233,7 +241,7 @@ export const es = {
 			pre: 'DR',
 			description: 'Consultor Indepediente en México',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<ul>
 				<li>1996 Médico Veterinario Zootecnista egresado de la Universidad Nacional Autónoma de México.</li>
 				<li>2000 Especialidad en Producción Animal por la Facultad de Medicina Veterinaria y Zootecnia de la UNAM.</li>
@@ -252,7 +260,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'GRUPO NUTEC',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<ul>
 				<li>Estudios de licenciatura en la Unidad Académica de Medicina, Veterinaria y Zootecnia de la Universidad Autónoma de Zacatecas.</li>
 				<li>Cursó estadía Profesionalizante en el Hospital del Depto. De Medicina Cirugía y Zootecnia para Équidos en la Facultad de Medicina Veterinaria y zootecnia de la Universidad Nacional Autónoma de México. </li>
@@ -283,7 +291,7 @@ export const es = {
 			pre: 'MVZ',
 			description: 'Agribrands Purina México',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>PERFIL Y FUNCIONES</p>
 			<ul>
 				<li>Médico Veterinario Zootecnista con 16 años de experiencia en industria de alimento balanceado, con enfoque en innovación y desarrollo de soluciones nutricionales para equinos en Agribrands Purina México.</li>
@@ -311,7 +319,7 @@ export const es = {
 			pre: 'DR',
 			description: 'Director Comercial Platinum Performance, México',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<ul>
 				<li>Médico Veterinario Zootecnista por la Universidad Nacional Autónoma de México. Generación 2001.</li>
 				<li>Miembro de AMMVEE.</li>
@@ -334,7 +342,7 @@ export const es = {
 			pre: 'DR',
 			description: 'Massey University',
 			flagUrl: '/img/BANDERA-AUS.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Chris Rogers is the programme leader for the equine programme
 			and is head of the pre-clinical groups in the School of Veterinary
 			Science. Chris has a dual appointment in both the School of
@@ -353,7 +361,7 @@ export const es = {
 			pre: 'DR',
 			description: 'GRUPO NUTEC',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Dr. Elías Velázquez Cantón, realizó sus estudios en la Licenciatura de
 			Medicina Veterinaria y Zootecnia en la Universidad Autónoma Metropolitana
 			unidad Xochimilco obteniendo el título en el año del 2003. En el año del
@@ -393,7 +401,7 @@ export const es = {
 			pre: 'DR',
 			description: 'Van Hall Larenstein University of Applied Sciences',
 			flagUrl: '/img/BANDERA-TURK.png',
-			cv: `
+			cv: `${cvStyle}
 				<p>
 				Dr. Gulsah Kaya Karasu is a veterinarian who received her Doctorate
 				Degree in 2009 from Vienna Veterinary University in Austria,
@@ -420,7 +428,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<ul>
 				<li>2005- titulación licenciatura MVZ x FMVZ UNAM.</li>
 				<li>2008- titulación con honores de M en C de la salud y producción animal x FMVZ UNAM.</li>
@@ -444,7 +452,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'Colegio de Postgraduados',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<ul>
 				<li>Nombre: María Esther Ortega Cerrilla</li>
 				<li>Nacionalidad: Mexicana</li>
@@ -518,7 +526,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Extracto</p>
 
 			<ul>
@@ -552,7 +560,7 @@ export const es = {
 			pre: 'DR',
 			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<ul>
 				<li>Nació en la Ciudad de México el 8 de diciembre de 1974, aunque pasó la mayor parte de su infancia y adolescencia en los estados de Veracruz e Hidalgo, donde estuvo en contacto con animales de granja, desarrollando un interés especial por los équidos.</li>
 				<li>Estudió en la Facultad de Medicina Veterinaria y Zootecnia de la UNAM, por la que obtuvo el grado de Médico Veterinario Zootecnista en el año 2000; para dos años más tarde obtener el grado de Maestro en Ciencias, con Opción en Nutrición Animal, por la Universidad Autónoma de Yucatán. En 2008 obtiene la Certificación en Equinos por el CONCERVET, certificándose de nuevo en 2014.</li>
@@ -571,7 +579,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'Consultoral Independiente en el Reino Unido',
 			flagUrl: '/img/BANDERA-UK.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Dr MERIEL MOORE-COLYER BSc.PhD.R.</p>
 
 			<p>PERSONAL DETAILS</p>
@@ -766,7 +774,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'Universidad Andrés Bello, Santiago de Chile',
 			flagUrl: '/img/BANDERA-CHILE.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Prof. PAMELA THOMSON MORALES.
 			<br>Médico Veterinario. Magíster en Ciencias Biológicas, Mención Microbiología. Doctora
 			en Ciencias Biomédicas. La Dra. Thomson se tituló de Médico Veterinario en el año
@@ -820,7 +828,7 @@ export const es = {
 			pre: 'DR',
 			description: 'Kentucky Equine Research, Australia',
 			flagUrl: '/img/BANDERA-AUS.png',
-			cv: `
+			cv: `${cvStyle}
 			<ul>
 				<li>Peter Huntington BVSc(Hons), MANZCVSc.</li>
 				<li>Dr. Peter Huntington received a veterinary degree from the University of Melbourne in 1981 and then worked in equine practice in Berwick, Victoria. He joined the Department of Agriculture(Victoria) as the horse specialist veterinary officer. While with the Department of Agriculture, he conducted research and investigation into the nutrition of horses. </li>
@@ -870,7 +878,7 @@ export const es = {
 			pre: 'DR',
 			description: 'FMVZ-UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Ramiro Calderón Villa realizó sus estudios en la Facultad de Medicina Veterinaria y
 			Zootecnia (FMVZ) de la UNAM. Tiene42años de experiencia en las áreas de cirugía,
 			nutrición y comportamiento equino. Desde hace 37años, es docente en el
@@ -890,7 +898,7 @@ export const es = {
 			pre: 'DR',
 			description: 'Universidad del Valle de México',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>DR. SANTIAGO GARCÍA PASQUEL </p>
 
 			<p>EDUCACIÓN</p>
@@ -924,7 +932,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'FMVZ UNAM',
 			flagUrl: '/img/BANDERA-MEXICO.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Dra. Silvia Elena Buntinx Dios es Médico Veterinario Zootecnista por la Facultad
 			de Medicina Veterinaria y Zootecnia (FMVZ) de la UNAM y obtuvo los grados de
 			M.Sc. y Ph.D. en Nutrición de North Carolina State University. La Dra. Buntinx
@@ -948,7 +956,7 @@ export const es = {
 			pre: 'DRA',
 			description: 'Universidad Austral de Chile',
 			flagUrl: '/img/BANDERA-CHILE.png',
-			cv: `
+			cv: `${cvStyle}
 			<p>Tamara Tadich Gallo es académica del Instituto de Ciencia Animal de la
 			Universidad Austral de Chile. Tamara es Médico Veterinario con un Master of
 			Science in Equine Science de la Universidad de Edimburgo, Escocia; y un
