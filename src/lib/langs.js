@@ -881,7 +881,7 @@ export const es = {
 				<li>ThomsonP, Miranda Gabriel, Silva Víctor. Linfadenitis canina producida por Cryptococcusneoformans. Primer caso en Chile. Rev Iberoam Micol. 2006; 23: 238-240.–Silva V, ThomsonP, Maier L, Anticevic S. Infección y colonización por dermatofitos encánidos del área Sur de Santiago, Chile. Rev Iberoam Micol. 2003; 20: 145-148 </li>
 			</ul>
 
-			<p>CAPÍTULOS DE LIBRO</p>
+			<p><strong>CAPÍTULOS DE LIBRO</strong></p>
 			<ul>
 				<li>Pamela Thomson, Daniel Garrido. Chapter 5: Human milk oligosaccharides and healthpromotion through the gut microbiome. EN: Dairy in Human Health and Disease across theLifespan. Editors Ronald Ross Watson, Robert J Collier, Victor Preedy. USA. 2017.</li>
 				<li>Pamela Thomson. Micosis subcutáneas y profundas. EN: Tópicos de dermatología en pequeños animales. Autores: Liliana Maier y María Calderón. Ediciones Universidad Santo</li>
@@ -915,9 +915,9 @@ export const es = {
 			description: 'Universidad del Valle de México',
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
-			<p>DR. SANTIAGO GARCÍA PASQUEL </p>
+			<p><strong>DR. SANTIAGO GARCÍA PASQUEL</strong></p>
 
-			<p>EDUCACIÓN</p>
+			<p><strong>EDUCACIÓN</strong></p>
 			<ul>
 				<li>Licenciatura en Medicina Veterinaria y Zootecnia por la FMVZ-UNAM.</li>
 				<li>Internado en Medicina y cirugía de Équidos en el Hospital de Equinos de Chino Valley en California 2007.</li>
@@ -926,7 +926,7 @@ export const es = {
 				<li>Director del Hospital de Équidos de la UVM.</li>
 			</ul>
 
-			<p>EXPERIENCIA PROFESIONAL </p>
+			<p><strong>EXPERIENCIA PROFESIONAL</strong></p>
 			<ul>
 				<li>Jefe del Departamento de Tecnologías de la Educación, docente y clínico del Hospital del Équidos para la UNAM en el 2014. </li>
 				<li>Ha desarrollado varios proyectos para la aplicación de nuevas tecnologías a la medicina animal.</li>
@@ -936,7 +936,7 @@ export const es = {
 				<li>Sur Sede Coyoacán de la CDMX. </li>
 			</ul>
 
-			<p>PUBLICACIONES RECIENTES</p>
+			<p><strong>PUBLICACIONES RECIENTES</strong></p>
 			<ul>
 				<li>Autor del libro: “Manual de Neonatología Equina” publicado por la editorial Intermedia (Argentina) </li>
 			</ul>
