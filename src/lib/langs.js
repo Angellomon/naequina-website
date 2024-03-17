@@ -201,7 +201,7 @@ export const es = {
 			caballos y granjas, teniendo como clientes al top de competidores dentro de los Estados
 			Unidos. Dra. Krandell ha sido conferencista en diversos seminarios tanto propietarios como
 			para la comunidad científica alrededor del mundo. Durante los años que ha formado parte
-			de KER ha publicado diversos artículos en nutrición de equinos en: <a href="https://equinews.com" target="_blank">equinews.com</a> (página
+			de KER ha publicado diversos artículos en nutrición de equinos en: equinews.com (página
 			especializada en nutrición de equinos). Ha sido autora de capítulos de libros, revistas
 			científicas y revistas populares.</p>
 
@@ -277,8 +277,8 @@ export const es = {
 			`
 		},
 		{
-			id: 'ana-cecilia-gomez-campos',
-			name: 'ANA CECILIA GÓMEZ CAMPOS',
+			id: 'ana-celia-gomez-campos',
+			name: 'ANA CELIA GÓMEZ CAMPOS',
 			pre: 'DRA',
 			description: 'GRUPO NUTEC',
 			flagUrl: '/img/BANDERA-MEXICO.png',
@@ -314,7 +314,6 @@ export const es = {
 			description: 'Agribrands Purina México',
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
-			<p><strong>PERFIL Y FUNCIONES</strong></p>
 			<ul>
 				<li>Médico Veterinario Zootecnista con 16 años de experiencia en industria de alimento balanceado, con enfoque en innovación y desarrollo de soluciones nutricionales para equinos en Agribrands Purina México.</li>
 			</ul>
@@ -345,7 +344,7 @@ export const es = {
 			<ul>
 				<li>Médico Veterinario Zootecnista por la Universidad Nacional Autónoma de México. Generación 2001.</li>
 				<li>Miembro de AMMVEE.</li>
-				<li>He realizado estudios de actualización en nutrición equina en Estados Unidos y Europa.</li>
+				<li>Ha realizado estudios de actualización en nutrición equina en Estados Unidos y Europa.</li>
 				<li>Participado como ponente en congresos para veterinarios.</li>
 				<li>Participación como colaborador en publicaciones científicas en temas de parasitología y suplementación de equinos.</li>
 				<li>Presentado trabajos en congresos internacionales.</li>
@@ -1443,8 +1442,8 @@ export const en = {
 			flagUrl: '/img/BANDERA-MEXICO.png'
 		},
 		{
-			id: 'ana-cecilia-gomez-campos',
-			name: 'ANA CECILIA GÓMEZ CAMPOS',
+			id: 'ana-celia-gomez-campos',
+			name: 'ANA CELIA GÓMEZ CAMPOS',
 			pre: 'DR',
 			description: 'GRUPO NUTEC',
 			flagUrl: '/img/BANDERA-MEXICO.png'

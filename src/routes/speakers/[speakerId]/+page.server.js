@@ -2,6 +2,7 @@ import { es } from '$lib/langs';
 import { error } from '@sveltejs/kit';
 
 export let prerender = true;
+export let trailingSlash = 'always';
 const { speakers } = es;
 
 export function entries() {
@@ -11,7 +12,7 @@ export function entries() {
 		{ speakerId: 'kathleen-crandell' },
 		{ speakerId: 'adriana-yolanda-diaz-archundia' },
 		{ speakerId: 'alfredo-julian-paredes' },
-		{ speakerId: 'ana-cecilia-gomez-campos' },
+		{ speakerId: 'ana-celia-gomez-campos' },
 		{ speakerId: 'bernardo-aguado-medina' },
 		{ speakerId: 'bernardo-monroy-hernandez' },
 		{ speakerId: 'chris-rogers' },

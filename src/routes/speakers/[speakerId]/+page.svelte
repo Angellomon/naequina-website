@@ -6,7 +6,7 @@
 	const { speaker } = data;
 </script>
 
-<div class="bg-black">
+<div class="bg-black min-h-screen flex flex-col justify-between">
 	<div
 		class="flex flex-row align-middle justify-between items-center w-full bg-gradient-to-r from-torch-red to-black px-5"
 	>
@@ -20,7 +20,7 @@
 	</div>
 
 	<div
-		class="flex flex-col justify-start items-center bg-black p-10 sm:px-20 lg:px-30 2xl:px-80 gap-7 min-h-[55vw]"
+		class="flex flex-col justify-start items-center bg-black p-10 sm:px-20 lg:px-30 2xl:px-80 gap-7 min-h-full"
 	>
 		<img src={`/img/ponentes/${speaker.id}_cv.png`} alt={speaker.name} />
 
@@ -29,11 +29,11 @@
 		</div>
 	</div>
 
-	<div class="flex flex-row justify-end relative h-56 bg-transparent -mt-20">
-		<img src="/img/CABALLO-NAEQUINA-1.png" alt="CABALLO NAEQUINA" />
+	<div class="flex-0 flex flex-row justify-end relative w-100 h-56 bg-transparent -mt-20">
+		<img class="w-100 h-56" src="/img/CABALLO-NAEQUINA-1.png" alt="CABALLO NAEQUINA" />
 	</div>
+	<Footer />
 </div>
-<Footer />
 
 <style>
 	h1 {
