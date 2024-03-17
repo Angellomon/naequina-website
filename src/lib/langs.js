@@ -281,22 +281,22 @@ export const es = {
 			cv: `${cvStyle}
 			<ul>
 				<li>Estudios de licenciatura en la Unidad Académica de Medicina, Veterinaria y Zootecnia de la Universidad Autónoma de Zacatecas.</li>
-				<li>Cursó estadía Profesionalizante en el Hospital del Depto. De Medicina Cirugía y Zootecnia para Équidos en la Facultad de Medicina Veterinaria y zootecnia de la Universidad Nacional Autónoma de México. </li>
+				<li>Cursó estadía Profesionalizante en el Hospital del Depto. de Medicina, Cirugía y Zootecnia para Équidos en la Facultad de Medicina Veterinaria y Zootecnia de la Universidad Nacional Autónoma de México. </li>
 				<li>Estadía profesionalizante en clínica privada para equinos DITEQ.</li>
 				<li>Estadía profesionalizante en el Hipódromo de las Américas.</li>
-				<li>Estancia Profesional en The Donkey Sanctuary, World Horse Welfare, Universidad Nacional Autónoma de México. DS-WHW-UNAM. CLINICAS AMBULATORIAS.</li>
+				<li>Estancia Profesional en The Donkey Sanctuary, World Horse Welfare, Universidad Nacional Autónoma de México. DS-WHW-UNAM. CLÍNICAS AMBULATORIAS.</li>
 				<li>Cursó estudios de Especialidad en Medicina y Cirugía para Équidos, en la Facultad de Medicina Veterinaria y Zootecnia de la Universidad Nacional Autónoma de México.</li>
 				<li>2006 al presente: Miembro de la Asociación Mexicana de Médicos Veterinarios Especialistas en Equinos (AMMVEE).</li>
-				<li>Febrero de 2009 a Junio de 2011: Tesis: Efecto de la suplementación nutricional de manzarina sobre parametros ruminales de vacas holstein en producción.</li>
-				<li>Enero de 2010: Estancia Profesional en The Donkey Sanctuary, World Horse Welfare, Universidad Nacional Autónoma de México. DS-WHW-UNAM. CLINICAS AMBULATORIAS.</li>
+				<li>Febrero de 2009 a Junio de 2011: Tesis: Efecto de la suplementación nutricional de manzarina sobre par[ámetros ruminales de vacas holstein en producción.</li>
+				<li>Enero de 2010: Estancia Profesional en The Donkey Sanctuary, World Horse Welfare, Universidad Nacional Autónoma de México. DS-WHW-UNAM. CLÍNICAS AMBULATORIAS.</li>
 				<li>Agosto del 2009 a Febrero del 2010: Estancia Profesional en el Departamento de Medicina, Cirugía y Zootecnia para Équidos de la Facultad de Veterinaria de la Universidad de la UNAM.</li>
 				<li>Marzo del 2010 a Julio del 2010: Estancia Profesional en Clínica Privada para equinos DITEQ. MVZ, MSc, PhD, cert ACVIM María Masri Daba. Estancia Profesional en el Hipódromo de las Américas.</li>
 				<li>Julio del 2010 a Octubre del 2010: Prestador de Servicios Profesionales en SAGARPA, delegación Zacatecas.</li>
 				<li>Octubre del 2011: Participación en el equipo de M.V.Z. Oficial en Juegos Panamericanos Guadalajara 2011.</li>
-				<li>2011- 2013: Estudiante de Especialidad en Medicina y Cirugía para Équidos, en la Facultad de Medicina Veterinaria y zootecnia de la Universidad Nacional Autónoma deMéxico. Obteniendo el grado en el años 2013.</li>
+				<li>2011-2013: Estudiante de Especialidad en Medicina y Cirugía para Équidos, en la Facultad de Medicina Veterinaria y Zootecnia de la Universidad Nacional Autónoma de México. Obteniendo el grado en el año 2013.</li>
 				<li>2012-2013: Rotaciones profesionales de especialidad realizadas con diferentes clínicos especialistas en el área como ranchos de reproducción, clínica privada para equinos en ranchos, lienzos charros, hípicos, etc.</li>
-				<li>Agosto 2013: Participación en el curso taller, “Primeros Auxilios enLesiones de la charrería”, realizado en las instalaciones del Monumental Lienzo Charro Zacatecas, Zac.</li>
-				<li>Octubre 2013: Colaboración durante la sesión científica del Congreso Anual Asociación Mexicana de Médicos VeterinariosEspecialistas en Equinos, A.C. presentando el tema:“Atresia Coli Equino” bajo la modalidad de Cartel.</li>
+				<li>Agosto 2013: Participación en el curso taller, “Primeros Auxilios en Lesiones de la charrería”, realizado en las instalaciones del Monumental Lienzo Charro Zacatecas, Zac.</li>
+				<li>Octubre 2013: Colaboración durante la sesión científica del Congreso Anual Asociación Mexicana de Médicos Veterinarios Especialistas en Equinos, A.C. presentando el tema: “Atresia Coli Equino” bajo la modalidad de Cartel.</li>
 				<li>Enero 2014 a Mayo 2015: Trabajo en clínica y medicina deportiva privada en San Antonio, Tx. USA. </li>
 				<li>Mayo 2015 a Septiembre 2015: Clínica privada en el estado de Zacatecas, Zac. Mex.</li>
 				<li>Septiembre 2015 al presente: Responsable del área Clínica-Médica y nutrición equina en la ganadería de Yeguada Villa Gely, Campeche, Mex.</li>
@@ -1040,7 +1040,7 @@ export const es = {
 				},
 				{
 					contents: `<p><strong>DR. MARIANO HERNÁNDEZ GIL</strong>
-						<br>DEPTO. MEDICINA CIRUGÍA Y ZOOTECNIA DE
+						<br>DEPTO. MEDICINA, CIRUGÍA Y ZOOTECNIA DE
 						<br>ÉQUIDOS. FMVZ-UNAM</p>`,
 					cols: 2,
 					extraContent: '<p>NUTRICIÓN EVOLUTIVA DEL CABALLO</p>',
@@ -1132,7 +1132,7 @@ export const es = {
 				},
 				{
 					contents: `<p><strong>DR. RAMIRO CALDERÓN VILLA</strong>
-						<br>DEPTO. MEDICINA CIRUGÍA Y ZOOTECNIA
+						<br>DEPTO. MEDICINA, CIRUGÍA Y ZOOTECNIA
 						<br>DE ÉQUIDOS. FMVZ-UNAM</p>`,
 					cols: 2,
 					extraContent: `<p>ALIMENTACIÓN Y DESÓRDENES DIGESTIVOS</p>`,
