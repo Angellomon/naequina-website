@@ -10,7 +10,7 @@
 	<div
 		class="flex flex-row align-middle justify-between items-center w-full bg-gradient-to-r from-torch-red to-black px-5"
 	>
-		<img class="self-start max-w-52" src="/logo.png" alt="" />
+		<a href="/"><img class="self-start max-w-52" src="/logo.png" alt="" /></a>
 		<h1 class=" sm:text-[1.5rem] text-white text-right">
 			{#if speaker.pre}
 				{speaker.pre}.
