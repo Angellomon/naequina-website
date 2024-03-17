@@ -874,12 +874,12 @@ export const es = {
 			flagUrl: '/img/BANDERA-MEXICO.png',
 			cv: `${cvStyle}
 			<p>Ramiro Calderón Villa realizó sus estudios en la Facultad de Medicina Veterinaria y
-			Zootecnia (FMVZ) de la UNAM. Tiene 42años de experiencia en las áreas de cirugía,
-			nutrición y comportamiento equino. Desde hace 37años, es docente en el
+			Zootecnia (FMVZ) de la UNAM. Tiene 42 años de experiencia en las áreas de cirugía,
+			nutrición y comportamiento equino. Desde hace 37 años, es docente en el
 			Departamento de Equinos de la FMVZ-UNAM y del cual fue jefe en el periodo 1996-2001.
 			Imparte las asignaturas del Ciclo Profesional de la licenciatura en MVZ de Práctica de
 			Medicina y Zootecnia para Équidos I y Práctica de Cirugía y Anestesia en Équidos. El Dr.
-			Ramiro Calderón Villa presidió la AsociaciónMexicana de Médicos Veterinarios
+			Ramiro Calderón Villa presidió la Asociación Mexicana de Médicos Veterinarios
 			Especialistas en Equinos A.C. en el bienio 2012-2013. Participa como tutor de tesis de
 			licenciatura y especialidad. Ha organizado aproximadamente 400 cursos relacionados
 			con las Ciencias Equinas, además de participar como ponente en foros nacionales e
@@ -898,7 +898,7 @@ export const es = {
 			<p><strong>EDUCACIÓN</strong></p>
 			<ul>
 				<li>Licenciatura en Medicina Veterinaria y Zootecnia por la FMVZ-UNAM.</li>
-				<li>Internado en Medicina y cirugía de Équidos en el Hospital de Equinos de Chino Valley en California 2007.</li>
+				<li>Internado en Medicina y Cirugía de Équidos en el Hospital de Equinos de Chino Valley en California 2007.</li>
 				<li>Maestría en Ciencias por la Universidad del Estado de Michigan en el 2012.</li>
 				<li>Entrenamiento en cuidado crítico y emergencias en équidos por la Universidad de Pennsylvania en el 2012.</li>
 				<li>Director del Hospital de Équidos de la UVM.</li>
@@ -908,10 +908,10 @@ export const es = {
 			<ul>
 				<li>Jefe del Departamento de Tecnologías de la Educación, docente y clínico del Hospital del Équidos para la UNAM en el 2014. </li>
 				<li>Ha desarrollado varios proyectos para la aplicación de nuevas tecnologías a la medicina animal.</li>
-				<li>Ponente en diversos congresos. </li>
+				<li>Ponente en diversos congresos.</li>
 				<li>Actualmente es el Coordinador de la Carrera de Medicina.</li>
 				<li>Veterinaria y Zootecnia de la Universidad del Valle de México Campus.</li>
-				<li>Sur Sede Coyoacán de la CDMX. </li>
+				<li>Sur Sede Coyoacán de la CDMX.</li>
 			</ul>
 
 			<p><strong>PUBLICACIONES RECIENTES</strong></p>
@@ -941,7 +941,7 @@ export const es = {
 			Jefa del Departamento de Publicaciones y Directora de la revista Veterinaria
 			México OA durante el periodo abril 2012-abril 2016. En mayo de 2016 recibió el
 			Premio “Manuel Chavarría Chavarría” como mejor profesora de tiempo completo
-			del ciclo intermedio de la carrera durante el periodo escolar de 2015 </p>
+			del ciclo intermedio de la carrera durante el periodo escolar de 2015.</p>
 			`
 		},
 		{
@@ -1113,7 +1113,7 @@ export const es = {
 					endHour: '16:00'
 				},
 				{
-					contents: `<p><strong>PREGUNTAS Y RESPUESTAS
+					contents: `<p><strong>RECESO
 						<br>
 						<br>SESIÓN 3: ALIMENTACIÓN PARA LA VIDA: LA YEGUA Y SU POTRO</strong>
 						<br>
@@ -1140,6 +1140,13 @@ export const es = {
 					extraContent: `<p>LA ALIMENTACIÓN DE LA YEGUA GESTANTE Y LACTANTE</p>`,
 					startHour: '17:40',
 					endHour: '18:00'
+				},
+				{
+					contents: `<p><strong>PREGUNTAS Y RESPUESTAS`,
+					cols: 1,
+					extraContent: '',
+					startHour: '',
+					endHour: ''
 				}
 			]
 		},
@@ -1269,8 +1276,8 @@ export const es = {
 					contents: `<p><strong>PREGUNTAS Y RESPUESTAS</strong></p>`,
 					cols: 1,
 					extraContent: ``,
-					startHour: '16:15',
-					endHour: '16:20'
+					startHour: '16:20',
+					endHour: '17:30'
 				},
 				{
 					contents: `<p>MESA REDONDA: SIETE AÑOS DE NAEQUINA.
@@ -1290,8 +1297,8 @@ export const es = {
 						<br><strong>CLAUSURA</strong></p>`,
 					cols: 1,
 					extraContent: '',
-					startHour: '16:20',
-					endHour: '17:30'
+					startHour: '',
+					endHour: ''
 				}
 			]
 		}
@@ -1725,6 +1732,13 @@ export const en = {
 					extraContent: `<p>FEEDING OF THE PREGNANT AND LACTATING MARE</p>`,
 					startHour: '17:40',
 					endHour: '18:00'
+				},
+				{
+					contents: `<p><strong>QUESTIONS & ANSWERS`,
+					cols: 1,
+					extraContent: '',
+					startHour: '',
+					endHour: ''
 				}
 			]
 		},
@@ -1853,14 +1867,14 @@ export const en = {
 					contents: `<p><strong>QUESTIONS & ANSWERS</strong></p>`,
 					cols: 1,
 					extraContent: ``,
-					startHour: '16:15',
-					endHour: '16:20'
+					startHour: '16:20',
+					endHour: '17:30'
 				},
 				{
 					contents: `<p>ROUND-TABLE DISCUSSION: SEVEN YEARS AFTER NAEQUINA
 					<br><strong>MODERATOR: DR. SILVIA E. BUNTINX DIOS. FMVZ-UNAM</strong>
 					<br>
-						<br><strong>DR. MARIA MASRI DABA</strong>
+						<br><strong>DR. MARÍA MASRI DABA</strong>
 						<br>EQUINE MEDICINE, SURGERY AND ANIMAL HUSBANDRY DEPT. FMVZ, UNAM
 						<br><strong>DR. BERNARDO AGUADO MEDINA</strong>
 						<br>AGRIBRANDS PURINA MEXICO
@@ -1874,8 +1888,8 @@ export const en = {
 						<br><strong>CLOSING</strong></p>`,
 					cols: 1,
 					extraContent: '',
-					startHour: '16:20',
-					endHour: '17:30'
+					startHour: '',
+					endHour: ''
 				}
 			]
 		}

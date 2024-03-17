@@ -44,9 +44,11 @@
 						</div>
 					{/if}
 
-					<div class="absolute left-0 bottom-0 bg-torch-red text-white px-2">
-						<strong>{event.startHour} - {event.endHour}</strong>
-					</div>
+					{#if event.startHour && event.endHour}
+						<div class="absolute left-0 bottom-0 bg-torch-red text-white px-2">
+							<strong>{event.startHour} - {event.endHour}</strong>
+						</div>
+					{/if}
 				</div>
 			{/each}
 		</div>
