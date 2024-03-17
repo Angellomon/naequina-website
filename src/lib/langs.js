@@ -384,7 +384,7 @@ export const es = {
 			unidad Xochimilco obteniendo el título en el año del 2003. En el año del
 			2007 obtiene el grado de Maestro en Ciencias de la Producción y Salud
 			Animal en el área de Endocrinología y Fisiología de la Reproducción en
-			Equinos en el Departamento deReproducción de la FMVZ-UNAM. En el 2013
+			Equinos en el Departamento de Reproducción de la FMVZ-UNAM. En el 2013
 			comienza sus estudios de Doctorado en Ciencias de la Producción y de la
 			Salud Animal en la FMVZ-UNAM en el ÁREA DE NUTRICIÓN DE EQUINOS
 			obteniendo el grado en septiembre del 2018. Su tema doctoral se basó en el
@@ -449,16 +449,16 @@ export const es = {
 			<ul>
 				<li>2005- titulación licenciatura MVZ x FMVZ-UNAM.</li>
 				<li>2008- titulación con honores de M en C de la salud y producción animal x FMVZ-UNAM.</li>
-				<li>2005-2015 prof. Imagenologia vet en FMVZ-UNAM.</li>
-				<li>2003-2005 y 2008-2013 honorario y residente en dmcze- FMVZ-UNAM.</li>
+				<li>2005-2015 prof. Imagenología vet en FMVZ-UNAM.</li>
+				<li>2003-2005 y 2008-2013 honorario y residente en dmcze FMVZ-UNAM.</li>
 				<li>2008-2009 internado en Etología clínica en FMVZ-UNAM.</li>
 				<li>2009-fecha clínico académico en hospital de fauna silvestre y etiología clínica en FMVZ-UNAM.</li>
 				<li>2014-fecha estudiante de doctorado en ciencias de la salud y producción animal en colaboración con instituciones de Ins Biomédicas (tema: ontogenia del temperamento en Caballos).</li>
 				<li>Temas de interés: etiología clínica y aplicada en pequeñas especies y caballos, bienestar animal.</li>
-				<li>Capítulos de libros: varios Artículos de divulgación: varios Artículos científicos: varios.</li>
+				<li>Capítulos de libros: varios artículos de divulgación: varios artículos científicos: varios.</li>
 				<li>Ponente en pláticas/congresos: varios.</li>
 				<li>Módulos de diplomados: varios, temas: Etología clínica de pequeñas especies, bienestar animal (Caballos), odontología (Caballos).</li>
-				<li>Estancias en extranjero: Elgin Veterinaria Clínic (horsedivision), Cornell veterinary collage (behavior clinic).</li>
+				<li>Estancias en extranjero: Elgin Veterinaria Clínic (Horse Division), Cornell Veterinary College (Behavior Clinic).</li>
 				<li>Doctora en Ciencias de la Producción y de la Salud Animal por la FMVZ-UNAM.</li>
 			</ul>
 			`
@@ -472,26 +472,26 @@ export const es = {
 			cv: `${cvStyle}
 			<p><strong>SISTEMA NACIONAL DE INVESTIGADORES: Investigador Nacional Nivel II</strong></p>
 
-			<p><strong>FORMACION ACADÉMICA:</strong></p>
+			<p><strong>FORMACIÓN ACADÉMICA:</strong></p>
 
 			<ul>
 				<li>Médico Veterinario Zootecnista: Facultad de Medicina Veterinaria y Zootecnia, UNAM.</li>
 				<li>Master of Science:University of Wisconsin, E.U.</li>
 				<li>Doctor of Philoshophy: University of Newcastle Upon Tyne, Inglaterra.</li>
 				<li>Estancia sabática: University of Hull, Inglaterra(Conducta y Bienestar Animal).</li>
-				<li>Certificación en Bienestar Equino: University of Guelph, Canada .</li>
-				<li>Area: Zootecnia.</li>
-				<li>Especialidad : Nutrición de Rumiantes, Conducta y Bienestar Animal </li>
-				<li>ARTÍCULOS PUBLICADOS EN REVISTAS INDIZADAS: 75</li>
+				<li>Certificación en Bienestar Equino: University of Guelph, Canada.</li>
+				<li>Área: Zootecnia.</li>
+				<li>Especialidad : Nutrición de Rumiantes, Conducta y Bienestar Animal.</li>
+				<li>ARTÍCULOS PUBLICADOS EN REVISTAS INDIZADAS: 75.</li>
 			</ul>
 
 			<p><strong>ARTÍCULOS</strong></p>
 
 			<ul>
 				<li>JCR (2019-2021): Larios, C.S., Ramírez, V.R., Aranda, O.G., Ortega, C.M.E.,García. O.J.C. 2019.Indicadores de estrés en bovinos por el uso de prácticas de manejo en el embarque, transporte y desembarque. Rev. Mex. Cienc. Pecu. 10:885-902.</li>
-				<li>Álvarez, V.P., Guerrero, R.J.D., García de los S.G.,Ortega, C.M.E., Mendoza,P.S.I., Joaquín, C.S. 2020. Acumulación de forraje Lotus corniculatusL., en función de diferentes estrategias de cosecha. Rev. Mex. Cienc. Pecu. 11:1087-1100.</li>
-				<li>Valdez, A.L.P., Ortega, C.M.E., Fraire, C.S., Arreola, E.J., Crosby, G.M.M., Cruz,T.A.A., Ramírez, M.M. 2020. Physicochemical and preference evaluation of silagesfrom Curcubita argyrosperma Huber residues and its effect on the production and composition of milk from dual-purpose cows in Campeche, Mexico: pilot study.2020. Sustainability12,7757; doi:10.3390/su12187757</li>
-				<li>Kawas, J.R., García, M.J.F., Fimbres, D.H., Ortega, C.M.E. 2020. Effects ofrumenprotected choline on growth performance, carcass characteristics and bloodlipid metabolites of feedlot lambs. Animals 10, 1580; doi:10.3390/ani10091580</li>
+				<li>Álvarez, V.P., Guerrero, R.J.D., García de los S.G.,Ortega, C.M.E., Mendoza,P.S.I., Joaquín, C.S. 2020. Acumulación de forraje Lotus corniculatus L., en función de diferentes estrategias de cosecha. Rev. Mex. Cienc. Pecu. 11:1087-1100.</li>
+				<li>Valdez, A.L.P., Ortega, C.M.E., Fraire, C.S., Arreola, E.J., Crosby, G.M.M., Cruz,T.A.A., Ramírez, M.M. 2020. Physicochemical and preference evaluation of silages from Curcubita argyrosperma Huber residues and its effect on the production and composition of milk from dual-purpose cows in Campeche, Mexico: pilot study.2020. Sustainability 12, 7757; doi:10.3390/su12187757</li>
+				<li>Kawas, J.R., García, M.J.F., Fimbres, D.H., Ortega, C.M.E. 2020. Effects of rumen-protected choline on growth performance, carcass characteristics and blood lipid metabolites of feedlot lambs. Animals 10, 1580; doi:10.3390/ani10091580</li>
 				</ul>
 				
 			<p><strong>ARTÍCULOS EN CONACYT (2019-2020)</strong></p>
@@ -499,13 +499,13 @@ export const es = {
 			<ul>
 				<li>Rosas, V.U., Ortega, C.M.E., Ayala, R.J.M., Aranda, O.G., Sánchez, T.E.M.T. 2019. Producción de ganado productor de carne con bienestar animal. Agroproductividad 12(10):41-46.</li>
 				<li>Vera, H.I.Y., Ortega, C.M.E., Herrera, H.J.G., Huerta, J.M. 2019. Bienestar en ovinos y su evaluación. Agroproductividad 12(9): 67-72</li>
-				<li>Wilson, G.C.Y., López, Z.N.E., Álvarez, V.P., Ortega, C.M.E., Venegas, A.M.I. 2020. Acumulación de forraje, composición morfológica e intercepción luminosa en Triticale 118 (X Triticosecale Wittmack). Rev. Mex. Cienc. Agric. 24: 221-229.</li>\
+				<li>Wilson, G.C.Y., López, Z.N.E., Álvarez, V.P., Ortega, C.M.E., Venegas, A.M.I. 2020. Acumulación de forraje, composición morfológica e intercepción luminosa en Triticale 118 (X Triticosecale Wittmack). Rev. Mex. Cienc. Agric. 24: 221-229.</li>
 				<li>Luna, G.M.J., López, C.C., Quero, C.A.R., Herrera, H.J.G., Ortega, C.M.E., Martínez, H.P.A. 2020. Relaciones hídricas e intercambio gaseoso en alfalfa bajo condiciones de sequía. Rev. Mex. Cienc. Agric. 24: 81-92.</li>
-				<li>Hernández, V.Y.G., Herrera, H.J.G., Crosby, G.M.M., Ortega, C.M.E., Bautista,M.Y., Godinez, C.B. 2020. Risk factors associated with mastitis and raw milkquality in small farms of Texcoco, Mexico. Agroproductividad 13(9): 39-44.</li>
+				<li>Hernández, V.Y.G., Herrera, H.J.G., Crosby, G.M.M., Ortega, C.M.E., Bautista,M.Y., Godinez, C.B. 2020. Risk factors associated with mastitis and raw milk quality in small farms of Texcoco, Mexico. Agroproductividad 13(9): 39-44.</li>
 				<li>Castro de J.J.,Ortega, C.M.E.,Herrera, H.J.G., Hernández, C.A.,Ayala, R.J.M.2021. Animal welfare during transport and slaughter of beef cattle. Agroproductividad (Aceptado para su publicación) </li>
 			</ul>
 
-			<p><strong>RESÚMENES PUBLICADOSEN MEMORIAS NACIONALES E INTERNACIONALES: 145</strong></p>
+			<p><strong>RESÚMENES PUBLICADOS EN MEMORIAS NACIONALES E INTERNACIONALES: 145</strong></p>
 
 			<p><strong>TESIS DIRIGIDAS:</strong></p>
 
@@ -518,12 +518,12 @@ export const es = {
 			<p><strong>DISTINCIONES:</strong></p>
 
 			<ul>
-				<li>Beca otorgada por el Committee of Vice-Chancelors and Principals of theUniversities of the United Kingdom (Overseas Research Student Award) para realizar estudios de doctorado (1988-1990).</li>
+				<li>Beca otorgada por el Committee of Vice-Chancelors and Principals of the Universities of the United Kingdom (Overseas Research Student Award) para realizar estudios de doctorado (1988-1990).</li>
 				<li>Miembro de la Mesa Directiva de la Asociación Mexicana de Especialistas en Nutrición Animal (1992-1993; 1998-1999).</li>
-				<li>Reconocimiento como Registered Nutritionist por The Nutrition Society deInglaterra, de 2000 a la fecha.Miembro de la Academia Veterinaria Mexicana, 2002 a la fecha.</li>
+				<li>Reconocimiento como Registered Nutritionist por The Nutrition Society de Inglaterra, de 2000 a la fecha. Miembro de la Academia Veterinaria Mexicana, 2002 a la fecha.</li>
 			</ul>
 
-			<p><strong>CONFERENCIAS POR INVITACION: 60</strong></p>
+			<p><strong>CONFERENCIAS POR INVITACIÓN: 60</strong></p>
 			`
 		},
 		{
