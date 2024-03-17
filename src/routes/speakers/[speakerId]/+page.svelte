@@ -20,7 +20,7 @@
 	</div>
 
 	<div
-		class="flex flex-col justify-end items-center bg-black p-10 sm:px-20 lg:px-30 2xl:px-80 gap-7"
+		class="flex flex-col justify-start items-center bg-black p-10 sm:px-20 lg:px-30 2xl:px-80 gap-7 min-h-[55vw]"
 	>
 		<img src={`/img/ponentes/${speaker.id}_cv.png`} alt={speaker.name} />
 
@@ -33,7 +33,6 @@
 		<img src="/img/CABALLO-NAEQUINA-1.png" alt="CABALLO NAEQUINA" />
 	</div>
 </div>
-
 <Footer />
 
 <style>
