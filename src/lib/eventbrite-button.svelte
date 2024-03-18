@@ -66,8 +66,7 @@
 	<button
 		class="font-bold bg-torch-red text-xl sm:text-2xl text-white px-5 py-2 hover:underline"
 		id="eventbrite-widget-modal-trigger-861021718137"
-		type="button"
-		disabled>{lang.eventBriteBtnText}</button
+		type="button">{lang.eventBriteBtnText}</button
 	>
 	<p class="text-white px-3 py-2">{availableTickets} {lang.availableTicketsText}</p>
 </div>
