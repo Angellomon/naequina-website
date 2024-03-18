@@ -415,7 +415,7 @@ export const es = {
 		{
 			id: 'gulsah-kaya-karasu',
 			name: 'GULSAH KAYA KARASU',
-			pre: 'DR',
+			pre: 'DRA',
 			description: 'Van Hall Larenstein University of Applied Sciences',
 			flagUrl: '/img/BANDERA-TURK.png',
 			cv: `${cvStyle}
