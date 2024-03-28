@@ -6,6 +6,8 @@
 	import { setContext } from 'svelte';
 	import { onNavigate } from '$app/navigation';
 
+	export let data;
+
 	setContext('lang', en);
 
 	onNavigate((navigation) => {
@@ -75,8 +77,10 @@
 	</script>
 </svelte:head>
 
-<Header langUrl="/" />
+{#key data.url}
+	<Header langUrl="/" />
 
-<Jumbotron />
+	<Jumbotron />
 
-<Footer />
+	<Footer />
+{/key}

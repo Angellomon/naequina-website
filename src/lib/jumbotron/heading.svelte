@@ -1,6 +1,7 @@
 <script>
+	import Plyr from 'plyr';
 	import { es, en } from '$lib/langs';
-	import { getContext } from 'svelte';
+	import { getContext, onMount } from 'svelte';
 	import { OnMount } from 'fractils';
 
 	import Title from './title.svelte';
@@ -12,8 +13,17 @@
 	import { fly } from 'svelte/transition';
 	import EventbriteButton from '$lib/eventbrite-button.svelte';
 
+	const videoPromoSrc = '/video/video-promo.mp4';
+
 	/** @type {(es | en)} */
 	const lang = getContext('lang');
+
+	/** @type {Plyr} */
+	let player;
+
+	onMount(() => {
+		player = new Plyr('#video-promo');
+	});
 </script>
 
 <div class="relative w-full">
@@ -65,6 +75,20 @@
 	</div>
 
 	<Horse />
+</div>
+
+<div class="relative w-full bg-black flex flex-col justify-center items-center py-10">
+	<div class="plyr__video-embed" id="player">
+		<iframe
+			class="w-[400px] h-[200px] sm:w-[560px] sm:h-[315px] xl:w-[50vw] xl:h-[50vh]"
+			src="https://www.youtube.com/embed/CzvMs-toAus?si=Rs3vo4HzV4cUgZzL"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		></iframe>
+	</div>
 </div>
 
 <style>

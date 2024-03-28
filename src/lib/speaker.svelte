@@ -22,7 +22,7 @@
 
 	/** @param {string} id  */
 	function gotoSpeaker(id) {
-		goto('/speakers/' + id, {});
+		goto(`${lang.speakersPath}/` + id, {});
 	}
 </script>
 
