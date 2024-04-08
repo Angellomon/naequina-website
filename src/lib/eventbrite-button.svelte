@@ -69,7 +69,7 @@
 		type="button"
 		disabled>{lang.eventBriteBtnText}</button
 	>
-	<p class="text-white px-3 py-2">{availableTickets} {lang.availableTicketsText}</p>
+	<!-- <p class="text-white px-3 py-2">{availableTickets} {lang.availableTicketsText}</p> -->
 </div>
 
 <style>
