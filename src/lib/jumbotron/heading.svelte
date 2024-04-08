@@ -13,8 +13,6 @@
 	import { fly } from 'svelte/transition';
 	import EventbriteButton from '$lib/eventbrite-button.svelte';
 
-	const videoPromoSrc = '/video/video-promo.mp4';
-
 	/** @type {(es | en)} */
 	const lang = getContext('lang');
 
@@ -27,7 +25,7 @@
 </script>
 
 <div class="relative w-full">
-	<div class="relative py-28 bg-black flex flex-row md:min-h-[550px]">
+	<div class="relative py-28 bg-black flex flex-row md:min-h-[450px]">
 		<div
 			class="principal extra-large pl-20 sm:pl-36 md:pl-64 xl:pl-80 2xl:pl-[23rem] w-3/4 xl:w-3/5 mb-7"
 		>
@@ -71,7 +69,6 @@
 		class="extra-large pl-10 sm:pl-[9rem] 2xl:pl-[28rem] w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center sm:justify-start items-start gap-20 md:gap-10 py-8 bg-black"
 	>
 		<Events_2Days day1={25} day2={26} startHour="08:15" endHour="06:00" />
-		<AnnouncementRegistration />
 	</div>
 
 	<Horse />
