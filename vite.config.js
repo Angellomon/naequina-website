@@ -6,7 +6,8 @@ export default defineConfig({
 	server: {
 		cors: false,
 		proxy: {
-			'/available-tickets': 'https://naequina.com'
+			'/available-tickets': 'https://naequina.com',
+			'/certificate-pdf': 'https://naequina.com'
 		}
 	}
 });
