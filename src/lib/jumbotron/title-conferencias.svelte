@@ -8,8 +8,15 @@
 	/** @type {number}*/
 	export let year;
 
+	export let small = false;
+
 	/** @type {(en | es)} */
 	const lang = getContext('lang');
+
+	const generalTextStyle = small ? 'text-[0.6rem] sm:text-xs' : 'text-xs sm:text-base';
+	const slashTextStyle = small ? 'text-[1.9rem] sm:text-5xl' : 'text-4xl sm:text-6xl';
+	const yearTextStyle = small ? 'text-4xl sm:text-5xl' : 'text-4xl sm:text-6xl';
+	const conferenceTextStyle = small ? 'text-lg sm:text-xl' : 'text-2xl sm:text-3xl';
 </script>
 
 <OnMount>
@@ -20,17 +27,17 @@
 		}}
 		class="my-1 flex flex-row gap-2 justify-center text-white"
 	>
-		<div class="flex flex-col text-xs sm:text-base">
+		<div class={`flex flex-col ${generalTextStyle}`}>
 			<p class="leading-5">
 				{lang.eventAnnouncement.leftConferenceText.conferenceNumber}
 				{lang.eventAnnouncement.leftConferenceText.firstText}
 			</p>
-			<p class="text-2xl sm:text-3xl leading-5">
+			<p class={`leading-5 ${conferenceTextStyle}`}>
 				{lang.eventAnnouncement.leftConferenceText.secondText}
 			</p>
 		</div>
-		<p class="text-4xl sm:text-6xl">/</p>
-		<p class="text-4xl sm:text-6xl font-bold">{year}</p>
+		<p class={`${slashTextStyle}`}>/</p>
+		<p class={`font-bold ${yearTextStyle}`}>{year}</p>
 	</div>
 </OnMount>
 
