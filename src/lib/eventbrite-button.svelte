@@ -1,5 +1,5 @@
 <script>
-	import { getContext, onDestroy, onMount } from 'svelte';
+	import { getContext, onMount } from 'svelte';
 	import { en, es } from '$lib/langs';
 
 	var exampleCallback = function () {
@@ -10,8 +10,8 @@
 	const lang = getContext('lang');
 
 	onMount(() => {
-		getTicketsAvailable();
-		updateId = setInterval(getTicketsAvailable, 5000);
+		// getTicketsAvailable();
+		// updateId = setInterval(getTicketsAvailable, 5000);
 
 		window.EBWidgets.createWidget({
 			widgetType: 'checkout',
@@ -43,9 +43,9 @@
 		}
 	}
 
-	onDestroy(() => {
-		clearInterval(updateId);
-	});
+	// onDestroy(() => {
+	// 	clearInterval(updateId);
+	// });
 </script>
 
 <svelte:head>
