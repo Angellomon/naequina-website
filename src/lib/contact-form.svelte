@@ -13,7 +13,7 @@
 
 	let success = false;
 
-	export const handleOnSubmit = () => {
+	const handleOnSubmit = () => {
 		// @ts-ignore
 		grecaptcha.ready(function () {
 			// @ts-ignore
