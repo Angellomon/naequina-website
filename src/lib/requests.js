@@ -1,4 +1,6 @@
-import { saveAs } from 'file-saver';
+import filesaver from 'file-saver';
+
+const { saveAs } = filesaver;
 /**
  *
  * @param {{

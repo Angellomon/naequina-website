@@ -1,7 +1,6 @@
 <script>
 	import Horse from '$lib/jumbotron/horse.svelte';
 	import { downloadCertificatePDF } from '$lib/requests';
-	import Spinner from '$lib/spinner.svelte';
 
 	/** @type {string} */
 	let email;
@@ -78,7 +77,13 @@
 			</button>
 
 			<p class="uppercase message text-center w-4/6 py-5 lg:w-1/2">
-				INGRESA EL CORREO ELECTRÓNICO CON EL CUAL <span class="text-torch-red">TE REGISTRASTE</span>
+				INGRESA EL CORREO ELECTRÓNICO CON EL CUAL <span class="text-torch-red"
+					>TE REGISTRASTE AL EVENTO</span
+				>
+			</p>
+			<p class="uppercase message text-center text-xs">
+				Para poder obtener la constancia, debes haber cubierto el requerimiento mínimo de asistencia
+				el cual fue de <strong>55%</strong> del tiempo de conexión durante los dos días.
 			</p>
 		</div>
 		<Horse bottom />
@@ -90,7 +95,8 @@
 		font-family: 'Montserrat Bold';
 	}
 
-	.message span {
+	.message span,
+	.message strong {
 		font-family: 'Montserrat Bold';
 	}
 </style>
