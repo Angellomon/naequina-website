@@ -33,6 +33,7 @@ export const es = {
 	cvText: 'VER CV',
 	availableTicketsText: 'lugares disponibles',
 	eventBriteBtnText: 'REGISTROS FINALIZADOS',
+	eventLinkText: 'DA CLIC PARA CONECTARTE AL EVENTO',
 	lang: 'es',
 	flagUrl: '/img/BANDERA-EUA.png',
 	switchText: 'Switch to English',
@@ -41,6 +42,7 @@ export const es = {
 		programsText: 'PROGRAMA',
 		speakersText: 'PONENTES'
 	},
+	timezoneText: 'HORARIO CDMX',
 	jumbotron: {
 		eventDescription: [
 			'EL EVENTO DE',
@@ -1388,6 +1390,8 @@ export const en = {
 	cvText: 'VIEW CV',
 	availableTicketsText: 'places available',
 	eventBriteBtnText: 'REGISTRATION CLOSED',
+	eventLinkText: 'CLICK TO CONNECT TO THE EVENT',
+	timezoneText: 'CDMX ZONE',
 	lang: 'en',
 	switchText: 'Cambiar a Español',
 	flagUrl: '/img/BANDERA-MEXICO.png',
