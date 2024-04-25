@@ -83,7 +83,7 @@
 			</p>
 			<p class="uppercase message text-center text-xs">
 				Para poder obtener la constancia, debes haber cubierto el requerimiento mínimo de asistencia
-				el cual fue de <strong>55%</strong> del tiempo de conexión durante los dos días.
+				el cual fue de <strong>75%</strong> del tiempo de conexión durante los dos días.
 			</p>
 		</div>
 		<Horse bottom />
