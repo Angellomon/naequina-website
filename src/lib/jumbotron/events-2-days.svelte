@@ -26,7 +26,7 @@
 			duration: 500,
 			delay: 1000
 		}}
-		class="my-1 flex flex-col justify-center items-center text-white min-w-[300px]"
+		class="relative my-1 flex flex-col justify-center items-center text-white min-w-[300px]"
 	>
 		<div class="flex flex-row justify-center items-end border-b border-torch-red w-full text-3xl">
 			{#if lang.lang == 'en'}
@@ -50,5 +50,7 @@
 			A.M. {lang.eventDates.leftEvent.to}
 			<span class="text-3xl sm:text-4xl mx-1">{endHour}</span> P.M.
 		</div>
+
+		<div class="absolute -bottom-6 left-0 text-right">{lang.timezoneText}</div>
 	</div>
 </OnMount>
