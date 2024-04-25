@@ -9,9 +9,8 @@
 	import Message from './message.svelte';
 	import Horse from './horse.svelte';
 	import Events_2Days from './events-2-days.svelte';
-	import AnnouncementRegistration from './announcement-registration.svelte';
 	import { fly } from 'svelte/transition';
-	import EventbriteButton from '$lib/eventbrite-button.svelte';
+	import EventlinkButton from '$lib/eventlink-button.svelte';
 
 	/** @type {(es | en)} */
 	const lang = getContext('lang');
@@ -56,7 +55,8 @@
 			</OnMount>
 		</div>
 
-		<EventbriteButton />
+		<EventlinkButton />
+		<!-- <EventbriteButton /> -->
 	</div>
 	<div
 		class="z-1 extra-large 2xl:pl-[20rem] pl-10 sm:pl-20 w-full min-h-20 flex flex-col flex-start xl:flex-row justify-center md:justify-start items-start gap-20 py-8 bg-torch-red bg-gradient-to-r from-torch-red to-black to-80%"
