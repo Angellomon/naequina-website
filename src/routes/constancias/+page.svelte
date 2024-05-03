@@ -37,10 +37,10 @@
 	CONSTANCIAS
 </div>
 
-<section class="bg-black h-[60vh] sm:min-h-[65vh] relative">
+<section class="bg-black min-h-[60vh] sm:min-h-[65vh] relative">
 	<div class="text-white sm:w-3/5 flex flex-col justify-center items-center">
 		<div class="flex flex-col justify-center items-center w-4/5">
-			<p class="uppercase text-3xl pt-10 pb-5">CORREO ELECTRÓNICO</p>
+			<p class="uppercase text-4xl pt-10 pb-5">CORREO ELECTRÓNICO</p>
 			<input
 				bind:value={email}
 				required
@@ -50,20 +50,6 @@
 				placeholder="Ingresa tu correo"
 				class="bg-black text-white border border-solid border-torch-red px-4 py-2 text-xl w-full"
 			/>
-
-			{#if invalidEmail}
-				<div class="text-white">Tu correo no es válido</div>
-			{/if}
-
-			{#if emailNotFound}
-				<div class="text-white">Tu correo no se encuentra en la base de datos</div>
-			{/if}
-
-			<!-- {#if loading}
-				<div class="self-end">
-					<Spinner />
-				</div>
-			{/if} -->
 
 			<button
 				class="bg-torch-red text-white px-6 py-2 self-end cursor-pointer hover:underline"
@@ -76,15 +62,31 @@
 				{/if}
 			</button>
 
-			<p class="uppercase message text-center w-4/6 py-5 lg:w-1/2">
+			{#if invalidEmail}
+				<div class="text-white">Tu correo no es válido</div>
+			{/if}
+
+			{#if emailNotFound}
+				<div class="mt-2 uppercase text-white text-xs">
+					Según nuestros registros, no cumpliste con el tiempo mínimo requerido para obtener la
+					constancia de participación.
+				</div>
+			{/if}
+
+			<p class="uppercase message text-center lg:w-4/6 py-5 text-2xl">
 				INGRESA EL CORREO ELECTRÓNICO CON EL CUAL <span class="text-torch-red"
 					>TE REGISTRASTE AL EVENTO</span
 				>
 			</p>
-			<p class="uppercase message text-center text-xs">
+			<p class="uppercase message text-center text-md z-10">
 				Para poder obtener la constancia, debes haber cubierto el requerimiento mínimo de asistencia
 				el cual fue de <strong>75%</strong> del tiempo de conexión durante los dos días.
 			</p>
+			<p class="italic uppercase message text-center text-xs z-10 mt-5">
+				El tiempo de conexión no incluye los recesos, sólo la conexión de ponencias.
+			</p>
+
+			<div class="h-[20vh]"></div>
 		</div>
 		<Horse bottom />
 	</div>
