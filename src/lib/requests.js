@@ -90,7 +90,7 @@ export async function downloadCertificatePDF(email, token) {
 
 	console.log(blob.size);
 
-	if (blob.size <= 69) {
+	if (blob.size <= 420) {
 		return {
 			invalidEmail: false,
 			notFound: true
