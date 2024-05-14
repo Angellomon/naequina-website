@@ -1,7 +1,6 @@
 <script>
-	import Plyr from 'plyr';
 	import { es, en } from '$lib/langs';
-	import { getContext, onMount } from 'svelte';
+	import { getContext } from 'svelte';
 	import { OnMount } from 'fractils';
 
 	import Title from './title.svelte';
@@ -14,13 +13,6 @@
 
 	/** @type {(es | en)} */
 	const lang = getContext('lang');
-
-	/** @type {Plyr} */
-	let player;
-
-	onMount(() => {
-		player = new Plyr('#video-promo');
-	});
 </script>
 
 <div class="relative w-full">

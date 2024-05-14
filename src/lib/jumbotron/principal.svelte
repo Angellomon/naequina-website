@@ -1,5 +1,7 @@
 <script>
 	import { scrollRef } from 'svelte-scrolling';
+	import { en, es } from '$lib/langs';
+	import { getContext } from 'svelte';
 
 	import ContactForm from '$lib/contact-form.svelte';
 	import ContactoInfo from '$lib/contacto-info.svelte';
@@ -8,11 +10,42 @@
 	import EventContent from './event-content.svelte';
 	import Speakers from '$lib/speakers.svelte';
 	import Programs from '$lib/programs.svelte';
+	import Videos from './videos.svelte';
+
+	/** @type {(es | en)} */
+	const { jumbotron } = getContext('lang');
+
+	const conferencesVideIDs = [
+		'AI47V9_qaEc',
+		'rNfXh8XB22o',
+		'4qWChK2W8kk',
+		'3nyhRIkMuJM',
+		'5fxEjhIgdTY',
+		'iiQyJhlx-2E',
+		'vcAsx0V3t_A',
+		'evCt-OvYbY0',
+		'PL-CY6743Vg',
+		'pbN-nhj6brQ',
+		'OmN5qdyQHy0',
+		'w2YTsPXG3ck',
+		'E0Xkfn6sVrI',
+		'eXtXdlar2-M'
+	];
+
+	const roundTablesVideIDs = ['6DoSiMElVjg'];
+
+	const ceremoniesVideoIDs = ['IIpv55-hgpk', 'qe6EAXEyJY4'];
 </script>
 
 <Heading />
 
 <EventContent />
+
+<Videos title={jumbotron.videoTitles.conferences} videoIDs={conferencesVideIDs} />
+
+<Videos title={jumbotron.videoTitles.roundTables} videoIDs={roundTablesVideIDs} />
+
+<Videos title={jumbotron.videoTitles.ceremonies} videoIDs={ceremoniesVideoIDs} />
 
 <Speakers />
 
