@@ -44,6 +44,11 @@ export const es = {
 	},
 	timezoneText: 'HORARIO CDMX',
 	jumbotron: {
+		videoTitles: {
+			conferences: 'CONFERENCIAS',
+			roundTables: 'MESAS REDONDAS',
+			ceremonies: 'CEREMONIAS'
+		},
 		eventDescription: [
 			'EL EVENTO DE',
 			'NUTRICIÓN ANIMAL EQUINA',
@@ -1401,6 +1406,11 @@ export const en = {
 		speakersText: 'SPEAKERS'
 	},
 	jumbotron: {
+		videoTitles: {
+			conferences: 'CONFERENCES',
+			roundTables: 'ROUND TABLES',
+			ceremonies: 'CEREMONIES'
+		},
 		eventDescription: ['THE MOST IMPORTANT', 'EQUINE ANIMAL NUTRITION', 'EVENT IN LATIN AMERICA'],
 		mainTitle: {
 			first: 'SEVEN YEARS OF',
