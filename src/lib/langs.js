@@ -46,7 +46,7 @@ export const es = {
 	jumbotron: {
 		videoTitles: {
 			conferences: 'CONFERENCIAS',
-			roundTables: 'MESAS REDONDAS',
+			roundTables: 'MESA REDONDA',
 			ceremonies: 'CEREMONIAS'
 		},
 		eventDescription: [
@@ -1408,7 +1408,7 @@ export const en = {
 	jumbotron: {
 		videoTitles: {
 			conferences: 'CONFERENCES',
-			roundTables: 'ROUND TABLES',
+			roundTables: 'ROUND TABLE',
 			ceremonies: 'CEREMONIES'
 		},
 		eventDescription: ['THE MOST IMPORTANT', 'EQUINE ANIMAL NUTRITION', 'EVENT IN LATIN AMERICA'],
